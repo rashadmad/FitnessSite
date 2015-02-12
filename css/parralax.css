@@ -1,7 +1,45 @@
+nav { 
+	color: #ffffff;
+	background-color: #444444;
+}
+
+footer { 
+	color: #ffffff;
+	background-color: #444444;
+	height: 80px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button_box {
+
+	float: right;
+	padding: 16px 5px 5px 5px;
+}
+
+
+.logo {
+	float: left;
+	margin-left: 40%;
+	margin-right: 50%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#sustainable{
+	color:black;
+	text-align: center;
+	font-weight: 200;
+	margin-right: 70%;
+}
+
+
+
+
 #home{
 
-	display: none;
-	background-color: #ffffff;	
+	
+	background-color: #FFFFFF;	
 	height: 1000px;
 
 	min-height: 1000px; 
@@ -11,3 +49,5 @@
     max-width: 1920px; 
     position: relative;
 }
+
+
