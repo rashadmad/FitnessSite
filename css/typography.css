@@ -147,6 +147,7 @@ section.team {
 }
 
 section.ethos {
+	 background-image: url("img/img1.jpg");
 	 padding: 5.625em 0;
 }
 
@@ -547,17 +548,15 @@ p.intro-p {
 p.intro-paragraph {
 	 text-align: center;
 	 font-size: 29px;
-	 
+	 line-height: 39px;
 	 padding: 1em 1em 1em 1em;
 	 border-top: 1px solid #ccc;
 	 border-bottom: 1px solid #ccc;
-	 width: 500px;
-	 
-	 margin-left: 35%;
-	 margin-top: 20px;
+	 width: 635.0625px;
+	 margin: 34.7999992370606px 50px;
 	 float: left;
 	 clear: none;
-	 color: #ffffff;
+	 color: rgba(255, 255, 255, 1);
 }
 
 img.standard {
@@ -778,12 +777,7 @@ em {
 }
 
 p.intro-paragraph {
-	 width: 1110px;
-	 margin-right: 50%;
-	 text-align: center;
-	 height: 100px;
-
-	 
+	 width: 600px;
 }
 
 } @media screen and (max-width: 480px) {
@@ -852,10 +846,6 @@ p.intro-paragraph {
 	 width: 400px;
 }
 
-p.intro-paragraph {
-	 width: 400px;
-}
-
 } @media screen and (max-width: 320px) {
 	 h1.bg-line {
 	 width: 250px;
@@ -899,6 +889,7 @@ h3.team {
 
 img.avatar {
 	 width: 100px;
+	 object-fit: contain;
 }
 
 p.emph {

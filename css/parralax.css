@@ -12,6 +12,20 @@ footer {
 	padding-top: 10px;
 }
 
+
+.picture {
+	
+	background-image: url("../img/homePageImage.jpg"), url("../img/img2.jpg");
+	background-repeat: no-repeat;
+	height:640px;
+	min-height:640px; 
+	background-width: 100%;
+
+}
+
+
+
+
 .button_box {
 
 	float: right;
@@ -71,4 +85,12 @@ footer {
     position: relative;
 }
 
+.avatar {
+
+	-webkit-border-radius: 30px; /* Saf3+, Chrome */
+	border-radius: 30px; /* Opera 10.5, IE 9 */
+	-moz-border-radius: 30px; /* Disabled for FF1+ */
+	width:304px;
+	height:228px;
+}
 
