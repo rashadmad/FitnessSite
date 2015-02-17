@@ -13,16 +13,84 @@ footer {
 }
 
 
-.picture {
-	
-	background-image: url("../img/homePageImage.jpg"), url("../img/img2.jpg");
-	background-repeat: no-repeat;
-	height:640px;
-	min-height:640px; 
-	background-width: 100%;
+.header-image {
+
 
 }
 
+
+#montage {
+	background-color: #444444;
+	
+}
+
+#picture1 {
+	
+	background-image: url("../img/fithouseIMG2.jpg");
+	background-repeat: no-repeat;
+	height:100%;
+	min-height:540px; 
+	background-size: 100%;
+
+}
+
+#picture2 {
+
+	background-image: url("../img/fithouseIMG.jpg");
+	background-repeat: no-repeat;
+	height:100%;
+	min-height:540px;
+	background-size: 100%;
+
+}
+
+#picture3 {
+
+	background-image: url("../img/fithouseIMG3.jpg");
+	background-repeat: no-repeat;
+	height:100%;
+	min-height:540px; 
+	background-size: 100%;
+
+}
+
+#picture4 {
+
+	background-image: url("../img/fithouseIMG4.jpg");
+	background-repeat: no-repeat;
+	height:100%;
+	min-height:540px; 
+	background-size: 100%;
+
+}
+
+#picture5 {
+
+	background-image: url("../img/fithouseIMG5.jpg");
+	background-repeat: no-repeat;
+	height:100%;
+	min-height:540px; 
+	background-size: 100%;
+
+}
+
+
+
+button {
+	padding:5px;
+  	color:#ffffff;
+  	background: none;
+  	border: 0;
+  	text-decoration: none;
+  	cursor  : pointer;
+  	outline: 0;
+  	
+}
+
+#main-butt {
+	
+	
+}
 
 
 
@@ -37,8 +105,7 @@ footer {
 
 .logo {
 	float: left;
-	margin-left: 37%;
-	margin-right: 50%;
+	margin-left: 37.5%;
 	margin-top: 20px;
 	text-align: center;
 }
@@ -55,14 +122,14 @@ footer {
 	text-align: center;
 	font-weight: 200;
 	width: 350px;
-	margin-right: 5px;
-
+	margin-right: 35%;
+	margin-left: 40%;
 
 }
 
 .stars{
 	margin-top: 25px;
-	margin-left: 45%;
+	margin-left: 48%;
 
 }
 

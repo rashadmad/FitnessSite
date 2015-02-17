@@ -17,7 +17,7 @@ p {
 	 margin: 0 0 1.667em 10px;
 	 color: rgba(255, 255, 255, 1);
 	 font-family: "Lato";
-	 width: 1461.40625px;
+	 width: 659.0625px;
 	 text-align: left;
 	 font-weight: 100;
 	 font-style: normal;
@@ -52,7 +52,7 @@ h3 {
 	 margin: 0 0 0 0;
 	 font-family: Oswald;
 	 color: rgba(255, 255, 255, 1);
-	 width: 794.0625px;
+	 width: 676.0625px;
 	 font-weight: 400;
 	 font-style: normal;
 	 letter-spacing: 4px;
@@ -127,9 +127,9 @@ em {
 }
 
 strong {
-	 font-weight: 700;
-	 font-family: "Oswald";
-	 font-style: normal;
+	 font-weight: 100;
+	 font-family: "Lato";
+	 font-style: italic;
 	 letter-spacing: 2px;
 }
 
@@ -147,12 +147,15 @@ section.team {
 }
 
 section.ethos {
-	 background-image: url("img/img1.jpg");
 	 padding: 5.625em 0;
 }
 
 section.process {
 	 padding: 5.625em 0;
+}
+
+section.join {
+	 padding: 5.625em 0;	
 }
 
 p.emph {
@@ -161,9 +164,9 @@ p.emph {
 	 margin: 0 0 1.25em 0;
 	 color: rgba(255, 255, 255, 1);
 	 width: 613.921875px;
-	 font-family: Oswald;
-	 font-weight: 400;
-	 font-style: normal;
+	 font-family: "Lato";
+	 font-weight: 300;
+	 font-style: italic;
 }
 
 section.callout {
@@ -203,6 +206,7 @@ p.callout {
 	 width: 1260.40625px;
 	 font-weight: 300;
 	 font-style: normal;
+	 color: #ffffff;
 }
 
 p.tagline {
@@ -413,6 +417,31 @@ div.team-grid:after {
 	 clear: both;
 }
 
+div.join {
+	*zoom: 1;
+}
+
+div.join:before {
+	 content: '\0020';
+	 display: block;
+	 overflow: hidden;
+	 visibility: hidden;
+	 width: 0;
+	 height: 0;
+}
+
+div.join:after {
+	 content: '\0020';
+	 display: block;
+	 overflow: hidden;
+	 visibility: hidden;
+	 width: 0;
+	 height: 0;
+	 clear: both;
+}
+
+
+
 div.ethos {
 	 *zoom: 1;
 }
@@ -493,15 +522,16 @@ article.img-media-list {
 }
 
 div.image-media {
-	 width: auto;
+	 width: 673.0625px;
 	 text-align: left;
-	 margin: 0;
+	 margin-right: 300px;
+
 }
 
 img.image-media-left {
 	 max-width: 100%;
 	 width: 220px;
-	 margin: 0 1em 1em 200px;
+	 margin: 0 1em 1em 0px;
 	 float: left;
 }
 
@@ -517,12 +547,24 @@ p.team-line {
 	 font-size: 28px;
 }
 
+p.join {
+	width: 608.921875px;
+	 font-family: "Lato";
+	 font-weight: 100;
+	 font-style: normal;
+}
+
 p.ethos {
 	 width: 608.921875px;
 	 font-family: "Lato";
 	 font-weight: 100;
 	 font-style: normal;
 }
+
+p.join {
+	 width: 683.3125px;
+}
+
 
 p.process {
 	 width: 683.3125px;
@@ -564,6 +606,33 @@ img.standard {
 	 width: 500px;
 }
 
+section.half-half:before {
+	 content: "";
+	 display: table;
+}
+
+section.half-half:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+
+section.half-half {
+	 margin: 0 auto;
+	 text-align: center;
+	 width: auto;
+}
+
+div.half {
+	 float: left;
+	 width: 50%;
+	 margin: 0;
+	 text-align: center;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+
 @media screen and (max-width: 1280px) {
 	 div.wrapper {
 	 width: 100%;
@@ -573,6 +642,7 @@ img.standard {
 
 p.callout {
 	 width: 1200px;
+	 
 }
 
 p.quote {
@@ -608,6 +678,11 @@ p {
 
 section.slice {
 	 height: 1046px;
+}
+
+
+p.join {
+	 width: 576.140625px;
 }
 
 p.ethos {
@@ -705,6 +780,8 @@ p.tagline {
 h1.bg-line {
 	 font-size: 3em;
 	 width: 700px;
+	 margin-top: 210px;
+
 }
 
 p.callout {
@@ -834,6 +911,10 @@ section.team {
 	 height: 708px;
 }
 
+p.join {
+	 width: 400px;
+}
+
 p.ethos {
 	 width: 400px;
 }
@@ -889,11 +970,15 @@ h3.team {
 
 img.avatar {
 	 width: 100px;
-	 object-fit: contain;
 }
 
 p.emph {
 	 width: 350px;
+}
+
+p.join {
+
+	width: 260px;
 }
 
 p.ethos {
@@ -924,8 +1009,16 @@ p.team-emph {
 	 text-align: center;
 }
 
+div.join {
+	 height: 1192.265625px;
+}
+
 div.ethos {
 	 height: 1192.265625px;
+}
+
+div.join {
+	height: 2300px;
 }
 
 section.ethos {
