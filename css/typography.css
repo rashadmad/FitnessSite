@@ -7,15 +7,15 @@ body {
 	 font-size: 1em;
 	 line-height: 1.5em;
 	 font-family: "Helvetica Neue eText Pro";
-	 color: #444;
-	 background-color: rgba(62, 61, 59, 1);
+	 color: #444444;
+	 background-color: #ffffff;
 }
 
 p {
 	 font-size: 1.125em;
 	 line-height: 1.67em;
 	 margin: 0 0 1.667em 10px;
-	 color: rgba(255, 255, 255, 1);
+	 color: #444444;
 	 font-family: "Lato";
 	 width: 659.0625px;
 	 text-align: left;
@@ -31,7 +31,7 @@ h1 {
 	 text-transform: uppercase;
 	 letter-spacing: 5px;
 	 text-align: center;
-	 color: rgba(61, 61, 61, 1);
+	 
 }
 
 h2 {
@@ -44,6 +44,8 @@ h2 {
 	 font-family: Oswald;
 	 font-weight: 400;
 	 font-style: normal;
+	 display:none;
+
 }
 
 h3 {
@@ -51,7 +53,7 @@ h3 {
 	 line-height: 1.25em;
 	 margin: 0 0 0 0;
 	 font-family: Oswald;
-	 color: rgba(255, 255, 255, 1);
+	 color: #444444;
 	 width: 676.0625px;
 	 font-weight: 400;
 	 font-style: normal;
@@ -70,6 +72,12 @@ ol {
 	 line-height: 1.667%;
 	 margin: 0 0 1.667em 3.333em;
 	 list-style: decimal outside;
+}
+
+ol.process {
+	
+	margin-left: 40%;
+
 }
 
 blockquote {
@@ -183,7 +191,7 @@ section.callout-top {
 	 text-align: center;
 	 margin: 0 0 0 0;
 	 background: #B9C2C2;
-	 color: #fff;
+	 color: #444444;
 	 padding: 11.25em 0;
 	 background-color: rgba(255, 255, 255, 1);
 }
@@ -255,6 +263,29 @@ ul.col-3-css {
 	 line-height: 1.83em;
 }
 
+form {
+	
+	padding: 30px;
+	
+}
+
+article.form-container {
+
+	
+	
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+.description-field {
+	display: none;
+	max-width: 400px;
+
+}
+
+
+
 * {
 	 -webkit-box-sizing: border-box;
 	 -moz-box-sizing: border-box;
@@ -320,8 +351,8 @@ span.circle {
 	 line-height: 1.25em;
 	 margin-top: -0.625em;
 	 text-align: center;
-	 color: rgba(255, 255, 255, 1);
-	 font-family: "mf-futura-575";
+	 color: #444444;
+	 font-family: "Lato";
 }
 
 div.grid-unit2 {
@@ -333,7 +364,7 @@ div.grid-unit2 {
 }
 
 h1.bg-line:before {
-	 border-top: 1px solid #d4d4d4;
+	 border-top: 1px solid #444444;
 	 content: "";
 	 display: inline-block;
 	 position: relative;
@@ -344,7 +375,7 @@ h1.bg-line:before {
 }
 
 h1.bg-line:after {
-	 border-top: 1px solid #d4d4d4;
+	 border-top: 1px solid #444444;
 	 content: "";
 	 display: inline-block;
 	 position: relative;
@@ -382,7 +413,7 @@ h1.bg-line {
 	 font-size: 5.69em;
 	 line-height: 1em;
 	 margin: 5px 0px 1em 0px;
-	 color: rgba(255, 255, 255, 1);
+	 color: #444444;
 	 font-weight: 400;
 	 font-style: normal;
 	 letter-spacing: 10px;
@@ -495,13 +526,13 @@ section.slice:after {
 }
 
 section.slice {
-	 background: #dedede;
 	 text-align: center;
 	 margin: 0;
 	 padding: 3%;
 	 width: auto;
 	 height: 1026px;
-	 background-color: rgba(68, 68, 68, 1);
+	 background-color: #ffffff;
+	 border
 }
 
 div.image-media:before {
@@ -585,6 +616,7 @@ p.intro-p {
 	 text-align: center;
 	 font-size: 18px;
 	 margin-bottom: 1em;
+	 color: #444444;
 }
 
 p.intro-paragraph {
@@ -621,6 +653,8 @@ section.half-half {
 	 margin: 0 auto;
 	 text-align: center;
 	 width: auto;
+	 background-color: #E6E6E6;
+	 padding: 30px;
 }
 
 div.half {
