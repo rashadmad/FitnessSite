@@ -6,7 +6,6 @@
 body {
 	 font-size: 1em;
 	 line-height: 1.5em;
-	 font-family: "Helvetica Neue eText Pro";
 	 color: #444444;
 	 background-color: #ffffff;
 }
@@ -44,7 +43,7 @@ h2 {
 	 font-family: Oswald;
 	 font-weight: 400;
 	 font-style: normal;
-	 display:none;
+	 
 
 }
 
@@ -263,18 +262,85 @@ ul.col-3-css {
 	 line-height: 1.83em;
 }
 
+.form-container {
+
+	margin-right: 30%;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+
 form {
 	
 	padding: 30px;
+	width:550px;
+	height:450px;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+	margin:auto;
+	position:relative;
+	padding:10px;
+	font-family: "Oswald";
+
+
 	
+}
+
+
+
+
+input {
+	display:block;
+	width:375px;
+	display:block;
+	margin: 5px;
+	
+	height: 50px;
+	background-color: #E6E6E6;
+	border: none;
+
+}
+
+label {
+	margin: .5px;
+
+}
+
+textarea#feedback {
+width:375px;
+height:150px;
+margin: 5px;
+background-color: #E6E6E6;
+border: none;
+
+}
+
+textarea {
+display:block;
+}
+
+
+input[type=radio ] {
+	display: inline;
+	width: 20px;
+	padding: 5px;
+	margin-left: 20px;
+}
+
+input {
+	font-family: "Oswald";
+	font-size: 17px;
+	left-margin: 51px;
+	padding: 10px;
+	padding-left: 15px;
 }
 
 article.form-container {
 
 	
 	
-	margin-left: 10%;
-	margin-right: 10%;
+	
 }
 
 
@@ -383,6 +449,7 @@ h1.bg-line:after {
 	 width: 50%;
 	 left: 1em;
 	 margin-right: -50%;
+	 font-family: 'Lobster', cursive;
 }
 
 h2.bg-line:before {
@@ -629,8 +696,9 @@ p.intro-paragraph {
 	 width: 635.0625px;
 	 margin: 34.7999992370606px 50px;
 	 float: left;
-	 clear: none;
+	 
 	 color: rgba(255, 255, 255, 1);
+	 font-family: Lato;
 }
 
 img.standard {
@@ -1044,7 +1112,7 @@ p.team-emph {
 }
 
 div.join {
-	 height: 1192.265625px;
+	 height: 1300px;
 }
 
 div.ethos {

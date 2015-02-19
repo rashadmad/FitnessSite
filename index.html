@@ -21,6 +21,8 @@
         <!--Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'> 
+
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     </head>
 
  <body>
@@ -40,12 +42,13 @@
 
   <section id="home" data-type="background" data-speed="10" >
       <header>
-      <img src="img/icon.svg" alt="fulton fithouse logo" class="logo" >
-      <p id="sustainable" class="intro-paragraph" data-id="5216ca3a-712e-4cc7-9b23-dee463e5a593">Sustaniable fitness in a venue that feels like home</p>
+          <img src="img/icon.svg" alt="fulton fithouse logo" class="logo" >
+          <p id="sustainable" class="intro-paragraph" data-id="5216ca3a-712e-4cc7-9b23-dee463e5a593">Sustaniable fitness in a venue that feels like home</p> 
       </header>
-      <button id="main-butt">
-        Get Fit 
-      </button>
+ 
+       <button id="main-butt">
+        LEARN MORE 
+       </button>
   </section>
   
 <!--Client Achievements pages-->
@@ -268,29 +271,39 @@
           </div>
         </section>
 
-    <section class="join"> 
+    <section id="join"> 
       <div class="wrapper">   
       <h1 class="bg-line">    
         join the familly  
       </h1>
         <article class="form-container">
-          <form class="pure-form pure-form-aligned">
-            
-            <fieldset>
-
-              <legend>Join The Team</legend>
+          <form>
+              <div>
               
-              name:<br>
-              <input type="text" name="firstname">
+              <label>
+                <input id="name" type="text" name="name" placeholder="name" />
+              </label>
+
+              <label>
+                <input id="email" type="text" name="email" placeholder="email" />
+              </label>
+
               <br>
-              email:<br>
-              <input type="email" name="email">
-              reassons for a life change:<br>
-              <input type="text" class="description-field">
+              <span>sign up for our news letter</spane>
               <br>
-              <input type="submit" value="Submit">
-            </fieldset>
-          <form/>
+              <input label="yes" type="radio" name="newsletter" value="yes" checked>yes
+              <input label="no" type="radio" name="newsletter" value="no" checked>no
+            
+              <label>
+                <textarea id="feedback" name="feedback"></textarea>
+                
+                <input type="button" value="Submit Form" placeholder="Reasons for a life change" />
+              </label>
+
+              
+
+              </div>
+          </form>
         </article>
         </div>
       </div>
