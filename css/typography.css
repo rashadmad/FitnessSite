@@ -73,6 +73,12 @@ ol {
 	 list-style: decimal outside;
 }
 
+
+.page {
+
+	height: 1000px;
+}
+
 ol.process {
 	
 	margin-left: 40%;
@@ -127,7 +133,7 @@ a:focus {
 
 em {
 	 font-family: "Lato";
-	 color: rgba(255, 255, 255, 1);
+	 color: black;
 	 font-size: 44px;
 	 font-weight: 300;
 	 font-style: italic;
@@ -153,8 +159,15 @@ section.team {
 	 text-align: center;
 }
 
-section.ethos {
+section#ethos {
 	 padding: 5.625em 0;
+
+}
+
+.ethos {
+	background-color: #E6E6E6;
+	padding: 35px;
+	word-wrap: break-word;
 }
 
 section.process {
@@ -165,15 +178,35 @@ section.join {
 	 padding: 5.625em 0;	
 }
 
+
 p.emph {
 	 font-size: 1.5em;
 	 line-height: 1.25em;
 	 margin: 0 0 1.25em 0;
-	 color: rgba(255, 255, 255, 1);
+	 color: #444444;
 	 width: 613.921875px;
 	 font-family: "Lato";
 	 font-weight: 300;
 	 font-style: italic;
+}
+
+.between {
+	text-align: center;
+	 margin: 0 0 0 0;
+	 padding: 7.5em 0;
+	 background: #B9C2C2;
+	 color: #fff;
+	 clear: both;
+	background-color: #444444;
+	height: 300px;
+	width: 100%;
+
+}
+
+.callout {
+
+
+
 }
 
 section.callout {
@@ -246,7 +279,7 @@ img.avatar {
 	 -webkit-border-radius: 50%;
 	 -moz-border-radius: 50%;
 	 border-radius: 50%;
-	 border: 0.313em solid #d4d4d4;
+	 border: 1em solid #d4d4d4;
 }
 
 ul.col-3-css {
@@ -292,7 +325,7 @@ form {
 
 input {
 	display:block;
-	width:375px;
+	width:450px;
 	display:block;
 	margin: 5px;
 	
@@ -369,6 +402,7 @@ div.grid-unit {
 	 float: left;
 	 display: inline;
 	 margin: 0px 0px 1.8em 0px;
+
 }
 
 ol.process {
@@ -539,9 +573,17 @@ div.join:after {
 }
 
 
+section#ethos {
+
+	border-style: solid;
+	border-width: 2px;
+
+}
+
 
 div.ethos {
 	 *zoom: 1;
+	 word-wrap: break-word;
 }
 
 div.ethos:before {
@@ -657,6 +699,8 @@ p.ethos {
 	 font-family: "Lato";
 	 font-weight: 100;
 	 font-style: normal;
+	 word-wrap: break-word;
+
 }
 
 p.join {
@@ -723,6 +767,9 @@ section.half-half {
 	 width: auto;
 	 background-color: #E6E6E6;
 	 padding: 30px;
+	 margin-bottom: 30px;
+	
+
 }
 
 div.half {
@@ -787,6 +834,14 @@ p.join {
 	 width: 576.140625px;
 }
 
+.ethos {
+
+	background-color: #E6E6E6;
+	padding: 35px;
+	word-wrap: break-word;
+
+}
+
 p.ethos {
 	 width: 576.140625px;
 }
@@ -829,6 +884,7 @@ div.process-content {
 }
 
 ol.process {
+	display: none;
 	 list-style: none;
 	 margin: 0;
 	 font-size: 1em;
@@ -898,6 +954,7 @@ p.quote {
 	 line-height: 111.1%;
 	 margin: 0px 0px 1em 0px;
 	 width: 700px;
+	 color: #4D4D4D;
 }
 
 h2.bg-line {
