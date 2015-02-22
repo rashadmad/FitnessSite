@@ -27,15 +27,19 @@
 
  <body>
 
+
+
    <!-- top navigation -->
   <nav>
-      <img class="iconSmall" src="img/iconSmall.svg" alt="fulton fithouse" text style="font-family: 'lobster', cursive">
-        <img src="img/stars.svg" alt="four stars" class="stars" >
-        <div class="button_box">  
+    <img class="iconSmall" src="img/iconSmall.svg" alt="stars">
+    <img class="stars" src="img/stars.svg" alt="stars">  
+        <div class="button_box">
+          <ul>  
             <button> MANTEL </button>
             <button> PHILOSOPHY </button>
             <button> LOGIN </button>
-            <button> SIGN UP </button>     
+            <button> SIGN UP </button>
+          </ul>     
         </div>
     </nav>
 
@@ -45,10 +49,14 @@
           <img src="img/icon.svg" alt="fulton fithouse logo" class="logo" >
           <p id="sustainable" class="intro-paragraph" data-id="5216ca3a-712e-4cc7-9b23-dee463e5a593">Sustaniable fitness in a venue that feels like home</p> 
       </header>
- 
-       <button id="main-butt">
-        LEARN MORE 
+    <table>   
+       <button id="main-buttons">
+        START 
        </button>
+       <button id="main-buttons">
+        JOIN 
+       </button>
+    </table> 
 </section>
 
 
@@ -62,7 +70,7 @@
 
   <!--Ethos page-->
   <section class="page" id="ethos">
-    <div class="wrapper">
+    <div class="ethos-block">
       <h1 class="bg-line">Ethos</h1>
       <div class="ethos">
         <div class="grid-unit2">
@@ -103,6 +111,7 @@
     </article>
    
     <section class="half-half">
+    <div class="ethos-block">
       <div class="half">
         <article class="img-media-list">
           <div class="image-media">
@@ -278,7 +287,19 @@
               </label>
 
               <label>
+                <input id="username" type="text" name="username" placeholder="username" />
+              </label>
+
+              <label>
                 <input id="email" type="text" name="email" placeholder="email" />
+              </label>
+
+               <label>
+                <input id="password" type="text" name="email" placeholder="password" />
+              </label>
+
+              <label>
+                <input id="email" type="text" name="email" placeholder="password confirmation" />
               </label>
 
               <br>
