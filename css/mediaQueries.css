@@ -1,0 +1,415 @@
+@media screen and (max-width: 1280px) {
+	 div.wrapper {
+	 width: 100%;
+	 margin: 0 auto;
+	 padding: 0 2em;
+}
+
+p.callout {
+	 width: 1200px;
+	 
+}
+
+p.quote {
+	 width: 498.8125px;
+}
+
+p.members {
+	 width: 975.421875px;
+}
+
+h1 {
+	 font-family: "mf-futura-608";
+	 color: rgba(255, 255, 255, 1);
+	 font-size: 35px;
+}
+
+h3 {
+	 width: 800.421875px;
+}
+
+p.team-emph {
+	 width: 409.25px;
+	 font-size: 20px;
+}
+
+p.team-line {
+	 width: 1200px;
+}
+
+p {
+	 width: 955.421875px;
+}
+
+section.slice {
+	 height: 1046px;
+}
+
+
+p.join {
+	 width: 576.140625px;
+}
+
+.ethos {
+
+	background-color: #E6E6E6;
+	padding: 35px;
+	word-wrap: break-word;
+
+}
+
+p.ethos {
+	 width: 576.140625px;
+}
+
+p.process {
+	 width: 607.3125px;
+}
+
+strong {
+	 letter-spacing: 2px;
+	 font-family: "Oswald";
+	 font-weight: 400;
+	 font-style: normal;
+}
+
+h2 {
+	 margin: 0px 0px 10px 0px;
+}
+
+p.intro-paragraph {
+	 width: 1078.015625px;
+}
+
+
+
+} @media screen and (max-width: 768px) {
+	 div.grid-unit {
+	 width: 50%;
+}
+
+div.grid-unit2 {
+	 width: 100%;
+	 float: none;
+}
+
+div.process-content {
+	 float: none;
+	 width: 100%;
+	 border-bottom: none;
+	 padding-right: 0;
+	 text-align: center;
+}
+
+ol.process {
+	 list-style: none;
+	 margin: 0;
+	 font-size: 1em;
+	 line-height: 1em;
+	 overflow: hidden;
+}
+
+li.process-item {
+	 clear: both;
+	 margin-bottom: 1.875em;
+}
+
+div.process-number {
+	 margin: 0 auto;
+	 float: none;
+	 width: 22.65625%;
+}
+
+span.circle {
+	 float: left;
+	 width: 100%;
+	 padding-top: 50%;
+	 font-size: 1.5em;
+	 line-height: 1.25em;
+	 margin-top: -0.625em;
+	 text-align: center;
+}
+
+div.circle {
+	 width: 15%;
+	 margin: 0 auto 2em auto;
+}
+
+ul.col-3-css {
+	 -webkit-column-count: 2;
+	 -o-column-count: 2;
+	 -moz-column-count: 2;
+	 -ms-column-count: 2;
+	 column-count: 2;
+}
+
+body {
+	 font-size: 90%;
+}
+
+p.tagline {
+	 font-size: 1.5em;
+	 line-height: 133%;
+}
+
+h1.bg-line {
+	 font-size: 3em;
+	 width: 700px;
+	 margin-top: 210px;
+
+}
+
+p.callout {
+	 font-size: 2.5em;
+	 line-height: 112.5%;
+	 width: 700px;
+	 margin: 0px 0px 200px 0px;
+}
+
+p.quote {
+	 font-size: 2.5em;
+	 line-height: 111.1%;
+	 margin: 0px 0px 1em 0px;
+	 width: 700px;
+	 color: #4D4D4D;
+}
+
+h2.bg-line {
+	 margin: 81px 0px 2em 0px;
+}
+
+img.image-media-left {
+	 margin: 0px 0px 14.3999996185303px 0px;
+}
+
+p.members {
+	 width: 700px;
+}
+
+h3 {
+	 width: 400px;
+	 margin: 0px 0px 0px 20px;
+	 float: left;
+	 text-align: left;
+	 line-height: 28px;
+}
+
+div.circular {
+	 height: 342.53125px;
+}
+
+p.team-line {
+	 width: 700px;
+}
+
+p {
+	 width: 400px;
+	 float: left;
+}
+
+p.team-emph {
+	 width: 350px;
+	 text-align: center;
+}
+
+section.slice {
+	 height: 916px;
+}
+
+a {
+	 text-align: left;
+}
+
+h3.team {
+	 width: 330px;
+	 text-align: center;
+}
+
+em {
+	 font-size: 36px;
+}
+
+p.intro-paragraph {
+	 width: 600px;
+}
+
+
+
+
+
+
+
+
+} @media screen and (max-width: 480px) {
+	 section.slice {
+	 height: 1394px;
+}
+
+p.callout {
+	 width: 430px;
+	 margin: 0px 0px 0px 10px;
+}
+
+h1.bg-line {
+	 width: 425px;
+	 letter-spacing: 8px;
+}
+
+h3 {
+	 margin: 0px 0px 0px 10px;
+}
+
+p.team-line {
+	 width: 420px;
+}
+
+div.circular {
+	 height: 100px;
+}
+
+h3.team {
+	 font-size: 15px;
+	 text-align: left;
+}
+
+p.team-emph {
+	 font-size: 17px;
+	 text-align: left;
+	 width: 200px;
+}
+
+img.avatar {
+	 width: 200px;
+}
+
+p.quote {
+	 width: 450px;
+}
+
+p.emph {
+	 width: 425px;
+}
+
+section.team {
+	 height: 708px;
+}
+
+p.join {
+	 width: 400px;
+}
+
+p.ethos {
+	 width: 400px;
+}
+
+section.callout-top {
+	 padding: 162px 0px 300px 0px;
+}
+
+p.intro-paragraph {
+	 width: 400px;
+}
+
+} @media screen and (max-width: 320px) {
+	 h1.bg-line {
+	 width: 250px;
+}
+
+h3 {
+	 width: 300px;
+}
+
+p {
+	 width: 250px;
+}
+
+section.slice {
+	 height: 1633px;
+}
+
+p.callout {
+	 font-size: 27px;
+	 width: 250px;
+	 text-align: center;
+	 margin: 0px 0px 0px 10px;
+}
+
+p.team-line {
+	 width: 250px;
+}
+
+p.quote {
+	 width: 260px;
+	 text-align: center;
+}
+
+h3.team {
+	 font-size: 10px;
+	 width: 150px;
+	 letter-spacing: 1px;
+	 text-indent: 0px;
+	 text-align: center;
+}
+
+img.avatar {
+	 width: 100px;
+}
+
+p.emph {
+	 width: 350px;
+}
+
+p.join {
+
+	width: 260px;
+}
+
+p.ethos {
+	 width: 260px;
+}
+
+div.wrapper {
+	 height: 78.34375px;
+	 width: 250px;
+	 margin: 0px;
+}
+
+section.callout-top {
+	 height: 0px;
+}
+
+section.team {
+	 height: 851px;
+}
+
+div.circular {
+	 width: 100px;
+	 height: 61.140625px;
+}
+
+p.team-emph {
+	 width: 150px;
+	 text-align: center;
+}
+
+div.join {
+	 height: 1300px;
+}
+
+div.ethos {
+	 height: 1192.265625px;
+}
+
+div.join {
+	height: 2300px;
+}
+
+section.ethos {
+	 height: 2300px;
+}
+
+ol.process {
+	 background-color: rgba(63, 63, 63, 0);
+}
+
+} 

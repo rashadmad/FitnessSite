@@ -1,47 +1,9 @@
-nav { 
-	  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 50px;
-  background-color: #00a087;
-
-	color: #ffffff;
-	height: 80px;
-	background: #444444; /* Old browsers */
-	background: -moz-linear-gradient(top,  #444444 0%, #444444 80%, #24cfe5 80%, #24cfe5 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(80%,#444444), color-stop(80%,#24cfe5), color-stop(100%,#24cfe5)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #444444 0%,#444444 80%,#24cfe5 80%,#24cfe5 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #444444 0%,#444444 80%,#24cfe5 80%,#24cfe5 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #444444 0%,#444444 80%,#24cfe5 80%,#24cfe5 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #444444 0%,#444444 80%,#24cfe5 80%,#24cfe5 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#24cfe5',GradientType=0 ); /* IE6-9 */
 
 
 
-}
-
-footer { 
-	color: #ffffff;
-	background-color: #444444;
-	height: 80px;
-	text-align: center;
-	padding-top: 10px;
-}
 
 
-.header-image {
-
-
-}
-
-
-#montage {
-	background-color: #444444;
-	
-}
-
+//pictures 
 #picture1 {
 	
 	background-image: url("../img/fithouseIMG2.jpg");
@@ -123,13 +85,6 @@ button {
 	
 }
 
-.button_box2 {
-
-	display: none;
-
-}
-
-
 
 .button_box {
 
@@ -139,19 +94,6 @@ button {
 	
 	
 }
-
-ul {
-	
-}
-
-.small_nav {
-
-	display:inline;
-
-}
-
-	
-
 
 
 
@@ -169,16 +111,6 @@ ul {
 	margin-left: 10px;
 }
 
-#sustainable{
-	color:black;
-	text-align: center;
-	font-weight: 200;
-	width: 350px;
-	margin-right: 35%;
-	margin-left: 40%;
-	margin-bottom: 50px;
-
-}
 
 .stars{
 	float: left;
@@ -207,6 +139,17 @@ ul {
 
 	height: 800px;
 
+
+}
+
+#sustainable{
+	color:black;
+	text-align: center;
+	font-weight: 200;
+	width: 350px;
+	margin-right: 35%;
+	margin-left: 40%;
+	margin-bottom: 50px;
 
 }
 
