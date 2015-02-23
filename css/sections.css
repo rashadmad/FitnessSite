@@ -24,6 +24,11 @@ section#ethos {
 
 }
 
+section#join {
+	 padding: 5.625em 0;	
+	 height: 950px;
+}
+
 section.callout {
 	 text-align: center;
 	 margin: 0 0 0 0;
@@ -53,11 +58,10 @@ section.callout-bottom {
 
 section.process {
 	 padding: 5.625em 0;
+
 }
 
-section.join {
-	 padding: 5.625em 0;	
-}
+
 
 section#ethos {
 

@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
 
         
-        <link rel="stylesheet" type="text/css" href="css/typography.css" media="all">
+        <link rel="stylesheet" type="text/css" href="css/base.css" media="all">
 
         <!--Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
@@ -220,7 +220,7 @@
     </div>
   </section>
 
-  <section class="process">
+  <section id="process">
       
       <h1 class="bg-line">
         Process
@@ -280,15 +280,15 @@
       </h1>
         <article class="form-container">
           <form>
-              <div>
+            
               
             <table>
               <label>
-                <input id="name" type="text" name="name" placeholder="name" />
+                <input id="username" type="text" name="username" placeholder="username" />
               </label>
 
               <label>
-                <input id="username" type="text" name="username" placeholder="username" />
+                
               </label>
             </table>
 
@@ -303,22 +303,23 @@
               <label>
                 <input id="email" type="text" name="email" placeholder="password confirmation" />
               </label>
+              <br>
+              <br>
+              
 
-              <br>
-              <span>sign up for our news letter</spane>
-              <br>
-              <input label="yes" type="radio" name="newsletter" value="yes" checked>yes
-              <input label="no" type="radio" name="newsletter" value="no" checked>no
-            
+              <div class="checkbox"> 
+              <input id="check1" type="checkbox" name="check" value="check1"><span id="special">sign up for our news letter </span>  
+              </div>  
+
+
               <label>
-                <textarea id="feedback" name="feedback"></textarea>
+                <textarea id="feedback" name="feedback"  placeholder="What type of life change are you lookinng for?"></textarea>
                 
-                <input type="button" value="Submit Form" placeholder="Reasons for a life change" />
-              </label>
+                <button value="Submit Form" placeholder="Reasons for a life change" />
+              </button>
 
               
 
-              </div>
           </form>
         </article>
         </div>
