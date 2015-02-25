@@ -7,8 +7,19 @@
 
 section#home {
 	margin-top: 80px;
+	height: 460px;
+	
 	
 }
+
+section#video {
+	margin-top: 80px;
+	height: 960px;
+	background-color: black;
+	
+}
+
+
 
 section.team {
 	 padding: 5.625em 0;

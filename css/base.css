@@ -1,6 +1,10 @@
 @import "parralax.css";
 @import "sections.css";
 @import "mediaQueries.css";
+@import "socialIcons.css";
+
+
+
 
 
 
@@ -33,6 +37,26 @@ nav {
 
 
 
+}
+
+div.button_boxA {
+	float: right;
+	margin-left: 30px;
+	margin:0;
+	
+
+}
+
+
+.social_icons {
+	float: left;
+	position: relative;
+	max-width: 20%;
+	max-height: 20%;
+	margin-top: 12px;
+	cursor  : pointer;
+	
+	
 }
 
 
@@ -437,6 +461,10 @@ form {
 
 }
 
+textarea:{
+
+}
+
 
 input {
 	
@@ -502,6 +530,13 @@ textarea#feedback {
     margin: 5px;
     background-color: #D1D1D1;
     border: none;
+
+}
+
+textarea#feedback:hover{
+	border-style: solid;
+	border-color: ;
+
 
 }
 
