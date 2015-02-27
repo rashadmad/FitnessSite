@@ -64,25 +64,52 @@ button {
   	color: white;
   	background: none;
   	border: 0;
-  	text-decoration: none;
   	cursor  : pointer;
   	outline: 0;
   	font-family: Lato;
 	font-weight: 400;
 	font-style: normal;
+
   	
 }
 
-a.main-buttons {
+a {
+	padding:5px;
+  	color: white;
+  	background: none;
+  	border: 0;
+  	cursor  : pointer;
+  	outline: 0;
+  	font-family: Lato;
+	font-weight: 400;
+	font-style: normal;
 
-	float:left;
-	font-size: 20px;
-	color: #444444;
-	font-family: "Oswald";
-	text-decoration: none;
+  	
+}
+
+
+ul {
+
+	float: left;
+	margin-left: 200px;
+	
+}
+
+
+
+.main-buttons {
+
+	
+	display: inline;
 	border-style: solid;
 	border-width: 5px;
-	width: 10px;
+	font-size: 14px;
+	color: #444444;
+	font-family: "Oswald";
+	margin: 5px;
+	padding: 7px;
+
+
 	
 }
 
@@ -117,6 +144,7 @@ a.main-buttons {
 	float: left;
 	margin-top: 25px;
 	margin-left: 47%;
+	
 
 }
 

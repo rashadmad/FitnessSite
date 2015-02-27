@@ -40,21 +40,31 @@ nav {
 }
 
 div.button_boxA {
-	float: right;
-	margin-left: 30px;
-	margin:0;
+	float: left;
+	margin-left: 45%;
+	
+	
+	
 	
 
 }
 
 
 .social_icons {
-	float: left;
-	position: relative;
-	max-width: 20%;
-	max-height: 20%;
-	margin-top: 12px;
-	cursor  : pointer;
+
+	max-width: 25%;
+	max-height: 25%;
+	
+	cursor: pointer;
+	text-align: center;
+	
+
+
+
+
+	
+	
+	
 	
 	
 }
@@ -64,9 +74,12 @@ div.button_boxA {
 footer { 
 	color: #ffffff;
 	background-color: #444444;
-	height: 80px;
+	height: 100px;
 	text-align: center;
 	padding-top: 10px;
+	font-family: "Lato";
+
+
 }
 
 p {
@@ -329,7 +342,7 @@ img {
 
 
 
-.ethos-block {
+.philosophy-block {
 	
 	padding: 35px;
 	word-wrap: break-word;
@@ -366,14 +379,14 @@ p.emph {
 
 
 
-.ethos { 
+.philosophy { 
 
 	float: right;
 	margin-right: 50px;
 
 }
 
-.ethos-block {
+.philosophy-block {
 
 	padding: 35px;
 	word-wrap: break-word;
@@ -426,11 +439,34 @@ ul.col-3-css {
 	 line-height: 1.83em;
 }
 
+map {
+	float: left;
+	margin-top: 45px;
+	margin-left: 20px;
+	
+	box-shadow: 1px 0px 0px 11px #D1D1D1;
+	-webkit-box-shadow: 1px 0px 0px 11px #D1D1D1;
+	-moz-box-shadow: 1px 0px 0px 11px #D1D1D1;
+	box-shadow: 1px 0px 0px 11px #D1D1D1;
+	
+}
+
+map:hover {
+
+	box-shadow: 1px 0px 0px 11px #444444;
+	-webkit-box-shadow: 1px 0px 0px 11px #444444;
+	-moz-box-shadow: 1px 0px 0px 11px #444444;
+	box-shadow: 1px 0px 0px 11px #444444;
+
+}
+
 .form-container {
 
-	
-	margin-top: 30px;
+	position: relative;
+	float: right;
+	margin-bottom: 100px;
 	width: 100%;
+	margin-right: 20px;
 
 }
 
@@ -447,7 +483,8 @@ form {
 	position:relative;
 	padding:10px;
 	font-family: "Oswald";
-	margin-left: 60%;
+	margin-top: 20px;
+	margin-left: 80px;
 
 
 
@@ -483,10 +520,10 @@ input {
 
 input:hover{
 
-	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 
 	border-style: solid;
 	border-width: 3px;
@@ -527,15 +564,17 @@ label[for=check1] {
 textarea#feedback {
     width:450px;
     height:150px;
-    margin: 5px;
+    margin-bottom:100px; 
     background-color: #D1D1D1;
     border: none;
+    margin-left: 10px;
+
 
 }
 
 textarea#feedback:hover{
 	border-style: solid;
-	border-color: ;
+	
 
 
 }
@@ -551,11 +590,23 @@ input[type=checkbox] {
 	
 }
 
+
+.checkbox {
+
+margin: 0;
+
+}
+
+.checkbox2 {
+	
+margin: 0;
+}
+
 input,
 textarea {
 	font-family: "Oswald";
 	font-size: 17px;
-	left-margin: 51px;
+	left-margin: 40px;
 	padding: 10px;
 	padding-left: 15px;
 }
@@ -598,7 +649,7 @@ ol.process {
 	 font-size: 1em;
 	 line-height: 1em;
 	 overflow: hidden;
-	 color: black;
+	 
 }
 
 li.process-item {
@@ -620,10 +671,13 @@ div.process-content {
 	 margin: 0;
 	 float: left;
 	 display: inline;
-	 width: 74.21875%;
+	 width: 35%;
 	 border-bottom: 1px solid #d4d4d4;
 	 padding-right: 25.78125%;
 	 padding-top: 1em;
+	 color: black;
+	 margin-left: 7%;
+	 margin-bottom: 40px;
 }
 
 div.circle {
@@ -722,12 +776,12 @@ article.form-container{
 
 
 
-div.ethos {
+div.philosophy {
 	 *zoom: 1;
 	 word-wrap: break-word;
 }
 
-div.ethos:before {
+div.philosophy:before {
 	 content: '\0020';
 	 display: block;
 	 overflow: hidden;
@@ -736,7 +790,7 @@ div.ethos:before {
 	 height: 0;
 }
 
-div.ethos:after {
+div.philosophy:after {
 	 content: '\0020';
 	 display: block;
 	 overflow: hidden;
@@ -834,7 +888,7 @@ p.join {
 	 font-style: normal;
 }
 
-p.ethos {
+p.philosophy {
 	 width: 608.921875px;
 	 font-family: "Lato";
 	 font-weight: 100;
