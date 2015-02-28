@@ -1,7 +1,7 @@
 @import "parralax.css";
 @import "sections.css";
 @import "mediaQueries.css";
-@import "socialIcons.css";
+
 
 
 
@@ -57,6 +57,8 @@ div.button_boxA {
 	
 	cursor: pointer;
 	text-align: center;
+
+
 	
 
 
@@ -74,10 +76,12 @@ div.button_boxA {
 footer { 
 	color: #ffffff;
 	background-color: #444444;
-	height: 100px;
+	height: 150px;
 	text-align: center;
 	padding-top: 10px;
 	font-family: "Lato";
+
+	
 
 
 }
@@ -128,6 +132,21 @@ p.callout {
 	 font-style: normal;
 	 color: #ffffff;
 }
+
+footer p.callout {
+	 margin-left: 20%;
+	 font-size: 2.7em;
+	 line-height: 2em;
+	 margin-left: 10%;
+	 color: rgba(51, 51, 51, 1);
+	 font-family: "Oswald";
+	 text-align: center;
+	 width: 1260.40625px;
+	 font-weight: 300;
+	 font-style: normal;
+	 color: #ffffff;
+}
+
 
 h1 {
 	 font-weight: 700;
@@ -220,6 +239,10 @@ h2.bg-line {
 	 color: rgba(255, 255, 255, 1);
 }
 
+footer h2{
+	text-align: center;
+	word-wrap: break-word;
+}
 
 
 
@@ -338,7 +361,11 @@ img {
 	 margin: 0;
 }
 
-
+#achieve_img {
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+}
 
 
 
@@ -483,8 +510,8 @@ form {
 	position:relative;
 	padding:10px;
 	font-family: "Oswald";
-	margin-top: 20px;
-	margin-left: 80px;
+	margin-top: 13px;
+	margin-left: 90px;
 
 
 
@@ -563,7 +590,7 @@ label[for=check1] {
 
 textarea#feedback {
     width:450px;
-    height:150px;
+    height:90px;
     margin-bottom:100px; 
     background-color: #D1D1D1;
     border: none;
@@ -631,6 +658,12 @@ textarea {
 div.wrapper {
 	 width: 1280px;
 	 margin: 0 auto;
+}
+
+footer div.wrapper{
+	text-align: center;
+	width: 100%;
+
 }
 
 div.grid-unit {
@@ -855,6 +888,13 @@ article.img-media-list {
 	 margin: 0 auto;
 }
 
+div.image-media p {
+
+
+
+}
+
+
 div.image-media {
 	 width: 673.0625px;
 	 text-align: left;
@@ -936,3 +976,20 @@ div.half {
 	 box-sizing: border-box;
 }
 
+
+ 
+.buttonsAA {
+	
+	text-align: center;
+	float: left;
+	margin-left: 45%;
+	font-size: 250%;
+
+}
+
+#join_butt {
+
+
+	padding-left: 20px;
+	padding-right: 20px;
+}
