@@ -5,10 +5,6 @@
 
 
 
-
-
-
-
 body {
 	 font-size: 1em;
 	 line-height: 1.5em;
@@ -22,10 +18,9 @@ nav {
       left: 0;
       z-index: 9999;
       width: 100%;
-      height: 50px;
       background-color: #00a087;
 	  color: #ffffff;
-	  height: 80px;
+	  height: 85px;
 	  background: #444444; /* Old browsers */
 	  background: -moz-linear-gradient(top,  #444444 0%, #444444 80%, #24cfe5 80%, #24cfe5 100%); /* FF3.6+ */
 	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(80%,#444444), color-stop(80%,#24cfe5), color-stop(100%,#24cfe5)); /* Chrome,Safari4+ */
@@ -41,14 +36,29 @@ nav {
 
 div.button_boxA {
 	float: left;
-	margin-left: 45%;
-	
-	
-	
+	margin-left: 45%;	
 	
 
 }
 
+button:hover {
+
+	color: #24cfe5;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+
+}
+
+header{
+
+	text-align: center ;
+}
+
+.iconSmall{
+	display: none;
+}
 
 .social_icons {
 
@@ -58,19 +68,25 @@ div.button_boxA {
 	cursor: pointer;
 	text-align: center;
 
-
-	
-
-
-
-
-	
-	
-	
 	
 	
 }
 
+
+.button_box {
+	display: block;
+
+	text-align: center;
+	margin-bottom: 35px;
+	margin-top: 0px;
+}
+
+.stars {
+
+	margin: 0;
+	margin-right: 12px;
+
+}
 
 
 footer { 
@@ -106,17 +122,18 @@ p.intro-p {
 }
 
 p.intro-paragraph {
+	 
+	 display: block;
 	 text-align: center;
 	 font-size: 29px;
-	 line-height: 39px;
-	 padding: 1em 1em 1em 1em;
+	 line-height: 50px;
+	 max-width: 300px;
 	 border-top: 1px solid #ccc;
 	 border-bottom: 1px solid #ccc;
-	 width: 635.0625px;
-	 margin: 34.7999992370606px 50px;
-	 float: left;
+	 margin: 0 auto;
 	 
-	 color: rgba(255, 255, 255, 1);
+	 margin-top: 12px;
+	 color: #444444;
 	 font-family: Lato;
 }
 
@@ -159,39 +176,26 @@ h1 {
 	 
 }
 
-h1.bg-line:before {
-	 border-top: 1px solid #444444;
-	 content: "";
-	 display: inline-block;
-	 position: relative;
-	 vertical-align: middle;
-	 width: 50%;
-	 margin-left: -50%;
-	 right: 1em;
+h1:before {
+
+	 border-color: #CCCCCC transparent;
+  	 left: -19px;
 }
 
-h1.bg-line:after {
-	 border-top: 1px solid #444444;
-	 content: "";
-	 display: inline-block;
-	 position: relative;
-	 vertical-align: middle;
-	 width: 50%;
-	 left: 1em;
-	 margin-right: -50%;
-	 font-family: 'Lobster', cursive;
-}
+
 
 h1.bg-line {
 	 overflow: hidden;
 	 font-family: Oswald;
 	 font-size: 5.69em;
-	 line-height: 1em;
-	 margin: 5px 0px 1em 0px;
-	 color: #444444;
 	 font-weight: 400;
+	 line-height: 1em;
 	 font-style: normal;
 	 letter-spacing: 10px;
+	 margin: 5px 0px 1em 0px;
+	 color: #444444;
+	 
+	 
 }
 
 h2 {
@@ -263,6 +267,7 @@ ul {
 	 line-height: 1.667%;
 	 margin: 0 0 1.667em 3.333em;
 	 list-style: disc outside;
+	 
 }
 
 ol {
@@ -290,7 +295,12 @@ blockquote {
 	 margin-left: 100px;
 }
 
+
+
+
+
 p.quote {
+
 	 line-height: 1.111em;
 	 font-size: 2.88em;
 	 
@@ -298,15 +308,20 @@ p.quote {
 	 color: rgba(178, 176, 176, 1);
 	 text-align: left;
 	 font-family: "Lato";
-	 width: 100%;
+	 width: 120%;
 	 font-weight: 100;
 	 font-style: normal;
+
+}
+
+.grid-unit2 {
+
+	display:none;
 }
 
 .emph {
-	float: right;
-	margin-right: 250px;
-	display: none;
+	
+	margin-left: 250px;
 }
 
 a {
@@ -365,6 +380,7 @@ img {
 	border-width: 5px;
 	border-style: solid;
 	border-color: white;
+	float: left;
 }
 
 
@@ -375,16 +391,31 @@ img {
 	word-wrap: break-word;
 }
 
+#inside.philosophy {
+float: left;
+width: 50%;
+margin-left: 250px;
+
+}
 
 p.emph {
+
+	 display: block;
+	 float: left;
 	 font-size: 1.5em;
 	 line-height: 1.25em;
-	 margin: 0 0 1.25em 0;
+	 width: 100%;
 	 color: #444444;
-	 width: 613.921875px;
+	 width: 40%;
 	 font-family: "Lato";
 	 font-weight: 300;
 	 font-style: italic;
+	 margin-left: 250px;
+}
+
+p.process {
+
+
 }
 
 .between {
@@ -420,6 +451,8 @@ p.emph {
 
 
 }
+
+
 
 p.tagline {
 	 font-size: 2em;
@@ -496,6 +529,7 @@ map:hover {
 	margin-right: 20px;
 
 }
+
 
 
 form {
@@ -884,15 +918,20 @@ div.image-media:after {
 
 article.img-media-list {
 	 width: auto;
-	 text-align: left;
+	 text-align: cen;
 	 margin: 0 auto;
+
 }
 
 div.image-media p {
-
+	width: 300px;
+	float: right;
+	margin-right: 18%;
 
 
 }
+
+
 
 
 div.image-media {
@@ -979,7 +1018,7 @@ div.half {
 
  
 .buttonsAA {
-	
+	display:none;
 	text-align: center;
 	float: left;
 	margin-left: 45%;
@@ -993,3 +1032,4 @@ div.half {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
