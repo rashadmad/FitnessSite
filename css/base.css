@@ -74,18 +74,41 @@ header{
 
 
 .button_box {
+	
 	display: block;
-
 	text-align: center;
 	margin-bottom: 35px;
 	margin-top: 0px;
+	margin: 0 auto;
+	padding-right: 50px;
 }
 
 .stars {
 
 	margin: 0;
-	margin-right: 12px;
+	display: block;
 
+}
+
+p.services {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 2em;
+
+}
+
+strong.services {
+	background-image: url(../img/ribbion.svg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 1em;
+}
+
+.services {
+	text-align: center;
+	display: block;
 }
 
 
@@ -192,7 +215,7 @@ h1.bg-line {
 	 line-height: 1em;
 	 font-style: normal;
 	 letter-spacing: 10px;
-	 margin: 5px 0px 1em 0px;
+	 margin: 20px 0px 1em 0px;
 	 color: #444444;
 	 
 	 
@@ -296,6 +319,7 @@ blockquote {
 }
 
 
+ 
 
 
 
@@ -362,6 +386,7 @@ em {
 }
 
 strong {
+	
 	 font-weight: 100;
 	 font-family: "Lato";
 	 font-style: italic;
@@ -383,7 +408,9 @@ img {
 	float: left;
 }
 
-
+.services-block{
+	padding: 10px;
+}
 
 .philosophy-block {
 	
@@ -393,8 +420,8 @@ img {
 
 #inside.philosophy {
 float: left;
-width: 50%;
-margin-left: 250px;
+width: 65%;
+margin-left: 220px;
 
 }
 
