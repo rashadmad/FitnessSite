@@ -21,7 +21,10 @@ section#video {
 
 
 section#services {
-	height: 1450px;
+	height: 1780px;
+	margin:10px;
+
+	 border: 5px solid #444444;
 
 }
 
@@ -47,7 +50,7 @@ section#ethos {
 
 section#join {
 	 padding: 5.625em 0;	
-	 height: 1350px;
+	 height: 1400px;
 }
 
 section.callout {

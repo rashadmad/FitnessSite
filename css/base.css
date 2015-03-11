@@ -75,12 +75,14 @@ header{
 
 .button_box {
 	
+
 	display: block;
 	text-align: center;
-	margin-bottom: 35px;
-	margin-top: 0px;
+	
 	margin: 0 auto;
 	padding-right: 50px;
+	margin-top: 10px;
+
 }
 
 .stars {
@@ -90,10 +92,24 @@ header{
 
 }
 
+.assess {
+	margin: 10px;
+	margin-bottom: 30px;
+	margin-top: 0;
+	
+}
+
+.greyStars {
+
+	display: block;
+	margin: 0 auto;
+}
+
 p.services {
 	text-align: center;
 	margin: 0 auto;
 	font-size: 2em;
+
 
 }
 
@@ -104,12 +120,18 @@ strong.services {
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 1em;
+	padding-bottom: 2px;
+	
 }
 
 .services {
 	text-align: center;
 	display: block;
+
+
 }
+
+
 
 
 footer { 
@@ -120,10 +142,21 @@ footer {
 	padding-top: 10px;
 	font-family: "Lato";
 
-	
-
-
 }
+
+
+.boldProcess {
+
+ 	font-family: "Lato";
+ 	font-weight: 700;
+ 	border-bottom: 2px solid #A2A2A2; 
+ 	padding-bottom: 5px;
+ 	border-color: #DADADA;
+
+ 	
+}
+
+
 
 p {
 	 font-size: 1.125em;
@@ -202,7 +235,7 @@ h1 {
 h1:before {
 
 	 border-color: #CCCCCC transparent;
-  	 left: -19px;
+  	 
 }
 
 
@@ -221,6 +254,29 @@ h1.bg-line {
 	 
 }
 
+
+h1.bg-line:before {
+   border-top: 1px solid #444444;
+   content: "";
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   width: 50%;
+   margin-left: -50%;
+   right: 1em;
+}
+
+h1.bg-line:after {
+   border-top: 1px solid #444444;
+   content: "";
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   width: 50%;
+   left: 1em;
+   margin-right: -50%;
+}
+
 h2 {
 	 font-size: 1.875em;
 	 line-height: 1em;
@@ -231,6 +287,7 @@ h2 {
 	 font-family: Oswald;
 	 font-weight: 400;
 	 font-style: normal;
+	 color: #444444;
 	 
 	 
 
@@ -245,6 +302,7 @@ h2.bg-line:before {
 	 width: 50%;
 	 margin-left: -50%;
 	 right: 2em;
+
 }
 
 h2.bg-line:after {
@@ -261,9 +319,13 @@ h2.bg-line:after {
 
 
 h2.bg-line {
-	 overflow: hidden;
-	 font-family: "Futura W02 ExtraBold";
-	 color: rgba(255, 255, 255, 1);
+   overflow: hidden;
+   font-family: "Futura W02 Bold";
+   font-size: 5.69em;
+   line-height: 1em;
+   margin: 0px 0px 30px 0px;
+   color: rgba(255, 255, 255, 1);
+   letter-spacing: 10px;
 }
 
 footer h2{
@@ -332,16 +394,13 @@ p.quote {
 	 color: rgba(178, 176, 176, 1);
 	 text-align: left;
 	 font-family: "Lato";
-	 width: 120%;
+	 width: 110%;
 	 font-weight: 100;
 	 font-style: normal;
 
 }
 
-.grid-unit2 {
 
-	display:none;
-}
 
 .emph {
 	
@@ -423,6 +482,13 @@ float: left;
 width: 65%;
 margin-left: 220px;
 
+}
+
+.has {
+float: left;
+width: 65%;
+margin-left: 220px;
+font-weight: 600;	
 }
 
 p.emph {
