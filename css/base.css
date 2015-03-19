@@ -87,7 +87,8 @@ header{
 
 .stars {
 
-	margin: 0;
+	
+
 	display: block;
 
 }
@@ -145,16 +146,6 @@ footer {
 }
 
 
-.boldProcess {
-
- 	font-family: "Lato";
- 	font-weight: 700;
- 	border-bottom: 2px solid #A2A2A2; 
- 	padding-bottom: 5px;
- 	border-color: #DADADA;
-
- 	
-}
 
 
 
@@ -168,6 +159,8 @@ p {
 	 text-align: left;
 	 font-weight: 100;
 	 font-style: normal;
+	 padding: 5px;
+
 }
 
 p.intro-p {
@@ -229,6 +222,7 @@ h1 {
 	 text-transform: uppercase;
 	 letter-spacing: 5px;
 	 text-align: center;
+	 color: #ffffff;
 	 
 }
 
@@ -248,15 +242,15 @@ h1.bg-line {
 	 line-height: 1em;
 	 font-style: normal;
 	 letter-spacing: 10px;
-	 margin: 20px 0px 1em 0px;
-	 color: #444444;
+	 margin: 20px 25px 1em 25px;
+	 color: #ffffff;
 	 
 	 
 }
 
 
 h1.bg-line:before {
-   border-top: 1px solid #444444;
+   border-top: 1px solid #ffffff;
    content: "";
    display: inline-block;
    position: relative;
@@ -267,14 +261,15 @@ h1.bg-line:before {
 }
 
 h1.bg-line:after {
-   border-top: 1px solid #444444;
+   border-top: 1px solid #ffffff;
    content: "";
    display: inline-block;
    position: relative;
    vertical-align: middle;
    width: 50%;
-   left: 1em;
+   left: .5em;
    margin-right: -50%;
+
 }
 
 h2 {
@@ -287,7 +282,7 @@ h2 {
 	 font-family: Oswald;
 	 font-weight: 400;
 	 font-style: normal;
-	 color: #444444;
+	 color: #ffffff;
 	 
 	 
 
@@ -388,15 +383,19 @@ blockquote {
 p.quote {
 
 	 line-height: 1.111em;
-	 font-size: 2.88em;
-	 
-	 padding: 0 0.566em 0 0;
-	 color: rgba(178, 176, 176, 1);
+	 font-size: 1.7em;
+	 float: right;
+	 padding: 10px;
+	 color: white;
 	 text-align: left;
 	 font-family: "Lato";
-	 width: 110%;
+	 width: 100%;
 	 font-weight: 100;
 	 font-style: normal;
+	 margin: 5px;
+	 
+	 
+
 
 }
 
@@ -412,20 +411,37 @@ a {
 	 text-decoration: none;
 	 border-bottom: 1px solid #444;
 	 outline: 0;
-	 font-family: mf-futura-571;
 	 text-align: center;
 	 width: 589.0458984375px;
+	 padding:5px;
+  	color: white;
+  	background: none;
+  	border: 0;
+  	cursor  : pointer;
+  	outline: 0;
+  	font-family: "Lato";
+	font-weight: 400;
+	font-style: normal;
 }
 
+
+
 a:visited {
-	 color: #444;
+	 color: #ffffff;
 	 text-decoration: none;
 	 border-bottom: 1px solid #444;
 	 outline: 0;
 }
 
+
+
 a:hover {
 	 border-bottom: none;
+	 color: #24cfe5;
+	 -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 }
 
 a:active {
@@ -436,12 +452,14 @@ a:focus {
 	 border-bottom: none;
 }
 
+#philosophy_em {
+	 	
+	 text-align: center;
+
+}
+
 em {
-	 font-family: "Lato";
-	 color: black;
-	 font-size: 44px;
-	 font-weight: 300;
-	 font-style: italic;
+	color: white;
 }
 
 strong {
@@ -469,6 +487,7 @@ img {
 
 .services-block{
 	padding: 10px;
+
 }
 
 .philosophy-block {
@@ -481,14 +500,29 @@ img {
 float: left;
 width: 65%;
 margin-left: 220px;
+background-color: rgba(192,192,192, .8);
+padding: 5px;
+color: black;
+font-weight: 100;
+font-style: normal;
 
 }
 
-.has {
+
+
+
+p.has {
 float: left;
 width: 65%;
+text-align: center;
 margin-left: 220px;
-font-weight: 600;	
+
+font-size: 1.5em;
+font-family: "Oswald";
+font-style: normal;	
+
+color: black;
+
 }
 
 p.emph {
@@ -506,10 +540,7 @@ p.emph {
 	 margin-left: 250px;
 }
 
-p.process {
 
-
-}
 
 .between {
 	text-align: center;
@@ -744,6 +775,11 @@ input[type=checkbox] {
 	
 }
 
+p.black{
+
+	color: black;
+}
+
 
 .checkbox {
 
@@ -815,6 +851,7 @@ ol.process {
 li.process-item {
 	 margin-bottom: 1.875em;
 	 clear: both;
+
 }
 
 div.process-number {
@@ -824,6 +861,7 @@ div.process-number {
 	 display: inline;
 	 width: 22.65625%;
 	 margin-right: 3.125%;
+
 }
 
 div.process-content {
@@ -832,12 +870,25 @@ div.process-content {
 	 float: left;
 	 display: inline;
 	 width: 35%;
-	 border-bottom: 1px solid #d4d4d4;
+	 
 	 padding-right: 25.78125%;
 	 padding-top: 1em;
 	 color: black;
 	 margin-left: 7%;
 	 margin-bottom: 40px;
+
+}
+
+
+.boldProcess {
+
+ 	font-family: "Lato";
+ 	font-weight: 700;
+ 	border-bottom: 1px solid #A2A2A2; 
+ 	padding-bottom: 5px;
+ 	border-color: #DADADA;
+
+ 	
 }
 
 div.circle {
@@ -853,20 +904,36 @@ span.circle {
 	 line-height: 1.25em;
 	 margin-top: -0.625em;
 	 text-align: center;
-	 color: #444444;
+	 color: #ffffff;
 	 font-family: "Lato";
+}
+
+div.grid-unit1 {
+	 position: relative;
+	 margin-left: 0;
+	 width: 48%;
+	 float: left;
+	 display: inline;
+	 padding: 10px;
+
 }
 
 div.grid-unit2 {
 	 position: relative;
 	 margin-left: 0;
 	 width: 48%;
-	 float: left;
+	 float: right;
 	 display: inline;
+	 padding: 10px;
+
 }
 
 
+.team{
 
+	color: white;
+
+}
 
 
 
@@ -939,6 +1006,7 @@ article.form-container{
 div.philosophy {
 	 *zoom: 1;
 	 word-wrap: break-word;
+	 padding-left: 20px;
 }
 
 div.philosophy:before {
@@ -1041,6 +1109,11 @@ img.image-media-left {
 	 float: left;
 }
 
+p {
+	color: #ffffff;
+
+}
+
 p.members {
 	 width: 1089.0625px;
 	 margin: 0px 0px 30.0060005187988px 20px;
@@ -1126,3 +1199,9 @@ div.half {
 	padding-right: 20px;
 }
 
+#right {
+	
+	margin-left: 100px
+
+
+}

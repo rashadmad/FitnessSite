@@ -1,59 +1,6 @@
 
 
 
-
-
-//pictures 
-#picture1 {
-	
-	background-image: url("../img/fithouseIMG2.jpg");
-	background-repeat: no-repeat;
-	height:100%;
-	min-height:540px; 
-	background-size: 100%;
-
-}
-
-#picture2 {
-
-	background-image: url("../img/fithouseIMG.jpg");
-	background-repeat: no-repeat;
-	height:100%;
-	min-height:540px;
-	background-size: 100%;
-
-}
-
-#picture3 {
-
-	background-image: url("../img/fithouseIMG3.jpg");
-	background-repeat: no-repeat;
-	height:100%;
-	min-height:540px; 
-	background-size: 100%;
-
-}
-
-#picture4 {
-
-	background-image: url("../img/fithouseIMG4.jpg");
-	background-repeat: no-repeat;
-	height:100%;
-	min-height:540px; 
-	background-size: 100%;
-
-}
-
-#picture5 {
-
-	background-image: url("../img/fithouseIMG5.jpg");
-	background-repeat: no-repeat;
-	height:100%;
-	min-height:540px; 
-	background-size: 100%;
-
-}
-
 table {
 
 	display: inline;
@@ -73,19 +20,7 @@ button {
   	
 }
 
-a {
-	padding:5px;
-  	color: white;
-  	background: none;
-  	border: 0;
-  	cursor  : pointer;
-  	outline: 0;
-  	font-family: Lato;
-	font-weight: 400;
-	font-style: normal;
 
-  	
-}
 
 
 ul {
@@ -135,7 +70,7 @@ ul {
 .logo {
 	display: block;
 	margin: 0 auto;
-	margin-top: 90px;
+	margin-top: 100px;
 }
 
 .iconSmall {
