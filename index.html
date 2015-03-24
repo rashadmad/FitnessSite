@@ -5,6 +5,10 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
+        
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 
         <!-- // Change these to better suit your project -->
         <title>Fulton fithouse </title>
@@ -24,8 +28,8 @@
 
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
-        <script src="ribbion.js"></script>
 
+        
 
     </head>
 
@@ -37,16 +41,18 @@
   <nav>
       
         <div class="button_box"> 
-          <a href="#philosophy" class="butt"> Philosophy </a>
-          <a href="#success" class="butt"> Success </a>
-          <a href="#team"> Coaches </a> 
+          <a href="#philosophy" class="nav_buttons"> Philosophy </a>
+          <a href="#success" class="nav_buttons"> Success </a>
+          <a href="#team" class="nav_buttons"> Coaches </a>
+           <!-- chi town stars -->
           <img src="img/stars.svg">
-          <a href="#services"> Services </a>
-          <a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" target="_blank" title="">Schedule</a>
-          <a href="#join" class="butt"> Join </a>
+          <a href="#services" class="nav_buttons"> Services </a>
+          <a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title="">Schedule</a>
+          <a href="#join" class="nav_buttons"> Join </a>
+          
 
         </div> 
-        <div></div>
+       <img src="img/iconSmall.svg" alt="fulton fithouse logo" class="iconSmall" >
          
   </nav>
 
@@ -61,8 +67,9 @@
     <br>
       
       <div class="buttonsAA">  
-       <button class="main-buttons">EXPLORE</button>
-       <button class="main-buttons" id="join_butt">JOIN</button>
+
+       <a href="#philosophy" class="main-buttons">EXPLORE</a>
+       <a href="#join" class="main-buttons" id="join_butt">JOIN</a>
       </div>
        
 </section>
@@ -120,68 +127,59 @@
   <section class="page" id="services">
 
     <div class="services-block">
+    
     <img class="greyStars" src="img/greyStars.svg"/>
-      <h1 class="bg-line">SERVICES</h1>   
-      <div class="services">
+        
+        <h1 class="bg-line">SERVICES</h1>   
+            
+          <div class="services">
           
             <img class="assess" src="img/assessment.png">
-            <br>
-            <p class="services">
-             <strong class="services">GROUP TRAINING</strong>
-              <br>
-               <em>8:1 Client to Coach Ratio</em>
-              </p>
-              <p class="services">
-              Unlimited</p>
-              <p class="services">
-              or</p>  
-              <p class="services">
-              Per class use starting at <em>$300/month</em></p>   
-              <br>
             
-            <p class="services">
-              <br>
-              <strong class="services">SEMI-PRIVATE TRAINING</strong>
-              <br>
-              <p class="services">
-              <em>4:1 Client To Coach Ratio</em>
-               <p class="services">
-              Unlimited</p>
-              <p class="services">
-              or</p>  
-              <p class="services">
-              Per class use starting at <em>$400/month</em></p>   
-              <br>
-              </p>
-              <br>
-             <br>  
-          <p class="services">
-          <strong class="services">PRIVATE TRAINING</strong>
-             
-             <br>
-            <p class="services">
-              <em>1:1 Client TO Coach Ratio</em>
-             Packages Starting at <em>$110/Hour</em>  
-            </p>  
-             <br>
-          </p>
-          
-            <p class="services">
+            <div class="services-headers">
+             <p class="mid">GROUP TRAINING</p> 
+            </div>
+            <div class="services-headers"><p class="mid">SEMI-PRIVATE TRAINING</p> 
+            </div>
+            <div class="services-headers"><p class="mid">PRIVATE TRAINING</p> </div>
+            <br>
 
-              <strong class="services">CORPORATE PACKAGES</strong>
-              <br>
-              Inquire Via Email:
-              <em>Info@fultonfithouse.com</em> 
-              <br>
-              or
-              <br>
-              Call to schedule a consultation:
-              <br>
-              <em>312-243-1083</em> 
+            <div class="A">
+              <!-- <strong class="services">GROUP TRAINING</strong> 
+              <strong class="services">GROUP TRAINING</strong>-->
+              <p class="mid">8:1 Client to Coach Ratio</p> 
+              <p class="mid">Unlimited</p>
+              <p class="mid">or</p>
+              <p class="mid">Per class use starting at</p> 
+              <p class="mid">$300/month</p>
+            </div>   
+           
+            <div class="A">
+              <!--<strong class="services">SEMI-PRIVATE TRAINING</strong>-->
+              <p class="mid">4:1 Client To Coach Ratio</p>
+              <p class="mid">Unlimited</p>
+              <p class="mid">or</p>  
+              <p class="mid">Per class use starting at 
+              <p class="mid">$400/month</p>
+            </div>     
+              
+            <div class="A">
+              <!--<strong class="services">PRIVATE TRAINING</strong>--> 
+              <p class="mid">1:1 Client TO Coach Ratio</p>
+              <p class="mid">Packages Starting at</p> 
+              <p class="mid">$110/Hour</p>
+            </div>    
 
-            </p>   
-             <br>
+       
+               
+               
       </div>
+             
+              
+              
+              
+            
+         
   </section>
   
   <!--second between header-->
@@ -234,7 +232,7 @@
             <h3>Rick Pettit</h3>
             <strong>Corporate Client- Vail Systems</strong>
             <br>
-            <p class="black">"Working out at the Fit HOuse under the instruction of Mike has changed my life. I've lost over 50 lbs since I started, such that I not only look better, more strength, and more endurance than when I started. I've learned how to eat right, which will allow me to keep the weight off."</p>
+            <p class="black">"Working out at the Fit Houuse under the instruction of Mike has changed my life. I've lost over 50 lbs since I started, such that I not only look better, more strength, and more endurance than when I started. I've learned how to eat right, which will allow me to keep the weight off."</p>
           </div>
         </article>
       </div>
@@ -289,7 +287,7 @@
       <h1 class="bg-line">
         Meet The Team 
       </h1>
-      <p class="team-line">If you see your path to fitness as a expedition you will need a sherpa <br/></p>
+      <p class="team-line">If You See Your Path To Fitness As A Expedition You Will Need A Sherpa <br/></p>
       
       <div class="team-grid">
         
@@ -395,8 +393,9 @@
 
 <!--dont let this confuse you its just a map from google-->
     <map>
-      <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:600px;"><div id="gmap_canvas" style="height:500px;width:600px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://wordpress-themes.org" id="get-map-data">wordpress-themes.org</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(41.886571,-87.64845910000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.886571, -87.64845910000003)});infowindow = new google.maps.InfoWindow({content:"<b>fulton fithouse</b><br/>821 W Fulton Market<br/> chicago" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+      <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:400px;width:500px;"><div id="gmap_canvas" style="height:500px;width:600px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://wordpress-themes.org" id="get-map-data">wordpress-themes.org</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(41.886571,-87.64845910000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.886571, -87.64845910000003)});infowindow = new google.maps.InfoWindow({content:"<b>fulton fithouse</b><br/>821 W Fulton Market<br/> chicago" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
     </map>
+    <p class="right"> The Fulton Fithouse is a members only gym we keep a safe a encouraging environment as a standard. Our group sessions are full of encouraging and non-judgmental athletes who know allot about health and fitness. If your a person who wants to be apart of the family contact us <a href="mailto:info@fultonfithouse.com">here.</a></p>
         <article class="form-container">
           <form>
             

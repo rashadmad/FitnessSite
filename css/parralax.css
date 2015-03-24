@@ -74,10 +74,10 @@ ul {
 }
 
 .iconSmall {
-	position: absolute;
-	float: left;
-	margin-top: 15px;
-	margin-left: 10px;
+	display:none;
+	margin: 0 auto;
+	margin-top: 10px;
+
 }
 
 
