@@ -1,5 +1,15 @@
 
 
+@-webkit-keyframes example {
+    from {display:block;}
+    to {visibility: hidden;}
+}
+
+@keyframes example {
+    from {display:block;}
+    to {visibility: hidden;}
+}
+
 
 table {
 
@@ -33,20 +43,7 @@ ul {
 
 
 
-.main-buttons {
 
-	display: inline;
-	border-style: solid;
-	border-width: 5px;
-	font-size: 14px;
-	color: #444444;
-	font-family: "Oswald";
-	margin: 5px;
-	padding: 7px;
-
-
-	
-}
 
 
 .button_box {
@@ -66,19 +63,11 @@ ul {
 }
  
 
-
-.logo {
-	display: block;
+display: block;
 	margin: 0 auto;
-	margin-top: 100px;
-}
 
-.iconSmall {
-	display:none;
-	margin: 0 auto;
-	margin-top: 10px;
 
-}
+
 
 
 .stars{

@@ -7,18 +7,17 @@
 
 section#home {
 	
-	height: 370px;
+	
+	background-image: url("../img/fithouseIMG1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
 	
 	
 	
 }
 
-section#video {
-	margin-top: 80px;
-	height: 960px;
-	background-color: black;
-	
-}
+
 
 
 
@@ -119,7 +118,7 @@ section#success {
 
 section#services {
 	 padding: 5.625em 0;
-	 height: 1500px;
+	 height: 1600px;
 	 
 	 background-image: url("../img/fithouse.050511.rhr09.jpg");
 	 background-size: cover;
