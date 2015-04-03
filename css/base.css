@@ -3,20 +3,10 @@
 @import "mediaQueries.css";
 
 
-.logo {
-	
-	text-align: center;
-	margin-top: 100px;
-	
-	
-	
 
-	
-}
 
 body {
-	 font-size: 1em;
-	 line-height: 1.5em;
+	 
 	 color: black;
 	 background-color: #ffffff;
 }
@@ -43,12 +33,36 @@ nav {
 
 }
 
-div.button_boxA {
-	float: left;
-	margin-left: 45%;	
+header {
 	
+	text-align: center;
+	margin: 5px;
+	width:100%;
+	font-size: 1em;
+	font-family: "Oswald";
+	font-style: normal;	
 
 }
+
+
+.logo {
+	
+	text-align: center;
+	margin-top: 100px;
+	
+	
+	
+
+	
+}
+
+.main-button-box {
+	text-align: center;
+	margin: 0 auto;
+
+}          
+
+
 
 
 a.main-buttons {
@@ -67,7 +81,8 @@ a.main-buttons {
 a.main-buttons:hover {
 
 	color: black;
-	background-color: #ffffff;
+	background-color: white;
+	
 	-webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
@@ -79,21 +94,12 @@ a.main-buttons:hover {
 header{
 
 	text-align: center ;
-}
-
-
-
-.social_icons {
-
-	max-width: 25%;
-	max-height: 25%;
-	
-	cursor: pointer;
-	text-align: center;
-
-	
 	
 }
+
+
+
+
 
 .iconSmall {
 	
@@ -166,47 +172,59 @@ font-size: 1.3em;
 }
 
 
-.wrapper-services{
 
-	width: 100%;
+
+
+
+.services-list{
+
+	width:100%;
+	float: left;
 }
 
+
 .A{
-display: inline;
+
 text-align: center;
-width: 25%;
 margin: 0 auto;
+width:33.33333333333333%;
 float: left;
+
+
 
 }
 
 .B{
-display: none;
+display: inline;
 text-align: center;
 width: 100%;
 margin: 0 auto;
-margin-left: 100px;
-
-
+float: left;
+margin-left: 6%;
 
 
 }
 
-#C{
-text-align: center;
-width: 25%;
+ul.services-list {
+overflow: auto;
+list-style-type: none; 
+width: 100%;
+list-style: none;
+}
+
+li{
 float: left;
-margin: 0 auto;
 
 }
 
-#D{
-text-align: center;
-width: 100%;
-float: left;
-margin: 0 auto;
-margin-left: 25%;
-margin-top: 20px;
+
+.ribbion {
+	background-color: #444444;
+	padding: 10px;
+	left-padding: 10px;
+	right-padding: 10px;
+
+
 }
 
 
@@ -234,20 +252,6 @@ margin-left: 45px;
 
 
 
-
-
-
-
-
-footer { 
-	color: #ffffff;
-	background-color: #444444;
-	height: 100px;
-	text-align: center;
-	padding-top: 10px;
-	font-family: "Lato";
-
-}
 
 
 
@@ -296,29 +300,18 @@ p.callout {
 	 margin: 0 0 0 0;
 	 font-family: "Lato";
 	 text-align: center;
-	 width: 1260.40625px;
+	 width: 100%;
 	 font-weight: 300;
 	 font-style: normal;
 	 color: #444444;
 }
 
-footer p.callout {
-	 margin-left: 20%;
-	 font-size: 2.7em;
-	 line-height: 2em;
-	 margin-left: 10%;
-	 color: rgba(51, 51, 51, 1);
-	 font-family: "Oswald";
-	 text-align: center;
-	 width: 1260.40625px;
-	 font-weight: 300;
-	 font-style: normal;
-	 color: #ffffff;
-}
+
 
 
 h1 {
 	 font-weight: 700;
+	 font-family: "Lato";
 	 font-size: 3.75em;
 	 line-height: 1em;
 	 margin: 0 0 1.5em 0;
@@ -327,6 +320,17 @@ h1 {
 	 text-align: center;
 	 color: #ffffff;
 	 
+}
+
+h1.testimonials {
+
+	font-size: 2em;
+
+}
+
+.name {
+
+	margin-bottom: 5px;
 }
 
 h1:before {
@@ -356,7 +360,7 @@ h1.bg-line:before {
    border-top: 1px solid #ffffff;
    content: "";
    display: inline-block;
-   position: relative;
+   
    vertical-align: middle;
    width: 50%;
    margin-left: -50%;
@@ -367,13 +371,15 @@ h1.bg-line:after {
    border-top: 1px solid #ffffff;
    content: "";
    display: inline-block;
-   position: relative;
+   
    vertical-align: middle;
    width: 50%;
    left: .5em;
    margin-right: -50%;
 
 }
+
+
 
 h2 {
 	 font-size: 1.875em;
@@ -382,20 +388,33 @@ h2 {
 	 text-transform: uppercase;
 	 letter-spacing: 2px;
 	 text-align: left;
-	 font-family: Oswald;
-	 font-weight: 400;
+	 font-family: "Lato";
+	 font-weight: 200;
 	 font-style: normal;
+
 	 color: #ffffff;
-	 
+	 text-align: center;
 	 
 
+}
+
+h2.bg-line {
+   overflow: hidden;
+   font-family: "Futura W02 Bold";
+   font-size: 5.69em;
+   line-height: 1em;
+   margin: 0px 0px 30px 0px;
+   color: rgba(255, 255, 255, 1);
+   letter-spacing: 10px;
+   white-space: nowrap;
+   display:none;
 }
 
 h2.bg-line:before {
 	 border-top: 1px solid #d4d4d4;
 	 content: "";
 	 display: inline-block;
-	 position: relative;
+	
 	 vertical-align: middle;
 	 width: 50%;
 	 margin-left: -50%;
@@ -407,7 +426,7 @@ h2.bg-line:after {
 	 border-top: 1px solid #d4d4d4;
 	 content: "";
 	 display: inline-block;
-	 position: relative;
+	 
 	 vertical-align: middle;
 	 width: 50%;
 	 left: 2em;
@@ -416,15 +435,7 @@ h2.bg-line:after {
 
 
 
-h2.bg-line {
-   overflow: hidden;
-   font-family: "Futura W02 Bold";
-   font-size: 5.69em;
-   line-height: 1em;
-   margin: 0px 0px 30px 0px;
-   color: rgba(255, 255, 255, 1);
-   letter-spacing: 10px;
-}
+
 
 footer h2{
 	text-align: center;
@@ -434,15 +445,22 @@ footer h2{
 
 
 h3 {
-	 font-size: 1.5em;
+	 font-size: .8em;
 	 line-height: 1.25em;
 	 margin: 0 0 0 0;
 	 font-family: Oswald;
 	 color: #444444;
-	 width: 676.0625px;
+	 text-align: center;
 	 font-weight: 400;
 	 font-style: normal;
 	 letter-spacing: 4px;
+	 text-align: center;
+
+}
+
+h3.team {
+	color: white;
+	
 }
 
 ul {
@@ -487,15 +505,16 @@ p.quote {
 
 	 line-height: 1.111em;
 	 font-size: 1.7em;
-	 float: right;
+	 float: left;
 	 padding: 10px;
 	 color: white;
 	 text-align: left;
 	 font-family: "Lato";
-	 width: 100%;
+	 max-width: 100%;
 	 font-weight: 100;
 	 font-style: normal;
 	 margin: 5px;
+
 	 
 	 
 
@@ -555,14 +574,32 @@ a.nav_buttons:focus {
 	 border-bottom: none;
 }
 
-#philosophy_em {
-	 	
-	 text-align: center;
-
-}
 
 em {
 	color: white;
+	font-style: italic;
+	font-size: .75em;
+}
+
+.philosophy {
+
+	text-align: center;
+	
+}
+
+#philosophy_em {
+	 	
+	 
+text-align: center;
+margin: 0 auto;
+width:100%;
+font-size: 1.3em;
+font-family: "Lato";
+font-style: normal;	
+
+color: white;
+
+
 }
 
 strong {
@@ -570,7 +607,7 @@ strong {
 	 font-weight: 200;
 	 font-family: "Oswald";
 	 font-style: italic;
-	 font-size: ;
+	 
 	 
 
 }
@@ -595,7 +632,7 @@ img {
 
 }
 
-.philosophy-block {
+.philosophy {
 	
 	padding: 35px;
 	word-wrap: break-word;
@@ -617,11 +654,10 @@ font-style: normal;
 
 
 p.has {
-float: left;
-width: 65%;
-text-align: center;
-margin-left: 220px;
 
+text-align: center;
+margin: 0 auto;
+width:100%;
 font-size: 1.5em;
 font-family: "Oswald";
 font-style: normal;	
@@ -667,10 +703,11 @@ p.emph {
 
 
 
-.philosophy { 
+.success { 
 
-	float: right;
-	margin-right: 50px;
+	
+	background-color: rgba(230,230,230,0.8);
+	
 
 }
 
@@ -695,16 +732,16 @@ p.tagline {
 }
 
 p.team-emph {
-	 font-size: 1.5em;
+	 font-size: .5em;
 	 line-height: 1.25em;
 	 margin: 0 0 0 0;
 	 margin-bottom: 0;
 	 text-align: center;
-	 width: 425.703125px;
+	 
 }
 
 div.circular {
-	 width: 100%;
+	 width: 90%;
 	 margin: 0 0 1.875em 0;
 	 padding: 0 3.125em;
 }
@@ -713,14 +750,17 @@ img.avatar {
 	 -webkit-border-radius: 50%;
 	 -moz-border-radius: 50%;
 	 border-radius: 50%;
-	 border: 1em solid #d4d4d4;
+	 border: .5em solid #d4d4d4;
+	 text-align: center;
 }
 
 ul.col-3-css {
 	 -webkit-column-count: 3;
 	 -moz-column-count: 3;
+
 	 -webkit-column-gap: 2.222em;
 	 -moz-column-gap: 2.222em;
+
 	 text-align: center;
 	 list-style: none;
 	 margin: 0;
@@ -751,7 +791,7 @@ map:hover {
 
 .form-container {
 
-	position: relative;
+	
 	float: right;
 	margin-bottom: 100px;
 	width: 100%;
@@ -770,7 +810,7 @@ form {
 	line-height: 24px;
 	text-decoration: none;
 	margin:auto;
-	position:relative;
+	
 	padding:10px;
 	font-family: "Oswald";
 	margin-top: 13px;
@@ -837,7 +877,7 @@ label[for=check1] {
     margin-top: 50px;
     display: inline-block;  
     cursor: pointer;  
-    position: relative;  
+     
     padding-left: 25px;  
     margin-right: 15px;  
     font-size: 13px; 
@@ -845,7 +885,7 @@ label[for=check1] {
 }
 
 #special {
-	position: relative;
+	
 	bottom: 20px;
 	
 }
@@ -924,7 +964,7 @@ textarea {
 }
 
 div.wrapper {
-	 width: 1280px;
+	 width: 100%;
 	 margin: 0 auto;
 }
 
@@ -935,12 +975,13 @@ footer div.wrapper{
 }
 
 div.grid-unit {
-	 position: relative;
+	
 	 width: 33.33%;
 	 float: left;
 	 display: inline;
 	 margin: 0px 0px 1.8em 0px;
 	 padding-left: 20px;
+
 
 }
 
@@ -956,12 +997,13 @@ ol.process {
 li.process-item {
 	 margin-bottom: 1.875em;
 	 clear: both;
-	 width
+
+	
 
 }
 
 div.process-number {
-	 position: relative;
+	 
 	 margin: 0;
 	 float: left;
 	 display: inline;
@@ -971,7 +1013,7 @@ div.process-number {
 }
 
 div.process-content {
-	 position: relative;
+	 
 	 margin: 0;
 	 float: left;
 	 display: inline;
@@ -980,8 +1022,9 @@ div.process-content {
 	 padding-right: 25.78125%;
 	 padding-top: 1em;
 	 color: black;
-	 margin-left: 7%;
+	 margin-left: 20%;
 	 margin-bottom: 40px;
+
 
 }
 
@@ -1014,8 +1057,11 @@ span.circle {
 	 font-family: "Lato";
 }
 
+
+
+
 div.grid-unit1 {
-	 position: relative;
+	 
 	 margin-left: 0;
 	 width: 48%;
 	 float: left;
@@ -1025,7 +1071,7 @@ div.grid-unit1 {
 }
 
 div.grid-unit2 {
-	 position: relative;
+	 
 	 margin-left: 0;
 	 width: 48%;
 	 float: right;
@@ -1038,7 +1084,8 @@ div.grid-unit2 {
 .team{
 
 	color: white;
-
+	float: left;
+	
 }
 
 
@@ -1149,7 +1196,7 @@ div.circle:after {
 }
 
 li {
-	 color: rgba(255, 255, 255, 1);
+	 color: #444444;
 }
 
 section.slice:before {
@@ -1226,11 +1273,7 @@ p.members {
 	 text-align: left;
 }
 
-p.team-line {
-	 width: 1269.3125px;
-	 text-align: center;
-	 font-size: 28px;
-}
+
 
 p.join {
 	width: 608.921875px;
@@ -1239,14 +1282,7 @@ p.join {
 	 font-style: normal;
 }
 
-p.philosophy {
-	 width: 608.921875px;
-	 font-family: "Lato";
-	 font-weight: 100;
-	 font-style: normal;
-	 word-wrap: break-word;
 
-}
 
 p.join {
 	 width: 683.3125px;
@@ -1254,12 +1290,10 @@ p.join {
 
 
 p.process {
-	 width: 683.3125px;
+	 width: 783.3125px;
 }
 
-h3.team {
-	 width: 435.703125px;
-}
+
 
 h1.intro-h1 {
 	 text-align: center;
@@ -1289,7 +1323,7 @@ div.half {
 
 
  
-.buttonsAA {
+.front-page-buttons {
 	
 	text-align: center;
 	margin: 0;
@@ -1306,24 +1340,49 @@ div.half {
 	padding-right: 20px;
 }
 
-#right {
-	
-	margin-left: 100px
 
-
-}
 
 .right {
 
 	float:left;
 	width: 40%;
 	margin-left: 42px;
-	border-bottom: 1px solid #ccc;
-	padding-bottom: 20px;
+	
 }
 
 .mid {
 
 	text-align: center;
 	font-size: 1.3em;
+	float:left;
+}
+
+.social_icons {
+
+	max-width: 25%;
+	max-height: 25%;
+	
+	cursor: pointer;
+	text-align: center;
+
+	
+	
+}
+
+
+
+
+
+footer { 
+	color: #ffffff;
+	background-color: #444444;
+	height: 100px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: "Lato";
+
+}
+
+.white {
+	color: #ffffff;
 }
