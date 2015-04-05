@@ -149,7 +149,8 @@ header{
 .services {
 
    
-  display:block; 
+  margin: 20px;
+  padding: 20px;
 
 	
 
@@ -282,7 +283,7 @@ p.callout {
 	 margin: 0 0 0 0;
 	 font-family: "Lato";
 	 text-align: center;
-	 width: 100%;
+	 margin-left: 40px;
 	 font-weight: 300;
 	 font-style: normal;
 	 color: #444444;
@@ -292,7 +293,7 @@ p.callout {
 
 
 h1 {
-	 font-weight: 700;
+	 font-weight: 800;
 	 font-family: "Lato";
 	 font-size: 3.75em;
 	 line-height: 1em;
@@ -374,6 +375,8 @@ h2 {
 	 font-family: "Lato";
 	 font-weight: 200;
 	 font-style: normal;
+	 width: 50%;
+	 margin-left: 25%;
 
 	 color: #ffffff;
 	 text-align: center;
@@ -390,7 +393,7 @@ h2.bg-line {
    color: rgba(255, 255, 255, 1);
    letter-spacing: 10px;
    white-space: nowrap;
-   display:none;
+   
 }
 
 h2.bg-line:before {
@@ -402,6 +405,7 @@ h2.bg-line:before {
 	 width: 50%;
 	 margin-left: -50%;
 	 right: 2em;
+	 display:none;
 
 }
 
@@ -414,6 +418,7 @@ h2.bg-line:after {
 	 width: 50%;
 	 left: 2em;
 	 margin-right: -50%;
+
 }
 
 
@@ -432,7 +437,7 @@ h3 {
 	 line-height: 1.25em;
 	 margin: 0 0 0 0;
 	 font-family: Oswald;
-	 color: #444444;
+	 color: white;
 	 text-align: center;
 	 font-weight: 400;
 	 font-style: normal;
@@ -588,6 +593,7 @@ strong {
 	 font-weight: 200;
 	 font-family: "Oswald";
 	 font-style: italic;
+	 white-space: nowrap;
 	 
 	 
 
@@ -601,11 +607,39 @@ img {
 	 margin: 0;
 }
 
-#achieve_img {
+.img-media-list {
+
+	background-color: rgba(255,255,255, .8);
+
+}
+
+.success-quote {
+	font-size: 12px;
+	text-align: center;
+    font-weight: normal;
+    
+}
+
+
+.success-wrapper {
+
+	float: left;
+	margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.success-img {
 	border-width: 5px;
 	border-style: solid;
 	border-color: white;
-	float: left;
+	
+	height: 180px;
+	width: 180px;
+	margin: 10px;
 }
 
 .services-block{
@@ -678,7 +712,13 @@ p.emph {
 
 }
 
+.philosophy-block {
 
+	padding: 35px;
+	word-wrap: break-word;
+
+
+}
 
 
 
@@ -688,15 +728,26 @@ p.emph {
 
 	
 	background-color: rgba(230,230,230,0.8);
+	background-color: #ffffff;
 	
 
 }
 
-.philosophy-block {
+.success-name {
 
-	padding: 35px;
-	word-wrap: break-word;
+	font-size: 22px;
+}
 
+.success-name:after {
+
+	
+}
+
+p.join-quote {
+
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
 
 }
 
@@ -757,10 +808,10 @@ ul.col-3-css {
 }
 
 map {
-	display: none;
+	
 	float: left;
 	
-	margin-left: 10%;
+	margin-left: 20px;
 	box-shadow: 1px 0px 0px 11px #D1D1D1;
 	-webkit-box-shadow: 1px 0px 0px 11px #D1D1D1;
 	-moz-box-shadow: 1px 0px 0px 11px #D1D1D1;
@@ -918,6 +969,7 @@ input[type=checkbox] {
 p.black{
 
 	color: black;
+	display:none;
 }
 
 
@@ -980,9 +1032,7 @@ div.grid-unit {
 
 }
 
-p.process{
-	width: 100%;
-}
+
 
 ol.process {
 	 list-style: none;
@@ -990,6 +1040,7 @@ ol.process {
 	 font-size: 1em;
 	 line-height: 1em;
 	 overflow: hidden;
+
 	 
 }
 
@@ -997,7 +1048,13 @@ li.process-item {
 	 margin-bottom: 1.875em;
 	 clear: both;
 
+
 	
+
+}
+
+h2.process-h2	{
+
 
 }
 
@@ -1016,8 +1073,8 @@ div.process-content {
 	 margin: 0;
 	 float: left;
 	 display: inline;
-	 width: 35%;
 	 
+	 width: 100%;
 	 padding-right: 25.78125%;
 	 padding-top: 1em;
 	 color: black;
