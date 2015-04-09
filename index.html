@@ -2,7 +2,7 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         
@@ -29,6 +29,10 @@
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <script type="text/javascript" src="js/smoothScroll.js"></script>
+
+         
         
     </head>
 
@@ -43,22 +47,25 @@
    <!-- top navigation -->
   <nav>
       
-        <div class="button_box"><a href="#home"><img src="img/iconSmall.svg" alt="fulton fithouse logo" class="iconSmall" ></a> 
-          <a href="#philosophy_between" class="nav_buttons"> Philosophy </a>
-          <a href="#services_between" class="nav_buttons"> Services </a>
-          <a href="#success_between" class="nav_buttons"> Success </a>
+      <img class="stars" src="img/stars.svg">
+        <a href="#home"><img src="img/iconSmall.svg" alt="fulton fithouse logo" class="iconSmall" ></a>
+        <input type="image" src="img/menu.svg" name="saveForm" class="menu_butt"/>
+      
+      <table> 
+        <ul>  
+          <li><a href="#philosophy_between" class="nav_buttons"> Philosophy </a></li>
+          <li><a href="#services_between" class="nav_buttons"> Services </a></li>
+          <li><a href="#success_between" class="nav_buttons"> Success </a></li>
            <!-- chi town stars -->
-          <img src="img/stars.svg">
-          <a href="#team_between" class="nav_buttons"> Coaches </a>
-          <a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title="">Schedule</a>
-          <a href="#process_between" class="nav_buttons"> Process </a>
-          <a href="#join_between" class="nav_buttons"> Join </a>
-        </div>
+          <li><img class="nav_buttons" id="stars" src="img/stars.svg"></li>
+          <li><a href="#team_between" class="nav_buttons"> Coaches </a></li>
+          <li><a href="#process_between" class="nav_buttons"> Process </a></li>
+          <li><a href="#join_between" class="nav_buttons"> Join </a></li>
+          <li><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title="">Schedule</a></li>
+        </table>
+      </div>
           
-  </nav>
-
-         
-       
+  </nav> 
          
   
 
@@ -68,7 +75,8 @@
 
       <header>
           <img src="img/icon.svg" alt="fulton fithouse logo" class="logo" >
-          <p class="intro-paragraph" data-id="5216ca3a-712e-4cc7-9b23-dee463e5a593">Sustaniable fitness in a venue that feels like home</p> 
+          <p class="intro-paragraph" data-id="5216ca3a-712e-4cc7-9b23-dee463e5a593">Sustaniable fitness in a venue that feels like home</p>
+
       </header>
     <br>
       
@@ -87,10 +95,7 @@
   <section class="between" id="philosophy_between">
     <div class="wrapper">
       <p class="callout">
-        
-         
          Our Program Is Built To Be The Cornerstone Of A Life Long Commitment To Fitness
-     
       </p>
     </div>
   </section>
@@ -219,11 +224,11 @@
         <article class="img-media-list">
           
           <div class="success-wrapper">
-            <img class="success-img" src="img/achievement1.jpg"/>
+            <img class="success-img" src="img/achievement1.jpg" />
             <br>
             <h3 class="success-name">Paul Kahan</h3>
             <br>
-              <strong class="white">Executive Chef/Partner - <br>One Off Hospitality Group</strong>
+              <strong class="white">Executive Chef/Partner</strong>
               <p class="success-quote">"As a professional Chef diet and exercise is challenging, at 48 years old I needed to make a commitment to live a long, Healthy life. Fulton Fit House is that commitment."</p>
           </div>
           
@@ -360,9 +365,10 @@
 
 
           <div class="process-content">
-            <h2 class="process-h2">ASSESS</h2>
             <br>
-            <p class="boldProcess">Races, Marathons, Obstacle courses</p>
+            <p class="process-h2">ASSESS</p>
+            <br>
+            <p class="boldProcess">- Races, Marathons, Obstacle courses</p>
             <p class="process">We improve the quality of our members lives. We get to know you, find out about your prior workout history, injuries and any sourness. Allowing us to develop a sustainable diet and regimen that suites you. We work with you to set realistic goals. Then we connect you to others with similar goals.</p>
           </div>
         </li>
@@ -374,9 +380,9 @@
           </div>
           <div class="process-content">
             <br>
-            <h2 class="process-h2">Engage</h2>
+            <p class="process-h2">Engage</p>
             <br>
-            <p class="boldProcess">Cardio, Strength-training, Diet</p>
+            <p class="boldProcess">- Cardio, Strength-training, Diet</p>
             <p class="process">We use a mix of traditional and circuit styled training. Either with a group or privately with our certified coaches. We implement functional fitness through traditional strength and endurance training coupled with analytics driven testing and. We keep you on your toes with unconventional work outs that have influences in Muay Thai(kick boxing)  provide Overall we work with you to foster sustainable growth and a life transformation. </p>
           </div>
         </li>
@@ -387,9 +393,9 @@
             </div>
           </div>
           <div class="process-content">
-            <h2 class="process-h2">Perform</h2>
+            <p class="process-h2">Perform</p>
             <br>
-            <p class="boldProcess">Races, Marathons, Obstacle courses</p>
+            <p class="boldProcess">- Races, Marathons, Obstacle courses</p>
             <p class="process">We stronglly encourage all members to put our training to the test throungh marathons, competative sports, obstacle cources or any other things that were to hard for you to do before. Once you accomplish what you want with fitness who know what else you can accomplish. 
           </div>
  </section>
@@ -512,20 +518,23 @@
   
 </body>
 
-        <script>
-          $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-         var target = $(this.hash);
-         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-         if (target.length) {
-          $("html, body").animate({
-          scrollTop: target.offset().top
-        }, 1800);
-        return false;
-      }
-    }
-  });
+<script>
+  
+  var $select = $("<select></select>");
+  var $option = $("<option></option>");
+  var $option = $(this);
+  
+  $(".button_box").append($select);  
+  $(".button_box a").each(function(){}
+  
+
+  
+
+  $option.val($anchor.attr("href"));
+  $option.text($anchor.text());
+
+  $select.append($option);
 });
-        </script>
+</script>
+
 </html>

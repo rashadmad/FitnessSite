@@ -13,7 +13,8 @@
 
 table {
 
-	display: inline;
+margin: 0 auto;
+
 }
 
 button {
@@ -35,8 +36,7 @@ button {
 
 ul {
 
-	float: left;
-	margin-left: 200px;
+	
 	font-family: "Oswald";
 	
 }

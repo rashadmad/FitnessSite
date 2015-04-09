@@ -18,6 +18,11 @@
 	
 }
 
+#responsive_nav {
+ height: 1200px;
+ background-color: black;
+}
+
 section#ethos {
 	 padding: 5.625em 0;
 	 
@@ -106,9 +111,9 @@ section#philosophy {
 }
 
 section#success {
-	height: 1300px;
+	height: 1500px;
 	background-image: url("../img/fithouseIMG2.jpg");
-	 background-size: cover;
+	background-size: cover;
 }
 
 section#services {

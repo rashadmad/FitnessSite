@@ -13,8 +13,7 @@ body {
 
 nav { 
 	  position: fixed;
-  	  top: 0;
-      left: 0;
+
       z-index: 9999;
       width: 100%;
       background-color: #00a087;
@@ -33,10 +32,13 @@ nav {
 
 }
 
+
+
 header {
 	
 	text-align: center;
 	margin: 5px;
+	margin-top: 10px;
 	width:100%;
 	font-size: 1em;
 	font-family: "Oswald";
@@ -49,6 +51,7 @@ header {
 	
 	text-align: center;
 	margin-top: 100px;
+
 	
 	
 	
@@ -97,13 +100,21 @@ header{
 	
 }
 
+.menu_butt {
+	
+	float: right;
+	margin-left: 20px;
+	margin-top: 15px;
 
+}
 
 
 
 .iconSmall {
 	
 	float: left;
+	margin: 5px;
+	margin-top: 19px;
 
 
 	
@@ -111,27 +122,27 @@ header{
 
 }
 
-.button_box {
-	
 
-	display: block;
-	text-align: center;
-	
-	margin: 0 auto;
-	
-	margin-top: 10px;
-	margin-right: 200px;
-	///border-top: solid #ffffff 2px;
+
+
+
+
+
+ul {
+	margin-left: 32%;
+	margin-top: 14px;
 
 }
 
-.stars {
-
+ul li {
+	display: inline;
+}	
+	
 	
 
-	display: block;
 
-}
+
+
 
 .assess {
 	display: block;
@@ -140,10 +151,25 @@ header{
 	
 }
 
+#stars {
+	
+
+
+}
+
+.stars {
+
+	float: left;
+	margin-left: 48%;
+	margin-top: 23px;
+	
+}
+
 .greyStars {
 
 	display: block;
 	margin: 0 auto;
+
 }
 
 .services {
@@ -188,12 +214,7 @@ margin-left: 6%;
 
 }
 
-ul.services-list {
-overflow: auto;
-list-style-type: none; 
-width: 100%;
-list-style: none;
-}
+
 
 li{
 float: left;
@@ -218,7 +239,7 @@ float: left;
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 1em;
-	
+	margin-right: 20px;
 	margin: 0 auto;
 	
 }	
@@ -303,6 +324,7 @@ h1 {
 	 text-align: center;
 	 color: #ffffff;
 	 padding: 20px;
+
 	 
 }
 
@@ -349,6 +371,7 @@ h1.bg-line:before {
    width: 50%;
    margin-left: -50%;
    right: 1em;
+
 }
 
 h1.bg-line:after {
@@ -406,6 +429,7 @@ h2.bg-line:before {
 	 margin-left: -50%;
 	 right: 2em;
 	 display:none;
+	 
 
 }
 
@@ -418,6 +442,8 @@ h2.bg-line:after {
 	 width: 50%;
 	 left: 2em;
 	 margin-right: -50%;
+	 display:none;
+	 
 
 }
 
@@ -451,13 +477,11 @@ h3.team {
 	
 }
 
-ul {
-	 font-size: 1.125em;
-	 line-height: 1.667%;
-	 margin: 0 0 1.667em 3.333em;
-	 list-style: disc outside;
-	 
+h3.white {
+	font-size:1.4em;
 }
+
+
 
 ol {
 	 font-size: 1.125em;
@@ -467,9 +491,7 @@ ol {
 }
 
 
-table {
-	display: block;
-}
+
 
 
 
@@ -520,13 +542,12 @@ p.quote {
 }
 
 a.nav_buttons {
-	 color: rgba(206, 200, 200, 1);
-	 text-decoration: none;
-	 border-bottom: 1px solid #444;
-	 outline: 0;
-	 text-align: center;
-	 width: 589.0458984375px;
-	 padding:5px;
+	color: rgba(206, 200, 200, 1);
+	text-decoration: none;
+	border-bottom: 1px solid #444;
+	outline: 0;
+	text-align: center;
+    padding:5px;
   	color: white;
   	background: none;
   	border: 0;
@@ -590,6 +611,7 @@ color: white;
 
 strong {
 	
+	 font-size: 100%;
 	 font-weight: 200;
 	 font-family: "Oswald";
 	 font-style: italic;
@@ -614,9 +636,10 @@ img {
 }
 
 .success-quote {
-	font-size: 12px;
+	font-size: 1em;
 	text-align: center;
     font-weight: normal;
+    
     
 }
 
@@ -637,7 +660,7 @@ img {
 	border-style: solid;
 	border-color: white;
 	
-	height: 180px;
+	height: auto;
 	width: 180px;
 	margin: 10px;
 }
@@ -726,7 +749,7 @@ p.emph {
 
 .success { 
 
-	
+	margin-left: 20px;
 	background-color: rgba(230,230,230,0.8);
 	background-color: #ffffff;
 	
@@ -764,7 +787,7 @@ p.tagline {
 }
 
 p.team-emph {
-	 font-size: .5em;
+	 font-size: 1em;
 	 line-height: 1.25em;
 	 margin: 0 0 0 0;
 	 margin-bottom: 0;
@@ -784,22 +807,10 @@ img.avatar {
 	 border-radius: 50%;
 	 border: .5em solid #d4d4d4;
 	 text-align: center;
+	 height: auto;
 }
 
-ul.col-3-css {
-	 -webkit-column-count: 3;
-	 -moz-column-count: 3;
 
-	 -webkit-column-gap: 2.222em;
-	 -moz-column-gap: 2.222em;
-
-	 text-align: center;
-	 list-style: none;
-	 margin: 0;
-	 column-count: 3;
-	 column-gap: 2.222em;
-	 line-height: 1.83em;
-}
 
 #join-quote {
 
@@ -809,7 +820,7 @@ ul.col-3-css {
 
 map {
 	
-	float: left;
+	
 	
 	margin-left: 20px;
 	box-shadow: 1px 0px 0px 11px #D1D1D1;
@@ -879,40 +890,6 @@ textarea:{
 }
 
 
-input {
-	
-	width:450px;
-	margin: 5px;
-	height: 50px;
-	border: none;
-	line-height: 24px;
-	background-color: #D1D1D1;
-	border-color: #444444;
-	margin: 10px;
-
-	
-
-}
-
-input:hover{
-
-	-webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-
-	border-style: solid;
-	border-width: 3px;
-	
-}
-
-input:focus{
-
-	border-style: solid;
-	border-width: 3px;
-	outline:0;
-	
-}
 
 label {
 	margin: .5px;
@@ -1035,6 +1012,7 @@ div.grid-unit {
 
 
 ol.process {
+
 	 list-style: none;
 	 margin: 0;
 	 font-size: 1em;
@@ -1053,9 +1031,10 @@ li.process-item {
 
 }
 
-h2.process-h2	{
+p.process-h2	{
 
-
+	float: left;
+	font-size: 2em;
 }
 
 div.process-number {
@@ -1285,7 +1264,7 @@ p {
 
 
 p.process {
-	 
+	 float: left;
 }
 
 
