@@ -14,9 +14,6 @@
 
 
 
-.img-media-list {
-	
-}
 
 #responsive_nav {
  height: 1200px;
@@ -34,15 +31,16 @@ section#home {
 	
 	background-image: url("../img/fithouseIMG1.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 900px;
-	width: 100%;
+	height: 20px;
+	background-size: 100% 100%;
+	background-position: 0 90px;
 		
 }
 
 section#philosophy {
 	
 	background-image: url(fithouseIMG5.jpg);
+
 
 
 }
@@ -105,23 +103,26 @@ section#team {
 section#philosophy {
 	
 	 background-image: url("../img/fithouseIMG5.jpg");
-	 background-size: cover;
-	 height: 900px;
+	 background-color: black;
+	 background-repeat: no-repeat;
+	 background-size: fit;
+	 height: 1155px;
+	 background-size: 100% 300px;
 
 }
 
 section#success {
-	height: 1500px;
+	height: 1600px;
 	background-image: url("../img/fithouseIMG2.jpg");
 	background-size: cover;
 }
 
 section#services {
 	 padding: 5.625em 0;
-	 height: 1400px;
-	 
+	 height: 1950px;
 	 background-image: url("../img/fithouse.050511.rhr09.jpg");
 	 background-size: cover;
+	 background-size: 100% 100%;
 	 outline: 3.5px solid white;
   	 outline-offset: -21px;
 

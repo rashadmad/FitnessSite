@@ -12,13 +12,14 @@ body {
 }
 
 nav { 
+	  
 	  position: fixed;
-
+	  top:0;
       z-index: 9999;
       width: 100%;
       background-color: #00a087;
 	  color: #ffffff;
-	  height: 85px;
+	  height: 115px;
 	  background: #444444; /* Old browsers */
 	  background: -moz-linear-gradient(top,  #444444 0%, #444444 80%, #24cfe5 80%, #24cfe5 100%); /* FF3.6+ */
 	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(80%,#444444), color-stop(80%,#24cfe5), color-stop(100%,#24cfe5)); /* Chrome,Safari4+ */
@@ -32,14 +33,71 @@ nav {
 
 }
 
+.nav-wrapper {
+ text-align: center;
 
+}
+
+ul#desktop-nav {
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+ul#mobile-nav {
+
+	text-align: center;
+
+}
+
+
+
+a.main-buttons,
+a.mobile-nav-buttons {
+
+	text-decoration: none;
+	display: inline-block;
+	border-style: solid;
+	border-width: 2px;
+	font-size: 12px;
+	color: #ffffff;
+	font-family: "Oswald";
+	margin: 5px;
+	padding: 2px;
+
+
+}
+
+a.main-buttons:hover,
+a.mobile-nav-buttons {
+
+	color: black;
+	background-color: white;
+	
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    border-color: #ffffff;
+
+}
+
+a.mobile-nav-buttons {
+	color: black;
+
+
+}
+
+.nav-wrapper {
+	text-align: center;
+
+}
 
 header {
 	
 	text-align: center;
 	margin: 5px;
 	margin-top: 10px;
-	width:100%;
 	font-size: 1em;
 	font-family: "Oswald";
 	font-style: normal;	
@@ -47,10 +105,21 @@ header {
 }
 
 
+
+
+
+
+
+
 .logo {
 	
 	text-align: center;
-	margin-top: 100px;
+	margin: 0;
+	padding: 0;
+	margin-top: 150px;
+	
+
+
 
 	
 	
@@ -68,31 +137,7 @@ header {
 
 
 
-a.main-buttons {
-	text-decoration: none;
-	display: inline;
-	border-style: solid;
-	border-width: 3.5px;
-	font-size: 14px;
-	color: #ffffff;
-	font-family: "Oswald";
-	margin: 5px;
-	padding: 7px;
 
-}
-
-a.main-buttons:hover {
-
-	color: black;
-	background-color: white;
-	
-	-webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    border-color: #ffffff;
-
-}
 
 header{
 
@@ -112,10 +157,10 @@ header{
 
 .iconSmall {
 	
-	float: left;
+	
 	margin: 5px;
-	margin-top: 19px;
-
+	margin-top: 6px;
+	text-align: center;
 
 	
 
@@ -128,11 +173,7 @@ header{
 
 
 
-ul {
-	margin-left: 32%;
-	margin-top: 14px;
 
-}
 
 ul li {
 	display: inline;
@@ -151,17 +192,14 @@ ul li {
 	
 }
 
-#stars {
-	
 
-
-}
 
 .stars {
-
-	float: left;
-	margin-left: 48%;
-	margin-top: 23px;
+	
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 10px;
+	display: none;
 	
 }
 
@@ -177,6 +215,7 @@ ul li {
    
   margin: 20px;
   padding: 20px;
+  width: 100%;
 
 	
 
@@ -192,7 +231,7 @@ p.mid {
 
 text-align: center;
 margin: 0 auto;
-width:25%;
+width:100%;
 float: left;
 
 }
@@ -216,10 +255,7 @@ margin-left: 6%;
 
 
 
-li{
-float: left;
 
-}
 
 
 .ribbion {
@@ -286,34 +322,25 @@ p.intro-paragraph {
 	 
 	 display: block;
 	 text-align: center;
-	 font-size: 29px;
-	 line-height: 50px;
+	 font-size: 20px;
+	 
 	 max-width: 300px;
 	 border-top: 1px solid #ccc;
 	 border-bottom: 1px solid #ccc;
 	 margin: 0 auto;
 	 
-	 margin-top: 12px;
+	 
 	 color: #ffffff;
 	 font-family: Lato;
 }
 
-p.callout {
-	 font-size: 2.7em;
-	 line-height: 1.125em;
-	 margin: 0 0 0 0;
-	 font-family: "Lato";
-	 text-align: center;
-	 margin-left: 40px;
-	 font-weight: 300;
-	 font-style: normal;
-	 color: #444444;
-}
+
 
 
 
 
 h1 {
+	 text-align: center;
 	 font-weight: 800;
 	 font-family: "Lato";
 	 font-size: 3.75em;
@@ -348,14 +375,14 @@ h1:before {
 
 
 h1.bg-line {
-	 overflow: hidden;
+	
 	 font-family: Oswald;
-	 font-size: 5.69em;
+	 font-size: 2em;
 	 font-weight: 400;
 	 line-height: 1em;
 	 font-style: normal;
 	 letter-spacing: 10px;
-	 margin: 20px 25px 1em 25px;
+	 
 	 color: #ffffff;
 	 
 	 
@@ -371,6 +398,7 @@ h1.bg-line:before {
    width: 50%;
    margin-left: -50%;
    right: 1em;
+   display: none;
 
 }
 
@@ -383,26 +411,25 @@ h1.bg-line:after {
    width: 50%;
    left: .5em;
    margin-right: -50%;
+   display: none;
 
 }
 
 
 
 h2 {
-	 font-size: 1.875em;
+	 
+	 font-size: 1em;
 	 line-height: 1em;
-	 margin: 0em 0;
+	 margin: 10px;
 	 text-transform: uppercase;
 	 letter-spacing: 2px;
-	 text-align: left;
 	 font-family: "Lato";
 	 font-weight: 200;
 	 font-style: normal;
-	 width: 50%;
-	 margin-left: 25%;
-
+	
 	 color: #ffffff;
-	 text-align: center;
+	 
 	 
 
 }
@@ -413,6 +440,7 @@ h2.bg-line {
    font-size: 5.69em;
    line-height: 1em;
    margin: 0px 0px 30px 0px;
+   margin-bottom: 10px;
    color: rgba(255, 255, 255, 1);
    letter-spacing: 10px;
    white-space: nowrap;
@@ -462,7 +490,7 @@ h3 {
 	 font-size: .8em;
 	 line-height: 1.25em;
 	 margin: 0 0 0 0;
-	 font-family: Oswald;
+	 font-family: "Oswald";
 	 color: white;
 	 text-align: center;
 	 font-weight: 400;
@@ -497,7 +525,7 @@ ol {
 
 ol.process {
 	
-	margin-left: 40%;
+	
 
 }
 
@@ -524,7 +552,7 @@ ol.process {
 p.quote {
 
 	float: left;
-	width: 40%;
+	width: 100%;
 	margin-left: 7%;
 	text-align: left;
 
@@ -616,7 +644,7 @@ strong {
 	 font-family: "Oswald";
 	 font-style: italic;
 	 white-space: nowrap;
-	 
+	
 	 
 
 }
@@ -631,14 +659,16 @@ img {
 
 .img-media-list {
 
-	background-color: rgba(255,255,255, .8);
-
+	
+	text-align: center;
 }
 
 .success-quote {
 	font-size: 1em;
 	text-align: center;
     font-weight: normal;
+    text-align: center;
+    
     
     
 }
@@ -646,23 +676,21 @@ img {
 
 .success-wrapper {
 
-	float: left;
-	margin: 5px;
-    padding: 5px;
-    height: auto;
-    width: 30%;
-    float: left;
-    text-align: center;
+	width: 100%;
+	text-align: center;
 }
 
 .success-img {
+	text-align: center;
 	border-width: 5px;
 	border-style: solid;
 	border-color: white;
 	
 	height: auto;
-	width: 180px;
+	width: 200px;
 	margin: 10px;
+
+
 }
 
 .services-block{
@@ -723,10 +751,10 @@ p.emph {
 
 .between {
 	text-align: center; 
-	 padding: 160px 0;
-	 clear: both;
+	padding: 10px;
+	padding-top: 45px;
 	background-color: #ffffff;
-	height: 400px;
+	height: 200px;
 	width: 100%;
 	
   	font-family: 'Lobster';
@@ -735,13 +763,19 @@ p.emph {
 
 }
 
-.philosophy-block {
-
-	padding: 35px;
-	word-wrap: break-word;
-
+p.callout {
+	 font-size: 1.5em;
+	 line-height: .9em;
+	 margin: 0 0 0 0;
+	 font-family: "Lato";
+	 text-align: center;
+	
+	 font-weight: 300;
+	 font-style: normal;
+	 color: #444444;
 
 }
+
 
 
 
@@ -750,14 +784,14 @@ p.emph {
 .success { 
 
 	margin-left: 20px;
-	background-color: rgba(230,230,230,0.8);
+	
 	background-color: #ffffff;
 	
 
 }
 
 .success-name {
-
+	
 	font-size: 22px;
 }
 
@@ -769,8 +803,9 @@ p.emph {
 p.join-quote {
 
 	width: 50%;
+
 	text-align: center;
-	margin-left: 25%;
+	
 
 }
 
@@ -796,9 +831,10 @@ p.team-emph {
 }
 
 div.circular {
-	 width: 90%;
+	 width: 100%;
 	 margin: 0 0 1.875em 0;
 	 padding: 0 3.125em;
+
 }
 
 img.avatar {
@@ -990,6 +1026,7 @@ textarea {
 div.wrapper {
 	 width: 100%;
 	 margin: 0 auto;
+
 }
 
 footer div.wrapper{
@@ -998,16 +1035,7 @@ footer div.wrapper{
 
 }
 
-div.grid-unit {
-	
-	 width: 33.33%;
-	 float: left;
-	 display: inline;
-	 margin: 0px 0px 1.8em 0px;
-	 padding-left: 20px;
 
-
-}
 
 
 
@@ -1033,7 +1061,7 @@ li.process-item {
 
 p.process-h2	{
 
-	float: left;
+	text-align: center;
 	font-size: 2em;
 }
 
@@ -1050,7 +1078,7 @@ div.process-number {
 div.process-content {
 	 
 	 margin: 0;
-	 float: left;
+	 text-align: center;
 	 display: inline;
 	 
 	 width: 100%;
@@ -1071,6 +1099,7 @@ div.process-content {
  	border-bottom: 1px solid #A2A2A2; 
  	padding-bottom: 5px;
  	border-color: #DADADA;
+ 	text-align: center;
 
  	
 }
@@ -1078,6 +1107,7 @@ div.process-content {
 div.circle {
 	 width: 30%;
 	 margin: 0 35%;
+	 display: none;
 }
 
 span.circle {
@@ -1264,7 +1294,10 @@ p {
 
 
 p.process {
-	 float: left;
+	 text-align: center;
+	 width: 100%;
+	 margin: 10px;
+	
 }
 
 
