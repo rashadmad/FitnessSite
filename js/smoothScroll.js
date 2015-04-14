@@ -1,5 +1,7 @@
           ///navigation within site is too abrupt and quick
           ////smoothly scrool to diffrent sections of site
+          
+
           $(function smoothScroll() {
           $('a[href*=#]:not([href=#])').click(function smoothScroll() {
          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -14,3 +16,6 @@
     }
   });
 });
+
+
+          

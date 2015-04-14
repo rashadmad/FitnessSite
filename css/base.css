@@ -19,7 +19,7 @@ nav {
       width: 100%;
       background-color: #00a087;
 	  color: #ffffff;
-	  height: 115px;
+	  height: 85px;
 	  background: #444444; /* Old browsers */
 	  background: -moz-linear-gradient(top,  #444444 0%, #444444 80%, #24cfe5 80%, #24cfe5 100%); /* FF3.6+ */
 	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(80%,#444444), color-stop(80%,#24cfe5), color-stop(100%,#24cfe5)); /* Chrome,Safari4+ */
@@ -50,6 +50,10 @@ ul#mobile-nav {
 
 }
 
+.main-button-box{
+
+	text-align: center;
+}
 
 
 a.main-buttons,
@@ -64,6 +68,8 @@ a.mobile-nav-buttons {
 	font-family: "Oswald";
 	margin: 5px;
 	padding: 2px;
+	text-align: center;
+	
 
 
 }
@@ -116,7 +122,7 @@ header {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	margin-top: 150px;
+	margin-top: 75px;
 	
 
 
@@ -128,11 +134,7 @@ header {
 	
 }
 
-.main-button-box {
-	text-align: center;
-	margin: 0 auto;
-
-}          
+        
 
 
 
@@ -145,22 +147,27 @@ header{
 	
 }
 
-.menu_butt {
+.menu_butt,
+.menu_close {
 	
-	float: right;
-	margin-left: 20px;
-	margin-top: 15px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+
 
 }
+
+
 
 
 
 .iconSmall {
 	
 	
-	margin: 5px;
-	margin-top: 6px;
-	text-align: center;
+	margin-right: 31px;
+	margin-top: 8px;
+    width: 45%;
+	
 
 	
 
@@ -219,6 +226,12 @@ ul li {
 
 	
 
+}
+
+#services-h2{
+
+	width: 85%;
+	margin-left: 7%;
 }
 
 p.mid {
@@ -427,7 +440,7 @@ h2 {
 	 font-family: "Lato";
 	 font-weight: 200;
 	 font-style: normal;
-	
+
 	 color: #ffffff;
 	 
 	 
@@ -552,9 +565,8 @@ ol.process {
 p.quote {
 
 	float: left;
-	width: 100%;
-	margin-left: 7%;
-	text-align: left;
+	width: 95%;
+	text-align: center;
 
 	 
 	 
@@ -765,7 +777,7 @@ p.emph {
 
 p.callout {
 	 font-size: 1.5em;
-	 line-height: .9em;
+	 line-height: 1em;
 	 margin: 0 0 0 0;
 	 font-family: "Lato";
 	 text-align: center;
@@ -777,6 +789,11 @@ p.callout {
 }
 
 
+div.wrapper {
+	 width: 100%;
+	 margin: 5px;
+
+}
 
 
 
@@ -802,9 +819,9 @@ p.callout {
 
 p.join-quote {
 
-	width: 50%;
+	width: 100%;
 
-	text-align: center;
+	
 	
 
 }
@@ -851,13 +868,24 @@ img.avatar {
 #join-quote {
 
 	font-size: 1em;
-	width: 40%;
+	width: 70%;
+	text-align: center;
+	margin-left: 15%;
+}
+
+#process-quote {
+
+	font-size: 1em;
+	width: 60%;
+	text-align: center;
+	margin:20px;
+	margin-left: 10px;
 }
 
 map {
 	
 	
-	
+	display: none;
 	margin-left: 20px;
 	box-shadow: 1px 0px 0px 11px #D1D1D1;
 	-webkit-box-shadow: 1px 0px 0px 11px #D1D1D1;
@@ -912,6 +940,10 @@ form {
 
 
 	
+}
+
+#footer-quote {
+	font-size: 12px;
 }
 
 #sign-up-label{
@@ -1023,11 +1055,6 @@ textarea {
 	 box-sizing: border-box;
 }
 
-div.wrapper {
-	 width: 100%;
-	 margin: 0 auto;
-
-}
 
 footer div.wrapper{
 	text-align: center;
@@ -1062,7 +1089,7 @@ li.process-item {
 p.process-h2	{
 
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 div.process-number {
@@ -1100,6 +1127,7 @@ div.process-content {
  	padding-bottom: 5px;
  	border-color: #DADADA;
  	text-align: center;
+ 	width: 95%;
 
  	
 }
@@ -1381,4 +1409,11 @@ footer {
 
 .white {
 	color: #ffffff;
+}
+
+select {
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	top:85px;
 }

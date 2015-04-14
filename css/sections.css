@@ -1,6 +1,9 @@
 /* section styleing */ 
 
+section {
 
+	background-color: black;
+}
 
 
 
@@ -31,29 +34,24 @@ section#home {
 	
 	background-image: url("../img/fithouseIMG1.jpg");
 	background-repeat: no-repeat;
-	height: 20px;
-	background-size: 100% 100%;
-	background-position: 0 90px;
-		
-}
-
-section#philosophy {
+	height: 450px;
+	background-size: 100% 450px;
 	
-	background-image: url(fithouseIMG5.jpg);
-
-
-
+		
 }
 
 
 section#join {
 	 padding: 5.625em 0;	
-	 height: 1100px;
+	 height: 900px;
 	 background-image: url("../img/fithouse.050511.rhr01.jpg");
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 outline: 4px solid white;
   	 outline-offset: -21px;
+
+
+	background-size: 100% 450px;
 }
 
 section#ethos {
@@ -98,6 +96,7 @@ section#team {
 	 background-size: cover;
 	 outline: 4px solid white;
   	 outline-offset: -21px;
+  	 background-size: 100% 450px;
 }
 
 section#philosophy {
@@ -106,23 +105,26 @@ section#philosophy {
 	 background-color: black;
 	 background-repeat: no-repeat;
 	 background-size: fit;
-	 height: 1155px;
+	 height: 1200px;
 	 background-size: 100% 300px;
 
 }
 
 section#success {
-	height: 1600px;
+	height: 1650px;
 	background-image: url("../img/fithouseIMG2.jpg");
 	background-size: cover;
+	background-size: 100% 450px;
 }
 
 section#services {
 	 padding: 5.625em 0;
-	 height: 1950px;
+	 height: 1900px;
 	 background-image: url("../img/fithouse.050511.rhr09.jpg");
+	 background-repeat: no-repeat;
+	 background-color: black;
 	 background-size: cover;
-	 background-size: 100% 100%;
+	 background-size: 100% auto;
 	 outline: 3.5px solid white;
   	 outline-offset: -21px;
 
@@ -134,7 +136,9 @@ section#process {
 	 padding: 5.625em 0;
 	 background-color: black;
 	 background-image: url("../img/fithouseIMG4.jpg");
-	 background-size: cover;	
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-size: 100% 450px;	
 }
 
 
