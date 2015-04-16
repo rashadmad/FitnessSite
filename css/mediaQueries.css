@@ -18,11 +18,39 @@
 
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1000px) {
 
 	ul#desktop-nav {
-	display: none;
+	margin-top: 20px;
 	}
+
+	.iconSmall{
+		display:none;
+	}
+
+	.menu{
+		display:none;
+	}
+
+	.menu_butt,
+	.menu_close {
+	
+	display:none;
+
+
+}
+
+#desktop-nav{
+
+	margin-top: 10px;
+}
+
+section#home{
+
+	height: 755px;
+	background-size: 100% 750px;
+}
+
 
 
 }
@@ -34,9 +62,64 @@
 	}
 }
 
+
+@media screen and (max-width: 375px) {
+
+	ul#desktop-nav {
+	display: none;
+	}
+
+	select {
+	
+	
+	float: left;
+	width: 50%;
+	height: auto;
+	border: solid #444444 4px;
+	margin-left: 10px;
+		
+}
+
+button.go {
+	
+	float: right;
+	
+	margin-right: 15px;
+	border: solid #444444 4px;
+	height: 15px;
+	background-color: white;
+}
+
+nav{
+	height: 1250px;
+
+}
+
+.iconSmall {
+	
+	width: 100px;
+	margin:0;
+    width: 10%;
+
+
+}
+
+
+
+section#philosophy{
+
+	height: 1050px;
+
+}
+
+}
+
 @media screen and (max-width: 320px) {
 
 
+	nav {
+	background-color: #4444444;
+	}
 	ul#desktop-nav {
 	display: none;
 	}

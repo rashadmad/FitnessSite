@@ -62,15 +62,15 @@
 
       <table> 
         <ul id="desktop-nav">  
-          <li><a href="#philosophy_between" class="nav_buttons"> Philosophy </a></li>
-          <li><a href="#services_between" class="nav_buttons"> Services </a></li>
-          <li><a href="#success_between" class="nav_buttons"> Success </a></li>
+          <li><a href="#philosophy" class="nav_buttons"> Philosophy </a></li>
+          <li><a href="#services" class="nav_buttons"> Services </a></li>
+          <li><a href="#success" class="nav_buttons"> Success </a></li>
            <!-- chi town stars -->
           <li><img class="nav_buttons" id="stars" src="img/stars.svg"></li>
-          <li><a href="#team_between" class="nav_buttons"> Coaches </a></li>
-          <li><a href="#process_between" class="nav_buttons"> Process </a></li>
-          <li><a href="#join_between" class="nav_buttons"> Join </a></li>
-          <li><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title="">Schedule__</a></li>
+          <li><a href="#team" class="nav_buttons"> Coaches </a></li>
+          <li><a href="#process" class="nav_buttons"> Process </a></li>
+          <li><a href="#join" class="nav_buttons"> Join </a></li>
+          <li><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title=""> Schedule </a></li>
         </ul>
         </table>
       </div>
@@ -110,6 +110,7 @@
   <section  id="philosophy">
       
     <header>
+    <br>
     <br> 
       <img class="greyStars" src="img/greyStars.svg"/>
       <h1 class="bg-line">PHILOSOPHY</h1>
@@ -197,7 +198,6 @@
   <section class="between" id="success_between">  
     <div class="wrapper">
      <p class="callout">
-      <br>
        Improveing Biomechanics & Functional Motion With Dynamic Circuits
      </p>
     </div>
@@ -206,6 +206,7 @@
   <section class="page" id="success"> 
 
   <header>
+    <br>
     <br>
     <img class="greyStars" src="img/greyStars.svg"/>
     <h1 class="bg-line">
@@ -253,7 +254,6 @@
   <section class="between" id="team_between">
     <div class="wrapper"></div>
      <p class="callout">
-      <br>
        Regulateing A No-Nonsense Zone
      </p>
    </section>  
@@ -366,7 +366,7 @@
  
         <section class="between" id="join_between">  
           <div class="wrapper">
-          <p class="callout">Tough Coaches, Weekend Outings & Supportive Gym Members Make Up The Fulton Fit House Family   
+          <p class="callout">Tough Coaches & Supportive Gym Members Make Up The Fulton Fit House Family   
           </p>
           </div>
           <br>
@@ -413,10 +413,11 @@
    </section>  
 
    <footer>
-       <img class="social_icons" src="img/twitter.png" height="1" width="1"/>
-       <img class="social_icons" src="img/facebook.png"/>
-       <img class="social_icons" src="img/instagram.png"/> 
-
+      
+      <a href="https://twitter.com/fultonfithouse"><img src="img/twitter.png" alt="fulton fithouse twitter logo" class="social_icons" target="_blank" ></a>
+      <a href="https://www.facebook.com/fultonfithouse"><img src="img/facebook.png" alt="fulton fithouse facebook logo" class="social_icons" target="_blank" ></a>
+      <a href="https://instagram.com/fultonfithouse/"><img src="img/instagram.png" alt="fulton fithouse instagram logo" class="social_icons" target="_blank" ></a>
+  
       <div id="footer-quote" class="wrapper">  
        Fulton Fit house - 821 W. Fulton Market - Chicago, IL 60607 - (312) 243-1083
        
@@ -429,10 +430,36 @@
      var $select = $("<select></select>");
      $(".menu_close").hide();
 
+     //when the menu button is click all in this function goes in to
      $(".menu_butt").click(function goMenuOpen() {
-         
+               var $button = $("<button class='go'>Go</button>");
+              
+              $("nav").append($button);
+              $button.click(function(){
+              
+              window.location = $select.val();
+              
+              });
+
         $("nav").append($select);
-        $("nav a")
+        $("nav a").each(function(){
+
+            var $anchor= $(this);
+            var $option = $("<option></option>");
+
+            if($anchor.parent().hasClass("selected")){
+              $option.prop("selected", true);
+            }
+
+
+
+            $option.val($anchor.attr("href"));
+            $option.text($anchor.text());
+            $select.append($option);
+
+        
+        });
+
         $( this ).hide();
         $(".menu_close" ).show();
 
@@ -445,8 +472,13 @@
         
         $( this ).hide();
         $(".menu_butt" ).show();
-        $("nav").children("select").remove();
+        $("nav").children("select").detach();
+        $("nav").children("button").detach();
+
         });
+
+
+    
         
         
            
