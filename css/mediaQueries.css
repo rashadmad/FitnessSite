@@ -1,36 +1,54 @@
 
-@media screen and (max-width: 2100px) {
+@media screen and (min-width: 2100px) {
 
 
 
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
 
 
 
 } 	
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
 
 
 
 } 
 
-@media screen and (min-width: 1000px) {
 
-	ul#desktop-nav {
-	margin-top: 20px;
-	}
+@media screen and (min-width: 1000px) {
+/* Ipad and other tablets */
+
+p.callout {
+	 
+	 font-size: 100%;
+	 font-weight: 500;
+
+
+}
+
+.quote {
+
+	font-size: 1.3em;
+}
+    
+    
+
+
+
 
 	.iconSmall{
-		display:none;
+		position: relative;
+		text-align: center;
+		width: 160px;
+		margin-top: 10px;
+
 	}
 
-	.menu{
-		display:none;
-	}
+	
 
 	.menu_butt,
 	.menu_close {
@@ -40,10 +58,20 @@
 
 }
 
-#desktop-nav{
 
-	margin-top: 10px;
+
+section#philosophy {
+	
+	 background-image: url("../img/fithouseIMG5.jpg");
+	 background-color: black;
+	 background-repeat: no-repeat;
+	 background-size: fit;
+	 height: 700px;
+	 background-size: 100% 700px;
+
 }
+
+
 
 section#home{
 
@@ -51,19 +79,123 @@ section#home{
 	background-size: 100% 750px;
 }
 
-
+section#services {
+	 padding: 5.625em 0;
+	 height: 1900px;
+	 background-image: url("../img/fithouse.050511.rhr09.jpg");
+	 background-repeat: no-repeat;
+	 background-color: black;
+	 background-size: cover;
+	 background-size: 100% 100%;
+	 outline: 3.5px solid white;
+  	 outline-offset: -21px;
 
 }
 
-@media screen and (max-width: 480px) {
+section#process {
+	 padding: 5.625em 0;
+	 background-color: black;
+	 background-image: url("../img/fithouseIMG4.jpg");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-size: 100% 450px;	
+}
+
+section#success {
+	height: 1650px;
+	background-image: url("../img/fithouseIMG2.jpg");
+	background-size: cover;
+	background-size: 100% 100;
+	
+	}
+
+section#team {
+	 padding: 5.625em 0;
+	 text-align: center;
+	 background-image: url("../img/fithouseIMG.jpg");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 outline: 4px solid white;
+  	 outline-offset: -21px;
+  	 background-size: 100% 100%;
+}
+
+section#join {
+	 padding: 5.625em 0;	
+	 height: 900px;
+	 background-image: url("../img/fithouse.050511.rhr01.jpg");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 outline: 4px solid white;
+  	 outline-offset: -21px;
+
+
+	background-size: 100% 100%;
+}
+
+}
+
+@media screen and (min-width: 660px) {
 
 	ul#desktop-nav {
 	display: none;
 	}
+
+		.menu_butt,
+	.menu_close {
+	
+	display:none;
+
+
 }
 
 
-@media screen and (max-width: 375px) {
+
+
+}
+
+
+
+
+@media screen and (min-width: 581px) {
+
+
+
+
+		.menu_butt,
+	.menu_close {
+	
+	display:none;
+
+
+}
+	
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 480px) {
+/* iphones and other mobile phones */
+	
+
+	.iconSmall {
+	text-align: center;
+	width: 160px;
+	margin:0;
+	margin-left: 470px;
+	display: none;
+
+
+	}
+
+}
+
+
+@media screen and (min-width: 375px) {
 
 	ul#desktop-nav {
 	display: none;
@@ -95,34 +227,49 @@ nav{
 
 }
 
-.iconSmall {
-	
-	width: 100px;
+	.iconSmall {
+	float: left;
+	width: 160px;
 	margin:0;
-    width: 10%;
+	margin-left: 170px;
 
 
-}
-
-
-
-section#philosophy{
-
-	height: 1050px;
-
-}
-
-}
-
-@media screen and (max-width: 320px) {
-
-
-	nav {
-	background-color: #4444444;
 	}
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 320px) {
+
+
+	p.callout {
+	 
+	 font-size: 50%;
+	 font-weight: 500;
+
+	}
+
+	.iconSmall {
+
+	text-align: center;
+	width: 160px;
+	margin:0;
+	margin-left: 25px;
+
+
+
+	}
+
 	ul#desktop-nav {
 	display: none;
 	}
+
+	
+
 
 
 }
