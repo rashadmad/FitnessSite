@@ -60,6 +60,7 @@ ul#desktop-nav {
 	text-align: center;
 	margin-top: 5px;
 
+
 }
 
 ul#mobile-nav {
@@ -141,7 +142,7 @@ header {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	margin-top: 110px;
+	margin-top: 90px;
 
 }
 
@@ -180,9 +181,7 @@ header{
 
 
 
-ul li {
-	display: inline;
-}	
+	
 	
 	
 
@@ -1432,8 +1431,8 @@ select {
 	width: 155px;
 	height: 50px;
 	border: solid #444444 4px;
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: 2px;
+	margin-left: 105px;
 	
 	
 	
@@ -1446,7 +1445,7 @@ select {
 button.go {
 	
 	float: left;
-	margin-top: 10px;
+	margin-top: 2px;
 	margin-left: 10px;
 	border: solid #444444 4px;
 	height: 50px;
@@ -1456,7 +1455,7 @@ button.go {
 
 button.go,
 select {
-	margin-top: 35px;
+	margin-top: 10px;
 }
 
 .menu_butt,
@@ -1467,3 +1466,34 @@ select {
 }
 
 
+.responsive_nav {
+	position: fixed;
+	text-align: center;
+	top:0;
+	height: 170px;
+	color: black;
+	background-color: #24cfe5
+	width:100px;	
+	margin-top: 99px;
+	
+	left: 0;
+	
+	
+	
+}
+
+.responsive_butt {
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+.responsive_list {
+	color: black;
+	border:  solid #444444 1px;
+}
+
+.responsive_list:active {
+	color: white;
+	background-color: black;
+	border:  solid #444444 1px;
+}
