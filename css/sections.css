@@ -1,8 +1,14 @@
 /* section styleing */ 
 
-section {
+section	{
 
-	background-color: black;
+	margin:0;
+}
+
+section.between {
+	margin-top: 40px;
+	background-color: white;
+	height: 100%;
 }
 
 
@@ -30,7 +36,7 @@ section#philosophy {
 	 background-color: black;
 	 background-repeat: no-repeat;
 	 background-size: fit;
-	 height: 1250px;
+	 height: 1200px;
 	 background-size: 100% 400px;
 
 }
@@ -53,10 +59,12 @@ section#services {
 section#success {
 	
 	
-	height: 1650px;
+	height: 1850px;
 	background-image: url("../img/fithouseIMG2.jpg");
 	background-size: cover;
-	background-size: 100% 450px;
+	background-size: 100% 700px;
+	background-color: black;
+	
 }
 
 section#team {
@@ -65,11 +73,12 @@ section#team {
 	 padding: 5.625em 0;
 	 text-align: center;
 	 background-image: url("../img/fithouseIMG.jpg");
+	 background-color: black;
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 outline: 4px solid white;
   	 outline-offset: -21px;
-  	 background-size: 100% 450px;
+  	 background-size: 100% 650px;
 }
 
 section#process {
@@ -91,6 +100,7 @@ section#join {
 	 height: 1000px;
 	 background-image: url("../img/fithouse.050511.rhr01.jpg");
 	 background-repeat: no-repeat;
+	 background-color: black;
 	 background-size: cover;
 	 outline: 4px solid white;
   	 outline-offset: -21px;
@@ -100,6 +110,31 @@ section#join {
 }
 
 
+#philosophy_between {
+
+}
+
+#services_between {
+
+
+
+}
+
+#success_between {
+
+}
+
+#team_between {
+
+}
+
+#process_between {
+
+}
+
+#join_between {
+
+}
 
 
 

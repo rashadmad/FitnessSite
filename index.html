@@ -63,15 +63,15 @@
       <div class="nav-wrapper">
 
         <ul id="desktop-nav">  
-          <li><a href="#philosophy" class="nav_buttons"> Philosophy </a></li>
-          <li><a href="#services" class="nav_buttons"> Services </a></li>
-          <li><a href="#success" class="nav_buttons"> Success </a></li>
+          <li class="desktop"><a href="#philosophy" class="nav_buttons"> Philosophy </a></li>
+          <li class="desktop"><a href="#services" class="nav_buttons"> Services </a></li>
+          <li class="desktop"><a href="#success" class="nav_buttons"> Success </a></li>
            <!-- chi town stars -->
-          <li><img class="nav_buttons" id="stars" src="img/stars.svg"></li>
-          <li><a href="#team" class="nav_buttons"> Coaches </a></li>
-          <li><a href="#process" class="nav_buttons"> Process </a></li>
-          <li><a href="#join" class="nav_buttons"> Join </a></li>
-          <li><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title=""> Schedule </a></li>
+          <li class="desktop"><img class="nav_buttons" id="stars" src="img/stars.svg"></li>
+          <li class="desktop"><a href="#team" class="nav_buttons"> Coaches </a></li>
+          <li class="desktop"><a href="#process" class="nav_buttons"> Process </a></li>
+          <li class="desktop"><a href="#join" class="nav_buttons"> Join </a></li>
+          <li class="desktop"><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title=""> Schedule </a></li>
         </ul>
         
       </div>
@@ -99,11 +99,11 @@
 
   <!--first between header-->
   <section class="between" id="philosophy_between">
-    <div class="wrapper">
+    
       <p class="callout">
          Built For A Life Long Commitment To Fitness
       </p>
-    </div>
+    
   </section>
 
 <!-- Or manually drop markup into tag -->
@@ -224,7 +224,9 @@
           <div class="success-wrapper">
             <img class="success-img" src="img/achievement1.jpg" />
             <br>
+            <br>
             <h3 class="success-name">Paul Kahan</h3>
+            <br>
               <strong class="white">Executive Chef/Partner</strong>
               <p class="success-quote">"As a professional Chef diet and exercise is challenging, at 48 years old I needed to make a commitment to live a long, Healthy life. Fulton Fit House is that commitment."</p>
               <br>
@@ -233,7 +235,9 @@
           <div class="success-wrapper">
             <img class="success-img" src="img/achievement2.jpg"/>
             <br>
+            <br>
             <h3 class="success-name">Marla Sedler</h3>
+            <br>
               <strong class="white">Super Mom</strong>
               <p class="success-quote">"Fulton Fit House has changed my life. They are the real deal when it comes to fitness. Everyday I am challenged to go outside of my comfort zone to get the BEST workout"</p>
           </div>
@@ -241,7 +245,9 @@
           <div class="success-wrapper">
             <img class="success-img" src="img/achievement3.jpg"/>
             <br>
+            <br>
             <h3 class="success-name">Rick Pettit</h3>
+            <br>
               <strong class="white">Corporate Client- Vail Systems</strong>
               <p class="success-quote">"Working out at the Fit Houuse under the instruction of Mike has changed my life. I've lost over 50 lbs since I started, such that I not only look better, more strength, and more endurance than when I started. I've learned how to eat right, which will allow me to keep the weight off."</p>
           </div>
@@ -253,10 +259,11 @@
  <!--third between header-->
 
   <section class="between" id="team_between">
-    <div class="wrapper"></div>
+    <div class="wrapper">
      <p class="callout">
        Regulateing A No-Nonsense Zone
      </p>
+   </div>
    </section>  
   
   <!--meet the team page-->
@@ -301,8 +308,7 @@
           <h3 class="white">Joseph Leli</h3>
           <p class="team-emph"><em>Director Of Operations/Lead Coach</em></p>
           <p class="team-emph">joe@fultonfithouse.com</p>
-        </div>
-        <br>
+        </div> 
     </div>
   </section>  
 
@@ -312,7 +318,7 @@
     <div class="wrapper">
      <p class="callout">A Tv & Treadmill Wont Get You Any Where Worth Going 
      </p>
-    </div>
+    </div> 
   </section>
   
 
@@ -366,11 +372,10 @@
 <!--fith between header-->
  
         <section class="between" id="join_between">  
-          <div class="wrapper">
+        <div class="wrapper">
           <p class="callout">Tough Coaches & Supportive Gym Members Make Up The Fulton Fit House Family   
           </p>
-          </div>
-          
+        </div>  
         </section>
 
 <!--join page-->
@@ -432,21 +437,28 @@
 
   </footer>
 <script>
-    var $buttons = [ "#philosophy", "#services", "#success", "#coaches", "#process", "#join" ];
+  $( document ).ready(function dom_loaded() {
+    $(".responsive_butt").wrap("<li class='responsive_list'></li>");
+  });
+
+    var $buttons = [ $philosophy, $services, $success, $coaches, $process, $join ];
       
     
-    var $philosophy = $("<a href='#philosophy' class='responsive_butt'>philosophy</a>");
-    var $services = $("<a href='#services' class='responsive_butt'>services</a>");
-    var $success = $("<a href='#success' class='responsive_butt'>success</a>");
-    var $coaches = $("<a href='#team' class='responsive_butt'>coaches</a>");
-    var $process = $("<a href='#process' class='responsive_butt'>process</a>");
-    var $join = $("<a href='#join' class='responsive_butt'>join</a>");
+    var $philosophy = $("<a href='#philosophy' class='responsive_butt'>PHILOSOPHY</a>");
+    var $services = $("<a href='#services' class='responsive_butt'>SERVICES</a>");
+    var $success = $("<a href='#success' class='responsive_butt'>SUCCESS</a>");
+    var $coaches = $("<a href='#team' class='responsive_butt'>COACHES</a>");
+    var $process = $("<a href='#process' class='responsive_butt'>PROCESS</a>");
+    var $join = $("<a href='#join' class='responsive_butt'>JOIN</a>");
       
     var $responsive_nav = $('<ul class="responsive_nav"></ul>'); 
-     
+    
+    $responsive_nav.append($buttons);  
+
+
      $(".menu_close").hide();
      $responsive_nav.hide();
-          
+     $("body").append($responsive_nav);     
           $responsive_nav.append($philosophy);
           $responsive_nav.append($services);
           $responsive_nav.append($success);
@@ -456,32 +468,42 @@
      
      //when the menu button is click all in this function goes in to
      $(".menu_butt").click(function MenuOpen() {
-
+      
+       $( this ).hide();
         
-        $( this ).hide();
-        $(".menu_close").show();
-        
-        $("body").append($responsive_nav);
-        $responsive_nav.slideDown();
+       $(".menu_close").show();
+       $responsive_nav.show();  
+       $responsive_nav.slideDown();
          
-        $(".responsive_butt").wrap("<button class='responsive_list'></button>"); 
+     
 
         
         });
            
       $(".menu_close").click(function goMenuClose() {
 
-
-
         $( this ).hide();
-        $(".menu_butt" ).show();
-        
-        $("body").remove($responsive_nav);
 
-        $responsive_nav.detach();
-        $responsive_nav.remove();
-        $responsive_nav.hide();
+        
+        $(".menu_butt" ).show();
+        $responsive_nav.hide();  
+        
         });
+
+    
+     
+    
+
+     $(".responsive_butt").click(function () {
+      
+
+       $(".menu_butt" ).show();
+       $(".menu_close").hide();
+       $responsive_nav.fadeOut();   
+          
+        
+    
+   });
 
 
     
