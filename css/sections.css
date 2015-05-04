@@ -8,23 +8,20 @@ section	{
 section.between {
 	margin-top: 40px;
 	background-color: white;
-	height: 100%;
+	
 }
 
 
-section#ethos {
-	 padding: 5.625em 0;
-	 
 
-}
 
 section#home {
 	
 	
 	background-image: url("../img/fithouseIMG1.jpg");
+	background-color: black;
 	background-repeat: no-repeat;
-	height: 450px;
-	background-size: 100% 450px;
+	background-size: 100% 500px;
+	height: 500px;
 	
 		
 }
@@ -36,7 +33,7 @@ section#philosophy {
 	 background-color: black;
 	 background-repeat: no-repeat;
 	 background-size: fit;
-	 height: 1200px;
+	 height: 1250px;
 	 background-size: 100% 400px;
 
 }
@@ -44,7 +41,7 @@ section#philosophy {
 section#services {
 	 
 	
-	 padding: 5.625em 0;
+	 
 	 height: 1900px;
 	 background-image: url("../img/fithouse.050511.rhr09.jpg");
 	 background-repeat: no-repeat;
@@ -59,7 +56,7 @@ section#services {
 section#success {
 	
 	
-	height: 1850px;
+	height: 2000px;
 	background-image: url("../img/fithouseIMG2.jpg");
 	background-size: cover;
 	background-size: 100% 700px;
@@ -70,7 +67,7 @@ section#success {
 section#team {
 	 
 	 
-	 padding: 5.625em 0;
+	 height: 1550px;
 	 text-align: center;
 	 background-image: url("../img/fithouseIMG.jpg");
 	 background-color: black;
@@ -78,13 +75,13 @@ section#team {
 	 background-size: cover;
 	 outline: 4px solid white;
   	 outline-offset: -21px;
-  	 background-size: 100% 650px;
+  	 background-size: 100% 450px;
 }
 
 section#process {
 	 
 	 
-	 padding: 5.625em 0;
+	 
 	 background-color: black;
 	 background-image: url("../img/fithouseIMG4.jpg");
 	 background-repeat: no-repeat;
@@ -96,14 +93,13 @@ section#process {
 section#join {
 	 
 	 
-	 padding: 5.625em 0;	
+	 
 	 height: 1000px;
 	 background-image: url("../img/fithouse.050511.rhr01.jpg");
 	 background-repeat: no-repeat;
 	 background-color: black;
 	 background-size: cover;
-	 outline: 4px solid white;
-  	 outline-offset: -21px;
+
 
 
 	background-size: 100% 450px;
