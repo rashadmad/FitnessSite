@@ -48,29 +48,28 @@
    <!-- top navigation -->
   <nav>
       <div class="nav-wrapper">
-      
-     
+        
       </div>  
         <div class="main-button-box">
         <ul id="mobile-nav"> 
-          <li><img src="img/menu.svg" class="menu_butt"> </li> 
-          <li><img src="img/menuClose.svg" class="menu_close"> </li>
-          
-      </ul>
-    </div>  
+          <li><img src="img/menu.svg" class="menu_butt" alt="menu button open image"> </li> 
+          <li><img src="img/menuClose.svg" class="menu_close" alt="menu button close image"> </li>
+        </ul>  
+      </div>  
+    
 
       <div class="nav-wrapper">
 
         <ul id="desktop-nav">  
-          <li class="desktop"><a href="#philosophy" class="nav_buttons"> Philosophy </a></li>
-          <li class="desktop"><a href="#services" class="nav_buttons"> Services </a></li>
-          <li class="desktop"><a href="#success" class="nav_buttons"> Success </a></li>
+          <li class="desktop"><a href="#philosophy" class="nav_buttons" alt="philosophy button"> Philosophy </a></li>
+          <li class="desktop"><a href="#services" class="nav_buttons" alt="services button"> Services </a></li>
+          <li class="desktop"><a href="#success" class="nav_buttons" alt="success button"> Success </a></li>
            <!-- chi town stars -->
-          <li class="desktop"><img class="nav_buttons" id="stars" src="img/stars.svg"></li>
-          <li class="desktop"><a href="#team" class="nav_buttons"> Coaches </a></li>
-          <li class="desktop"><a href="#process" class="nav_buttons"> Process </a></li>
-          <li class="desktop"><a href="#join" class="nav_buttons"> Join </a></li>
-          <li class="desktop"><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title=""> Schedule </a></li>
+          <li class="desktop"><img class="nav_buttons" id="stars" src="img/stars.svg" alt="success button"></li>
+          <li class="desktop"><a href="#team" class="nav_buttons" alt="success button"> Coaches </a></li>
+          <li class="desktop"><a href="#process" class="nav_buttons" alt="success button"> Process </a></li>
+          <li class="desktop"><a href="#join" class="nav_buttons" alt="join button"> Join </a></li>
+          <li class="desktop"><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title="" alt="success button"> Schedule </a></li>
         </ul>
         
       </div>
@@ -278,19 +277,19 @@
     <div class="wrapper-other">
       <ul>
         <li class="img-list">  
-            <img class="avatar-img" src="img/Christine_avatar.jpg" />
+            <img class="avatar-img" id="chris" src="img/Christine_avatar.jpg" />
             <h3>Christine Madionis</h3>  
             <em>Co-Founder/Coach</em>  
             <p class="quote">christine@fultonfithouse.com</p>  
         </li>     
         <li class="img-list">  
-            <img class="avatar-img" src="img/Mike_avatar.jpg" />        
+            <img class="avatar-img" id="mike" src="img/Mike_avatar.jpg" />        
             <h3>Mike Madionis</h3>  
             <em>Co-Founder/Coach</em>  
             <p class="quote">christine@fultonfithouse.com</p>  
         </li>
         <li class="img-list">  
-            <img class="avatar-img" src="img/Joel_avatar.jpg" />         
+            <img class="avatar-img" id="joe" src="img/Joel_avatar.jpg" />         
             <h3>Joseph Leli</h3>  
             <em>Director Of Operations/Lead Coach</em>  
             <p class="quote">joe@fultonfithouse.com</p>  
@@ -431,6 +430,7 @@
       </div>
 
   </footer>
+
 <script>
 
 $( document ).ready(function dom_loaded() {
@@ -449,6 +449,8 @@ $( document ).ready(function dom_loaded() {
       
     var $responsive_nav = $('<ul class="responsive_nav"></ul>'); 
     
+    var $coach_info = $("<p>this is some words</p>");
+
     $responsive_nav.append($buttons);  
 
 
@@ -461,8 +463,11 @@ $( document ).ready(function dom_loaded() {
           $responsive_nav.append($coaches);
           $responsive_nav.append($process);
           $responsive_nav.append($join);
+
+
+    
      
-     //when the menu button is click all in this function goes in to
+     //when the menu button is clicked all in this function goes in to
      $(".menu_butt").click(function MenuOpen() {
       
        $( this ).hide();
@@ -501,17 +506,44 @@ $( document ).ready(function dom_loaded() {
     
    });
 
- 
-
-
+$(function() {
     
+    $("#chris")
+
+        .hover(function() { 
+            $("#chris").append(<p>"yeah bitch i work"</p>);
+        })
+     
+});
+
+$(function() {
+    
+    $("#mike")
+
+        .mouseover(function() { 
+            $(this).attr("src", "fullImageUrl/whateverOver.gif");
+        })
+        .mouseout(function() {
+           $(this).attr("src", "fullImageUrl/whatever.gif");
+        });
         
+});
+
+$(function() {
+    
+    $("#joe")
+
+        .mouseover(function() { 
+            $(this).attr("src", "fullImageUrl/whateverOver.gif");
+        })
+        .mouseout(function() {
+           $(this).attr("src", "fullImageUrl/whatever.gif");
+        });
         
-           
-            
-   
+});
+
 
 </script>
 
-
 </body>
+
