@@ -21,18 +21,16 @@
         <!--Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'> 
-
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-
+        
+        <!--jquery-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
         <script type="text/javascript" src="js/smoothScroll.js"></script>
         <script type="text/javascript" src="js/responsiveNav.js"></script>
 
         <meta charset="utf-8">
-        <meta name="description" content=" The Fulton Fithouse Gym is a private and semi private gym geared towards body building and weight lose ">
-
-        
+        <meta name="description" content=" The Fulton Fithouse Gym is a private and semi private gym geared towards body building and weight lose ">     
     </head>
 
         
@@ -41,8 +39,6 @@
 
  <body>
 
-
- 
    <!-- top navigation -->
   <nav>
       <div class="nav-wrapper">
@@ -50,8 +46,8 @@
       </div>  
         <div class="main-button-box">
         <ul id="mobile-nav"> 
-          <li><img src="img/menu.svg" class="menu_butt" alt="menu button open image"> </li> 
-          <li><img src="img/menuClose.svg" class="menu_close" alt="menu button close image"> </li>
+          <li><img src="img/menu.svg" class="menu_butt" alt="menu button open"> </li> 
+          <li><img src="img/menuClose.svg" class="menu_close" alt="menu button close"> </li>
         </ul>  
       </div>  
     
@@ -59,15 +55,15 @@
       <div class="nav-wrapper">
 
         <ul id="desktop-nav">  
-          <li class="desktop"><a href="#philosophy" class="nav_buttons" alt="philosophy button"> Philosophy </a></li>
-          <li class="desktop"><a href="#services" class="nav_buttons" alt="services button"> Services </a></li>
-          <li class="desktop"><a href="#success" class="nav_buttons" alt="success button"> Success </a></li>
+          <li class="desktop"><a href="#philosophy" class="nav_buttons" alt="philosophy"> Philosophy </a></li>
+          <li class="desktop"><a href="#services" class="nav_buttons" alt="services"> Services </a></li>
+          <li class="desktop"><a href="#success" class="nav_buttons" alt="success"> Success </a></li>
            <!-- chi town stars -->
-          <li class="desktop"><img class="nav_buttons" id="stars" src="img/stars.svg" alt="success button"></li>
-          <li class="desktop"><a href="#team" class="nav_buttons" alt="success button"> Coaches </a></li>
-          <li class="desktop"><a href="#process" class="nav_buttons" alt="success button"> Process </a></li>
-          <li class="desktop"><a href="#join" class="nav_buttons" alt="join button"> Join </a></li>
-          <li class="desktop"><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title="" alt="success button"> Schedule </a></li>
+          <li class="desktop"><img class="nav_buttons" id="stars" src="img/stars.svg" alt="stars"></li>
+          <li class="desktop"><a href="#team" class="nav_buttons" alt="Coaches"> Coaches </a></li>
+          <li class="desktop"><a href="#process" class="nav_buttons" alt="Process"> Process </a></li>
+          <li class="desktop"><a href="#join" class="nav_buttons" alt="join"> Join </a></li>
+          <li class="desktop"><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=24809" class="nav_buttons" target="_blank" title="" alt="Schedule"> Schedule </a></li>
         </ul>
         
       </div>
@@ -81,19 +77,17 @@
 
 
 <section id="home" data-type="background" >
-
-      
+     
       <header>
           <img src="img/icon.svg" alt="fulton fithouse logo" class="logo" >
           <br>
           <br>
           <p class="intro-paragraph">Sustaniable fitness in a venue that feels like home</p>
-          <a href="#philosophy"><img src="img/arrow.svg" class="arrow" ></a>
-         
-      </header>
+          <a href="#philosophy"><img src="img/arrow.svg" class="arrow" alt="begin arrow"></a>
+      </header>   
+      
     <br>
-   
-       
+      
 </section>
 
   <!--first between header-->
@@ -110,8 +104,8 @@
   <section  id="philosophy">
       
     <header>
-    <br>
-    <br> 
+      <br>
+      <br> 
       <img class="greyStars" src="img/stars.svg"/>
       <h1 class="bg-line">PHILOSOPHY</h1>
       <h2>Fitness is not a trend it is a lifelong practice that should continually evolve</h2>
@@ -398,21 +392,7 @@
 
 
 <!--dont let this confuse you its just a map from google-->
-   
-   <map>
-      <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-      
-      <div id="gmap_canvas" style="height:500px;width:600px;"></div>
-      
-      <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
-    </div>
-      
-      <script type="text/javascript"> function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(41.886571,-87.64845910000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.886571, -87.64845910000003)});infowindow = new google.maps.InfoWindow({content:"<b>fulton fithouse</b><br/>821 W Fulton Market<br/> chicago" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-    </map>
-
-    
          
-   
  
    </section>  
 
@@ -423,7 +403,7 @@
       <a href="https://instagram.com/fultonfithouse/"><img src="img/instagram.png" alt="fulton fithouse instagram logo" class="social_icons" target="_blank" ></a>
   
       <div id="footer-quote" class="wrapper">  
-       Fulton Fit house - 821 W. Fulton Market - Chicago, IL 60607 - (312) 243-1083
+       Fulton Fit house - 1400 W. Fulton Market - Chicago, IL 60607 - (312) 243-1083
        
       </div>
 
