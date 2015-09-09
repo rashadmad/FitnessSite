@@ -5,13 +5,13 @@
 
 
 body {
-	 
+
 	 color: black;
 	 background-color: #ffffff;
 }
 
-nav { 
-	  
+nav {
+
 	  margin: 0;
 	  position: fixed;
 	  top:0;
@@ -33,14 +33,26 @@ nav {
 
 }
 
-footer div.wrapper{
-	text-align: center;
-	width: 100%;
-	
+.wrapper-other{
+
+	margin-right: 10%;
+
+
+}
+
+#success-img {
+		margin-left: 0;
 }
 
 
-footer { 
+footer div.wrapper{
+	text-align: center;
+	width: 100%;
+
+}
+
+
+footer {
 	color: #ffffff;
 	background-color: #444444;
 	height: 100px;
@@ -62,13 +74,13 @@ footer {
 }
 
 ul#desktop-nav {text-align: center;
-	
+
 	margin-left: 45px;
 	display: inline;}
 @media only screen and (max-width: 500px){
 	ul#desktop-nav {display:none;}
-}	
-	
+}
+
 
 a.desktop-nav{
 
@@ -99,7 +111,7 @@ a.mobile-nav-buttons {
 	margin: 5px;
 	padding: 2px;
 	text-align: center;
-	
+
 
 
 }
@@ -109,7 +121,7 @@ a.mobile-nav-buttons {
 
 	color: black;
 	background-color: white;
-	
+
 	-webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
@@ -130,13 +142,13 @@ a.mobile-nav-buttons {
 }
 
 header {
-	
+
 	text-align: center;
 	margin: 5px;
 	margin-top: 10px;
 	font-size: 1em;
 	font-family: "Oswald";
-	font-style: normal;	
+	font-style: normal;
 
 }
 
@@ -146,7 +158,7 @@ header {
 
 
 .logo {
-	
+
 	text-align: center;
 	margin: 0 auto;
 	padding: 0;
@@ -154,7 +166,7 @@ header {
 
 }
 
-        
+
 
 
 
@@ -164,7 +176,7 @@ header {
 header{
 
 	text-align: center ;
-	
+
 }
 
 
@@ -173,25 +185,20 @@ header{
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 40px;
-	
+
 }
 
 
 
 .stars {
-	
+
 	text-align: center;
 	margin-top: 30px;
 	margin-left: 10px;
 	display: none;
-	
-}
-
-.greyStars {
-
-	
 
 }
+
 
 em {
 
@@ -202,8 +209,14 @@ text-align: center;
 .img-list {
 
 	text-align: center;
+	width: 100%;
+  margin-left: 25px;
+
 }
 
+p.quote {
+
+}
 
 
 #services-h2{
@@ -229,7 +242,7 @@ width:100%;
 
 }
 
-.services-unit  { 
+.services-unit  {
 display: inline;
 text-align: center;
 margin: 0 auto;
@@ -277,16 +290,16 @@ strong.ribbion {
 
 
 .services {
-	text-align: center; 
+	text-align: center;
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 1em;
 	margin-right: 20px;
 	margin: 0 auto;
-	
-}	
-	
-	
+
+}
+
+
 .ad_img {
 
 
@@ -308,7 +321,7 @@ p {
 	 line-height: 1.67em;
 	 margin: 0 0 1.667em 10px;
 	 color: #444444;
-	 font-family: "Lato";	 
+	 font-family: "Lato";
 	 text-align: left;
 	 font-weight: 100;
 	 font-style: normal;
@@ -325,17 +338,17 @@ p.intro-p {
 }
 
 p.intro-paragraph {
-	 
+
 	 display: block;
 	 text-align: center;
 	 font-size: 20px;
-	 
+
 	 max-width: 300px;
 	 border-top: 1px solid #ccc;
 	 border-bottom: 1px solid #ccc;
 	 margin: 0 auto;
-	 
-	 
+
+
 	 color: #ffffff;
 	 font-family: Lato;
 }
@@ -357,7 +370,7 @@ h1 {
 	 color: #ffffff;
 	 padding: 20px;
 
-	 
+
 }
 
 h1.testimonials {
@@ -374,23 +387,23 @@ h1.testimonials {
 h1:before {
 
 	 border-color: #CCCCCC transparent;
-  	 
+
 }
 
 
 
 h1.bg-line {
-	
+
 	 font-family: "Oswald";
 	 font-size: 2.4em;
 	 font-weight: 400;
 	 line-height: 1em;
 	 font-style: normal;
 	 letter-spacing: 10px;
-	 
+
 	 color: #ffffff;
-	 
-	 
+
+
 }
 
 
@@ -398,7 +411,7 @@ h1.bg-line:before {
    border-top: 1px solid #ffffff;
    content: "";
    display: inline-block;
-   
+
    vertical-align: middle;
    width: 50%;
    margin-left: -50%;
@@ -411,7 +424,7 @@ h1.bg-line:after {
    border-top: 1px solid #ffffff;
    content: "";
    display: inline-block;
-   
+
    vertical-align: middle;
    width: 50%;
    left: .5em;
@@ -423,7 +436,7 @@ h1.bg-line:after {
 
 
 h2 {
-	 
+
 	width: 60%;
 	 line-height: 1em;
 	 margin: 10px;
@@ -436,8 +449,8 @@ h2 {
 
 	 color: #ffffff;
 
-	 
-	 
+
+
 
 }
 
@@ -451,20 +464,20 @@ h2.bg-line {
    color: rgba(255, 255, 255, 1);
    letter-spacing: 10px;
    white-space: nowrap;
-   
+
 }
 
 h2.bg-line:before {
 	 border-top: 1px solid #d4d4d4;
 	 content: "";
 	 display: inline-block;
-	
+
 	 vertical-align: middle;
 	 width: 50%;
 	 margin-left: -50%;
 	 right: 2em;
 	 display:none;
-	 
+
 
 }
 
@@ -472,13 +485,13 @@ h2.bg-line:after {
 	 border-top: 1px solid #d4d4d4;
 	 content: "";
 	 display: inline-block;
-	 
+
 	 vertical-align: middle;
 	 width: 50%;
 	 left: 2em;
 	 margin-right: -50%;
 	 display:none;
-	 
+
 
 }
 
@@ -503,7 +516,7 @@ h3{
 	 font-style: normal;
 	 letter-spacing: 4px;
 	 text-align: center;
-	 
+
 	 padding-bottom: 8px;
 }
 
@@ -519,7 +532,7 @@ h3.process-h3 {
 	 font-style: normal;
 	 letter-spacing: 4px;s
 	 text-align: center;
-	 border-bottom: 1px solid #A2A2A2; 
+	 border-bottom: 1px solid #A2A2A2;
 	 padding-bottom: 8px;
 
 }
@@ -536,9 +549,9 @@ h3.team-h3 {
 	 font-style: normal;
 	 letter-spacing: 4px;
 	 text-align: center;
-	 
+
 	 padding-bottom: 8px;
-	
+
 }
 
 h3.white {
@@ -566,8 +579,8 @@ ol {
 
 
 ol.process {
-	
-	
+
+
 
 }
 
@@ -590,13 +603,13 @@ ol.process {
 
 p.quote {
 
-	
+
 	max-width: 800px;
 	text-align: center;
 	margin: 0 auto;
 
-	 
-	 
+
+
 
 
 }
@@ -604,7 +617,7 @@ p.quote {
 
 
 .emph {
-	
+
 	margin-left: 250px;
 }
 
@@ -665,14 +678,14 @@ em {
 
 
 strong {
-	
+
 	 font-size: 100%;
 	 font-weight: 200;
 	 font-family: "Oswald";
 	 font-style: italic;
 	 white-space: nowrap;
-	
-	 
+
+
 
 }
 
@@ -690,13 +703,13 @@ img {
 }
 
 .success-quote {
-	
+
 	font-size: .9em;
 	text-align: center;
     font-weight: normal;
     margin-right: 5%;
-    
-    
+
+
 	 line-height: 1em;
 	 text-transform: uppercase;
 	 letter-spacing: 2px;
@@ -705,8 +718,8 @@ img {
 	 font-style: normal;
 
 	 color: #ffffff;
-  
-    
+
+
 }
 
 
@@ -721,7 +734,7 @@ img {
 }
 
 .philosophy {
-	
+
 	padding: 35px;
 	word-wrap: break-word;
 }
@@ -750,7 +763,7 @@ margin: 0 auto;
 width:100%;
 font-size: 1.5em;
 font-family: "Oswald";
-font-style: normal;	
+font-style: normal;
 
 color: black;
 
@@ -774,12 +787,12 @@ p.emph {
 
 
 .between {
-	text-align: center; 
+	text-align: center;
 
 	background-color: #ffffff;
 	height: auto;
 	width: 100%;
-	
+
   	font-family: 'Lobster';
     color: #444444;
     font-size: 1.1em;
@@ -795,16 +808,16 @@ p.emph {
 p.callout {
 	 font-size: 1.8em;
 	 line-height: 1.2em;
-	 
+
 	 font-family: "Lato";
 	 text-align: center;
-	 
+
 	 font-weight: 300;
 	 font-style: normal;
 	 color: #444444;
-	
 
-	
+
+
 
 
 }
@@ -819,14 +832,14 @@ p.callout {
 div.wrapper {
 	 width: 100%;
 
-	 
+
 
 }
 
 .img {
-	
+
 width: 70%;
-text-align: center;	
+text-align: center;
 border-radius: 50%;
 border-width: 8px;
 border-style: solid;
@@ -846,11 +859,11 @@ strong.success-title{
 }
 
 .success-quote {
-	
+
 	text-align: center;
-  	
-  	
-    
+
+
+
 }
 
 
@@ -874,7 +887,7 @@ p.team-emph {
 	 margin: 0 0 0 0;
 	 margin-bottom: 0;
 	 text-align: center;
-	 
+
 }
 
 
@@ -906,11 +919,11 @@ p.team-emph {
         height:auto;
         overflow: hidden;
 
-	
-	
 
 
-	
+
+
+
 }
 box-shadow: 1px 0px 0px 11px #D1D1D1;
 	-webkit-box-shadow: 1px 0px 0px 11px #D1D1D1;
@@ -925,7 +938,7 @@ box-shadow: 1px 0px 0px 11px #D1D1D1;
         top: 0;
         height:auto;
         width: 60% !important;
-        
+
 
 
 }
@@ -950,7 +963,7 @@ map:hover {
 
 .form-container {
 
-	
+
 	float: right;
 	margin-bottom: 100px;
 	width: 100%;
@@ -961,7 +974,7 @@ map:hover {
 
 
 form {
-	
+
 	padding: 50px;
 	width:550px;
 	height:750px;
@@ -969,7 +982,7 @@ form {
 	line-height: 24px;
 	text-decoration: none;
 	margin:auto;
-	
+
 	padding:10px;
 	font-family: "Oswald";
 	margin-top: 13px;
@@ -977,7 +990,7 @@ form {
 
 
 
-	
+
 }
 
 #footer-quote {
@@ -1004,26 +1017,26 @@ label {
 
 label[for=check1] {
     margin-top: 50px;
-    display: inline-block;  
-    cursor: pointer;  
-     
-    padding-left: 25px;  
-    margin-right: 15px;  
-    font-size: 13px; 
+    display: inline-block;
+    cursor: pointer;
+
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 13px;
 
 }
 
 #special {
-	
+
 	bottom: 20px;
-	
+
 }
 
 
 textarea#feedback {
     width:450px;
     height:90px;
-    margin-bottom:100px; 
+    margin-bottom:100px;
     background-color: #D1D1D1;
     border: none;
     margin-left: 10px;
@@ -1033,7 +1046,7 @@ textarea#feedback {
 
 textarea#feedback:hover{
 	border-style: solid;
-	
+
 
 
 }
@@ -1046,7 +1059,7 @@ textarea {
 input[type=checkbox] {
 	width: 20px;
 	background-color: #D1D1D1;
-	
+
 }
 
 p.black{
@@ -1063,7 +1076,7 @@ margin: 0;
 }
 
 .checkbox2 {
-	
+
 margin: 0;
 }
 
@@ -1108,7 +1121,7 @@ ol.process {
 	 line-height: 1em;
 	 overflow: hidden;
 
-	 
+
 }
 
 li.process-item {
@@ -1116,7 +1129,7 @@ li.process-item {
 	 clear: both;
 
 
-	
+
 
 }
 
@@ -1128,7 +1141,7 @@ p.process-h2	{
 }
 
 div.process-number {
-	 
+
 	 margin: 0;
 	 float: left;
 	 display: inline;
@@ -1138,11 +1151,11 @@ div.process-number {
 }
 
 div.process-content {
-	 
+
 	 margin: 0;
 	 text-align: center;
 	 display: inline;
-	 
+
 	 width: 100%;
 	 padding-right: 25.78125%;
 	 padding-top: 1em;
@@ -1158,13 +1171,13 @@ div.process-content {
 
  	font-family: "Lato";
  	font-weight: 700;
- 	border-bottom: 1px solid #A2A2A2; 
+ 	border-bottom: 1px solid #A2A2A2;
  	padding-bottom: 5px;
  	border-color: #DADADA;
  	text-align: center;
  	width: 95%;
 
- 	
+
 }
 
 div.circle {
@@ -1191,7 +1204,7 @@ span.circle {
 
 
 div.grid-unit1 {
-	 
+
 	 margin-left: 0;
 	 width: 48%;
 	 float: left;
@@ -1201,7 +1214,7 @@ div.grid-unit1 {
 }
 
 div.grid-unit2 {
-	 
+
 	 margin-left: 0;
 	 width: 48%;
 	 float: right;
@@ -1235,7 +1248,7 @@ p.process {
 	 text-align: center;
 	 width: 100%;
 	 margin: 10px;
-	
+
 }
 
 
@@ -1267,13 +1280,13 @@ div.half {
 }
 
 
- 
+
 .front-page-buttons {
-	
+
 	text-align: center;
 	margin: 0;
-	
-	
+
+
 	font-size: 250%;
 
 }
@@ -1295,17 +1308,17 @@ div.half {
 
 	max-width: 25%;
 	max-height: 25%;
-	
+
 	cursor: pointer;
 	text-align: center;
 
-	
-	
+
+
 }
 
 
 .success-title{
-	
+
 	color: white;
 }
 
@@ -1314,32 +1327,32 @@ div.half {
 }
 
 select {
-	
-	
+
+
 	float: left;
 	width: 155px;
 	height: 50px;
 	border: solid #444444 4px;
 	margin-top: 2px;
 	margin-left: 105px;
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 
 }
 
 button.go {
-	
+
 	float: left;
 	margin-top: 2px;
 	margin-left: 10px;
 	border: solid #444444 4px;
 	height: 50px;
 	width: 50px;
-	
+
 }
 
 button.go,
@@ -1370,25 +1383,25 @@ ul.responsive_nav {
 	background: rgba(0,0,0,0.9) ;
 
 
-	
 
-	width:100%;	
+
+	width:100%;
 	margin-top: 99px;
-	
+
 	left: 0;
 	display: inline;
 
-	
-	
-	
+
+
+
 }
 
 a.responsive_butt {
 	color: #24cfe5;
 	text-decoration: none;
-	
+
 	margin-bottom: 15px;
-	
+
 	background-color: none;
 
 }
@@ -1396,27 +1409,27 @@ a.responsive_butt {
 a.responsive_butt:active {
 	color: white;
 	text-decoration: none;
-	
+
 	margin-bottom: 15px;
-	
+
 	background-color: none;
 
 }
 
 
 .responsive_list {
-	
+
 	margin-top: 7.5%;
 	text-decoration: none;
 	font-size: 1.8em;
 	font-family: "oswald";
-	
+
 
 	 display: flex;
   	justify-content: center;
   	flex-direction: column;
-  	
-	
+
+
 
 }
 
@@ -1440,6 +1453,5 @@ margin-top: 10px;
 
 
 
-	
-}
 
+}
