@@ -141,7 +141,46 @@ form {
 }
 
 
+///coming soon stuff
+.wrapper {
 
+height:auto;
+background-color: #00a087;
+	  
+
+
+}
+
+body.coming_soon{
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#444444+0,24cfe5+0,24cfe5+2,444444+2,444444+2,ffffff+2,ffffff+2,ffffff+4,444444+4,444444+4,444444+100,24cfe5+100 */
+background: #444444; /* Old browsers */
+background: -moz-linear-gradient(top,  #444444 0%, #24cfe5 0%, #24cfe5 2%, #444444 2%, #444444 2%, #ffffff 2%, #ffffff 2%, #ffffff 4%, #444444 4%, #444444 4%, #444444 100%, #24cfe5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(0%,#24cfe5), color-stop(2%,#24cfe5), color-stop(2%,#444444), color-stop(2%,#444444), color-stop(2%,#ffffff), color-stop(2%,#ffffff), color-stop(4%,#ffffff), color-stop(4%,#444444), color-stop(4%,#444444), color-stop(100%,#444444), color-stop(100%,#24cfe5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #444444 0%,#24cfe5 0%,#24cfe5 2%,#444444 2%,#444444 2%,#ffffff 2%,#ffffff 2%,#ffffff 4%,#444444 4%,#444444 4%,#444444 100%,#24cfe5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #444444 0%,#24cfe5 0%,#24cfe5 2%,#444444 2%,#444444 2%,#ffffff 2%,#ffffff 2%,#ffffff 4%,#444444 4%,#444444 4%,#444444 100%,#24cfe5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #444444 0%,#24cfe5 0%,#24cfe5 2%,#444444 2%,#444444 2%,#ffffff 2%,#ffffff 2%,#ffffff 4%,#444444 4%,#444444 4%,#444444 100%,#24cfe5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #444444 0%,#24cfe5 0%,#24cfe5 2%,#444444 2%,#444444 2%,#ffffff 2%,#ffffff 2%,#ffffff 4%,#444444 4%,#444444 4%,#444444 100%,#24cfe5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#24cfe5',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.logo {
+margin-left: 30%;
+text-align: center;
+}
+
+.centered {
+text-align: center;
+font-family: "Lato";
+color: white;
+}
+
+header { 
+font-size: 25px;
+font-family: "Oswald";
+}
 
 
 
