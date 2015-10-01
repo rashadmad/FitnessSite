@@ -3,6 +3,19 @@
 
 
 
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('leaguegothic-regular-webfont.eot');
+    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('leaguegothic-regular-webfont.woff') format('woff'),
+         url('leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 body {
 
@@ -15,7 +28,8 @@ nav {
 	  margin: 0;
 	  position: fixed;
 	  top:0;
-      z-index: 9999;
+      z-index: 1;
+
       width: 100%;
       background-color: #00a087;
 	  color: #ffffff;
@@ -29,20 +43,19 @@ nav {
 	  background: linear-gradient(to bottom,  #444444 0%,#444444 80%,#24cfe5 80%,#24cfe5 100%); /* W3C */
 	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#24cfe5',GradientType=0 ); /* IE6-9 */
 
-
-
 }
 
-.wrapper-other{
-
-	margin-right: 10%;
-
-
+.white {
+	color:white;
 }
+
+
 
 #success-img {
 		margin-left: 0;
 }
+
+
 
 
 footer div.wrapper{
@@ -70,7 +83,7 @@ footer {
 
 .nav-wrapper {
  text-align: center;
-
+ padding-right: 40px;
 }
 
 ul#desktop-nav {text-align: center;
@@ -78,7 +91,7 @@ ul#desktop-nav {text-align: center;
 	margin-left: 45px;
 	display: inline;}
 @media only screen and (max-width: 500px){
-	ul#desktop-nav {display:none;}
+
 }
 
 
@@ -107,7 +120,7 @@ a.mobile-nav-buttons {
 	border-width: 2px;
 	font-size: 12px;
 	color: #ffffff;
-	font-family: "Oswald";
+	font-family: 'league_gothicregular', Fallback, sans-serif;
 	margin: 5px;
 	padding: 2px;
 	text-align: center;
@@ -136,10 +149,7 @@ a.mobile-nav-buttons {
 
 }
 
-.nav-wrapper {
-	text-align: center;
 
-}
 
 header {
 
@@ -147,7 +157,7 @@ header {
 	margin: 5px;
 	margin-top: 10px;
 	font-size: 1em;
-	font-family: "Oswald";
+	font-family: 'league_gothicregular', Fallback, sans-serif;
 	font-style: normal;
 
 }
@@ -209,44 +219,17 @@ text-align: center;
 .img-list {
 
 	text-align: center;
-	width: 100%;
-  margin-left: 25px;
 
-}
-
-p.quote {
-
-}
-
-
-#services-h2{
-
-	width: 85%;
-	margin-left: 7%;
 }
 
 p.services-quote {
+
 	text-align: center;
 	font-size: .9em;
 
-}
-
-
-
-.services-unit{
-display: inline;
-text-align: center;
-margin: 0 auto;
-width:100%;
-
 
 }
 
-.services-unit  {
-display: inline;
-text-align: center;
-margin: 0 auto;
-width:100%; }
 
 @media only screen and (min-width: 1000px){
 	.services-unit {float: left; width:25%;}
@@ -360,7 +343,7 @@ p.intro-paragraph {
 
 h1 {
 	 text-align: center;
-	 font-weight: 800;
+	 font-weight: 1000;
 	 font-family: "Lato";
 	 line-height: 1em;
 	 margin: 0 0 1.5em 0;
@@ -369,8 +352,20 @@ h1 {
 	 text-align: center;
 	 color: #ffffff;
 	 padding: 20px;
+}
 
+h2 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 1000;
+  font-family: "Lato";
+  line-height: 1em;
 
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
 }
 
 h1.testimonials {
@@ -390,63 +385,47 @@ h1:before {
 
 }
 
+.white {
 
+    color: #ffffff;
+}
 
 h1.bg-line {
 
-	 font-family: "Oswald";
-	 font-size: 2.4em;
-	 font-weight: 400;
-	 line-height: 1em;
+	 font-family: 'Lato', Fallback, sans-serif;
+	 font-size: 3em;
+	 font-weight: 900;
 	 font-style: normal;
-	 letter-spacing: 10px;
-
 	 color: #ffffff;
 
 
 }
 
-
-h1.bg-line:before {
-   border-top: 1px solid #ffffff;
-   content: "";
-   display: inline-block;
-
-   vertical-align: middle;
-   width: 50%;
-   margin-left: -50%;
-   right: 1em;
-   display: none;
-
-}
-
-h1.bg-line:after {
-   border-top: 1px solid #ffffff;
-   content: "";
-   display: inline-block;
-
-   vertical-align: middle;
-   width: 50%;
-   left: .5em;
-   margin-right: -50%;
-   display: none;
-
-}
 
 
 
 h2 {
 
-	width: 60%;
+    font-family: "Lato";
+
+}
+
+
+
+lead {
+
+
+   text-align: center;
 	 line-height: 1em;
 	 margin: 10px;
-	 margin-left: 20%;
+
 	 text-transform: uppercase;
 	 letter-spacing: 2px;
 	 font-family: "Lato";
-	 font-weight: 200;
+	 font-weight: 400;
 	 font-style: normal;
-
+   padding-bottom: 20px;
+   border-bottom: 1px solid #ccc;
 	 color: #ffffff;
 
 
@@ -454,52 +433,8 @@ h2 {
 
 }
 
-h2.bg-line {
-   overflow: hidden;
-   font-family: "Futura W02 Bold";
-   font-size: 5.69em;
-   line-height: 1em;
-   margin: 0px 0px 30px 0px;
-   margin-bottom: 10px;
-   color: rgba(255, 255, 255, 1);
-   letter-spacing: 10px;
-   white-space: nowrap;
 
-}
-
-h2.bg-line:before {
-	 border-top: 1px solid #d4d4d4;
-	 content: "";
-	 display: inline-block;
-
-	 vertical-align: middle;
-	 width: 50%;
-	 margin-left: -50%;
-	 right: 2em;
-	 display:none;
-
-
-}
-
-h2.bg-line:after {
-	 border-top: 1px solid #d4d4d4;
-	 content: "";
-	 display: inline-block;
-
-	 vertical-align: middle;
-	 width: 50%;
-	 left: 2em;
-	 margin-right: -50%;
-	 display:none;
-
-
-}
-
-
-
-
-
-footer h2{
+footer lead{
 	text-align: center;
 	word-wrap: break-word;
 }
@@ -509,7 +444,7 @@ h3{
 	 font-size: 1.6em;
 	 line-height: 1.25em;
 	 margin: 0 0 0 0;
-	 font-family: "Oswald";
+	 font-family: 'league_gothicregular', Fallback, sans-serif;
 	 color: white;
 	 text-align: center;
 	 font-weight: 400;
@@ -525,7 +460,7 @@ h3.process-h3 {
 	 font-size: 2em;
 	 line-height: 1.25em;
 	 margin: 0 0 0 0;
-	 font-family: "Oswald";
+	 font-family: 'league_gothicregular', Fallback, sans-serif;
 	 color: white;
 	 text-align: center;
 	 font-weight: 400;
@@ -542,7 +477,7 @@ h3.team-h3 {
 	font-size: 1.6em;
 	 line-height: 1.25em;
 	 margin: 0 0 0 0;
-	 font-family: "Oswald";
+	 font-family: 'league_gothicregular', Fallback, sans-serif;
 	 color: white;
 	 text-align: center;
 	 font-weight: 400;
@@ -573,19 +508,9 @@ ol {
 	 list-style: decimal outside;
 }
 
-
-
-
-
-
-ol.process {
-
-
-
+.coaches {
+  display:inline;
 }
-
-
-
 
 .avatar-img{
 
@@ -599,7 +524,11 @@ ol.process {
 
 
 
+#coaches {
 
+  border-top: 1px solid #ccc;
+
+}
 
 p.quote {
 
@@ -681,7 +610,7 @@ strong {
 
 	 font-size: 100%;
 	 font-weight: 200;
-	 font-family: "Oswald";
+	 font-family: 'Lato', Fallback, sans-serif;
 	 font-style: italic;
 	 white-space: nowrap;
 
@@ -723,11 +652,6 @@ img {
 }
 
 
-
-
-
-
-
 .services-block{
 	padding: 10px;
 
@@ -737,6 +661,7 @@ img {
 
 	padding: 35px;
 	word-wrap: break-word;
+
 }
 
 #inside.philosophy {
@@ -751,6 +676,7 @@ font-style: normal;
 }
 
 .desktop {
+	display: none;
 	display: inline;
 	margin-top: 20px;
 }
@@ -762,7 +688,7 @@ text-align: center;
 margin: 0 auto;
 width:100%;
 font-size: 1.5em;
-font-family: "Oswald";
+font-family: 'league_gothicregular', Fallback, sans-serif;
 font-style: normal;
 
 color: black;
@@ -806,7 +732,7 @@ p.emph {
 }
 
 p.callout {
-	 font-size: 1.8em;
+	 font-size: 2.5em;
 	 line-height: 1.2em;
 
 	 font-family: "Lato";
@@ -984,7 +910,7 @@ form {
 	margin:auto;
 
 	padding:10px;
-	font-family: "Oswald";
+	font-family: 'league_gothicregular', Fallback, sans-serif;
 	margin-top: 13px;
 	margin-left: 90px;
 
@@ -1082,7 +1008,7 @@ margin: 0;
 
 input,
 textarea {
-	font-family: "Oswald";
+	font-family: 'league_gothicregular', Fallback, sans-serif;
 	font-size: 17px;
 	left-margin: 40px;
 	padding: 10px;
@@ -1133,7 +1059,7 @@ li.process-item {
 
 }
 
-p.process-h2	{
+p.process-lead	{
 
 	text-align: center;
 	font-size: 1.5em;
@@ -1362,15 +1288,31 @@ select {
 
 .menu_butt,
 .menu_close{
-
+	display: none;
 	float: left;
 	margin-left: 7px;
 	margin-top: 10px;
 }
+
+@media only screen and (min-width: 400px) and (max-width: 500px){
+	section#training {
+
+
+background-image: none;
+
+
+
+
+	}
+
+
+}
+
 @media only screen and (min-width: 500px){
 	.menu_butt,
 .menu_close {display: none;}
 }
+
 
 
 
@@ -1422,7 +1364,7 @@ a.responsive_butt:active {
 	margin-top: 7.5%;
 	text-decoration: none;
 	font-size: 1.8em;
-	font-family: "oswald";
+	font-family: 'league_gothicregular', Fallback, sans-serif;
 
 
 	 display: flex;
@@ -1448,8 +1390,9 @@ button {
 
 
 text-align: center;
-margin:0;
+margin: 0px;
 margin-top: 10px;
+
 
 
 

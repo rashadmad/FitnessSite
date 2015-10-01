@@ -1,4 +1,4 @@
-/* section styleing */ 
+/* section styleing */
 
 section	{
 
@@ -8,65 +8,66 @@ section	{
 section.between {
 	margin-top: 40px;
 	background-color: white;
-	
+
 }
 
 
 
 
 section#home {
-	
-	
+
+
 	background-image: url("../img/fithouseIMG1.jpg");
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: 100% 500px;
 	height: 500px;
-	
-		
+
+
 }
 
-section#philosophy {
-	 
-	 
+section#about {
+
+
 	 background-image: url("../img/fithouseIMG5.jpg");
 	 background-color: black;
 	 background-repeat: no-repeat;
-	 background-size: fit;
-	 height: 1250px;
-	 background-size: 100% 400px;
+	 height: 1300px;
+	 background-size:cover;
+	 background-position: center;
 
 }
 
-section#services {
-	 
-	
-	 
-	 height: 1900px;
-	 background-image: url("../img/fithouse.050511.rhr09.jpg");
+section#training {
+
+
+
+
+	 background-color: black;
 	 background-repeat: no-repeat;
 	 background-color: black;
 	 background-size: cover;
 	 background-size: 100% auto;
 	 outline: 3.5px solid white;
-  	 outline-offset: -21px;
+   outline-offset: -21px;
+
 
 }
 
 section#success {
-	
-	
+
+
 	height: 2000px;
 	background-image: url("../img/fithouseIMG2.jpg");
 	background-size: cover;
 	background-size: 100% 700px;
 	background-color: black;
-	
+
 }
 
 section#team {
-	 
-	 
+
+
 	 height: 1550px;
 	 text-align: center;
 	 background-image: url("../img/fithouseIMG.jpg");
@@ -79,21 +80,21 @@ section#team {
 }
 
 section#process {
-	 
-	 
+
 	 text-align: center;
 	 background-color: black;
 	 background-image: url("../img/fithouseIMG4.jpg");
 	 background-repeat: no-repeat;
 	 background-size: cover;
-	 background-size: 100% 450px;	
+	 background-size: 100% 450px;
+
 }
 
 
 section#join {
-	 
-	 
-	 
+
+
+
 	 height: 1000px;
 	 background-image: url("../img/fithouse.050511.rhr01.jpg");
 	 background-repeat: no-repeat;
@@ -146,7 +147,7 @@ form {
 
 height:auto;
 background-color: #00a087;
-	  
+
 
 
 }
@@ -177,24 +178,7 @@ font-family: "Lato";
 color: white;
 }
 
-header { 
+header {
 font-size: 25px;
 font-family: "Oswald";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
