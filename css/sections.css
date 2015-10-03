@@ -60,7 +60,7 @@ section#success {
 	height: 2000px;
 	background-image: url("../img/fithouseIMG2.jpg");
 	background-size: cover;
-	background-size: 100% 700px;
+	background-size: 100% 100px;
 	background-color: black;
 
 }
@@ -94,16 +94,17 @@ section#process {
 section#join {
 
 
+	text-align: center;
+	background-image: url("../img/fithouseIMG.jpg");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	outline: 4px solid white;
+	outline-offset: -21px;
+	background-size: 100% 450px;
+  height: 1000px;
 
 
-	 background-image: url("../img/fithouse.050511.rhr01.jpg");
-	 background-repeat: no-repeat;
-	 background-color: black;
-	 background-size: cover;
-
-
-
-	background-size: 1000px 450px;
 }
 
 
