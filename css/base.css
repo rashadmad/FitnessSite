@@ -54,11 +54,14 @@ nav {
 }
 
 .services {
-    text-align: center;
+  display:inline;
+    width:100%;
+
+
 }
 
 .img-list{
-  margin-left: 45px;
+
   display: inline-block;
 
 }
@@ -67,17 +70,12 @@ nav {
   margin: auto;
     width: 100%;
     padding: 20px;
-    margin-left: 45px;
-}
-
-#mid {
 
 }
-
 
 
 #success-img {
-		margin-left: 0;
+
 }
 
 
@@ -108,7 +106,7 @@ footer {
 
 .nav-wrapper {
  text-align: center;
- padding-right: 40px;
+
 }
 
 ul#desktop-nav {text-align: center;
@@ -410,6 +408,11 @@ h1:before {
 
 }
 
+.center {
+
+  text-align: center;
+
+}
 .white {
 
     color: #ffffff;
@@ -574,7 +577,7 @@ iframe {
  	 background-size:cover;
  	 background-position: center;
    border-width: 8px;
-   border-style: solid;
+   border-style: outset;
    border-color: #24cfe5;
 
 
@@ -588,7 +591,7 @@ iframe {
 
 p.quote {
 
-
+ text-align: justify;
 	max-width: 800px;
 	text-align: center;
 	margin: 0 auto;
