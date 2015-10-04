@@ -352,8 +352,8 @@ p.intro-paragraph {
 	 font-size: 20px;
 
 	 max-width: 300px;
-	 border-top: 1px solid #ccc;
-	 border-bottom: 1px solid #ccc;
+	 border-top: 1px solid #24cfe5;
+	 border-bottom: 1px solid #24cfe5;
 	 margin: 0 auto;
 
 
@@ -406,7 +406,7 @@ h1.testimonials {
 
 h1:before {
 
-	 border-color: #CCCCCC transparent;
+	 border-color: #CCC transparent;
 
 }
 
@@ -450,7 +450,7 @@ lead {
 	 font-weight: 400;
 	 font-style: normal;
    padding-bottom: 20px;
-   border-bottom: 1px solid #ccc;
+   border-bottom: 1px solid #24cfe5;
 	 color: #ffffff;
 
 
@@ -556,7 +556,7 @@ img.icons {
 }
 
 .mindNbody {
-  display:none;
+
    text-align: center;
    width:100%;
    border-width: 5px;
@@ -567,19 +567,22 @@ img.icons {
 
 iframe {
 
-    height: auto;
-    background-repeat: no-repeat;
- 	 height: 2300px;
+   height: auto;
+   width:900px;
+   height: 600px;
+   background-repeat: no-repeat;
  	 background-size:cover;
  	 background-position: center;
-
+   border-width: 8px;
+   border-style: solid;
+   border-color: #24cfe5;
 
 
 }
 
 #coaches {
 
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #24cfe5;
 
 }
 
@@ -868,17 +871,6 @@ p.team-emph {
 
 }
 
-
-
-
-
-#join-quote {
-
-	font-size: 1em;
-	width: 70%;
-	text-align: center;
-	margin-left: 15%;
-}
 
 #process-quote {
 
@@ -1250,8 +1242,6 @@ div.half {
 
 	text-align: center;
 	margin: 0;
-
-
 	font-size: 250%;
 
 }
@@ -1262,6 +1252,7 @@ div.half {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
 
 
 
