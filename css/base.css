@@ -106,9 +106,34 @@ background-color: black;
 
 }
 
+#christine, #joe, #mike {
+
+float:left;
+padding: 10px;
+margin-left: 60px;
+
+}
+
+#christine {
+
+  margin-left: 15%;
+}
+
+#joe {
+
+  ;
+}
 
 
+.coaches-img {
 
+  width: 20%;
+
+}
+
+.coaches, h2, em, .quote{
+
+}
 
 footer div.wrapper{
 	text-align: center;
@@ -186,6 +211,8 @@ a.mobile-nav-buttons {
 
 .services-unit {
 
+float:left;
+
 
 
 }
@@ -242,7 +269,7 @@ text-align: center;
 
 .img-list {
 
-	text-align: center;
+	display: inline;
 
 }
 
@@ -253,31 +280,6 @@ p.services-quote {
 
 
 }
-
-
-@media only screen and (min-width: 1000px){
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -471,11 +473,15 @@ img.icons {
 .avatar-img{
 
 	max-width: 250px;
-	width: 70%;
+
 	border-radius: 50%;
 	border-width: 5px;
 	border:5px solid white;
 	margin: 7px;
+}
+
+#services-left {
+  margin-left: 17%;
 }
 
 .mindNbody {
@@ -644,7 +650,7 @@ font-style: normal;
 }
 
 .desktop {
-	display: none;
+
 	display: inline;
 	margin-top: 20px;
 }
@@ -655,6 +661,10 @@ font-style: normal;
   margin-left: 50px;
 
 }
+
+ .coaches-img {
+   display: inline;
+ }
 
 p.has {
 
