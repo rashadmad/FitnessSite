@@ -22,6 +22,17 @@ section#home {
 
 }
 
+section#results {
+
+	background-image: url("../img/fithouseIMG5.jpg");
+	background-color: black;
+	background-repeat: no-repeat;
+	height: 900px;
+	background-size:cover;
+	background-position: center;
+
+}
+
 section#about {
 
 
@@ -60,6 +71,7 @@ section#success {
 	background-color: black;
 
 }
+
 
 section#team {
 
