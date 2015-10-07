@@ -71,6 +71,18 @@ p {
 
 }
 
+#joel-img {
+
+}
+
+#mike-img {
+
+}
+
+#christine-img {
+
+}
+
 
 
 p.intro-paragraph {
@@ -148,26 +160,18 @@ margin-left: 60px;
 
 }
 
-footer div.wrapper{
+ div.wrapper{
 	text-align: center;
 	width: 100%;
 
 }
 
 
-footer {
-	color: #ffffff;
-	background-color: #444444;
-	height: 100px;
-	text-align: center;
-	padding-top: 10px;
-	font-family: "Lato";
 
-
-}
 
 .center {
 	text-align: center;
+  height:auto;
 }
 
 
@@ -280,6 +284,7 @@ header {
 em {
 
 text-align: center;
+font-size: .5em;
 
 }
 
@@ -1216,8 +1221,8 @@ div.half {
 
 .social_icons {
 
-	max-width: 25%;
-	max-height: 25%;
+	max-width: 3%;
+	max-height: 3%;
 
 	cursor: pointer;
 	text-align: center;

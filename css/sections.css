@@ -7,6 +7,9 @@ section.between {
 
 }
 
+html {
+	background-color:#444444;
+}
 
 
 
@@ -61,14 +64,15 @@ section#training {
 
 }
 
-section#success {
+footer {
+	color: #ffffff;
+	background-color: #444444;
+
+	text-align: center;
+	padding-top: 10px;
+	font-family: "Lato";
 
 
-	height: 2000px;
-	background-image: url("../img/fithouseIMG2.jpg");
-	background-size: cover;
-	background-size: 100% 100px;
-	background-color: black;
 
 }
 
@@ -101,7 +105,7 @@ section#process {
 
 section#schedule {
 background-color:black;
-height: 1300px;
+height: 1750px;
 background-image: url("../img/fithouseIMG.jpg");
 background-color: black;
 background-repeat: no-repeat;
