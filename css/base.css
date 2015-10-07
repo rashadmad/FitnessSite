@@ -45,6 +45,52 @@ nav {
 
 }
 
+span h2{
+
+  position:absolute;
+  top:600;
+  margin-top: 45px;
+  margin-left: 50px;
+  color: transparent;
+
+}
+
+span h2:hover {
+  color: #24cfe5;;
+  position:absolute;
+  top:600;
+  margin-top: 45px;
+  margin-left: 45px;
+
+
+
+}
+
+.avatar-img:hover > span h2{
+    display: none;
+
+
+}
+
+
+.avatar-img:hover {
+
+
+
+	border:5px solid #24cfe5;
+
+}
+
+.avatar-img{
+
+
+
+	border-radius: 50%;
+	border-width: 5px;
+	border:5px solid white;
+	height: 210px;
+}
+
 p {
 	 font-size: 1.125em;
 	 line-height: 1.67em;
@@ -68,18 +114,6 @@ p {
 #home-intro {
 
   max-width: 200px;
-
-}
-
-#joel-img {
-
-}
-
-#mike-img {
-
-}
-
-#christine-img {
 
 }
 
@@ -501,15 +535,7 @@ img.icons {
   margin:20px;
 }
 
-.avatar-img{
 
-	max-width: 250px;
-
-	border-radius: 50%;
-	border-width: 5px;
-	border:5px solid white;
-	margin: 7px;
-}
 
 #services-left {
   margin-left: 17%;
