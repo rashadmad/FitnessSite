@@ -136,7 +136,11 @@ p.intro-paragraph {
 }
 
 
+#nav ul{
+  display: flex;
+  justify-content: center;
 
+}
 
 .img-list ul{
 
@@ -786,8 +790,8 @@ p.callout {
 
 .arrow{
 
-	margin-top: 70px;
-	margin-bottom: 20px;
+	margin-top: 4.5%;
+
 }
 
 

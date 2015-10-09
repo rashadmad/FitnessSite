@@ -1,5 +1,10 @@
 /* section styleing */
 
+.between{
+
+	height: 1500px;
+
+}
 
 section.between {
 	margin-top: 40px;
@@ -11,7 +16,14 @@ html {
 	background-color:#444444;
 }
 
+p.callout {
 
+	padding: 40px;
+	margin-bottom: 80px;
+	margin-top: 80px;
+
+
+}
 
 section#home {
 
@@ -21,6 +33,12 @@ section#home {
 	background-repeat: no-repeat;
 	background-size: 100% 500px;
 	height: 500px;
+
+	width: auto;
+
+	background-position: center;
+	background-size: cover;
+    padding-bottom: 50%;
 
 
 }
@@ -109,34 +127,11 @@ height: 1750px;
 background-image: url("../img/fithouseIMG.jpg");
 background-color: black;
 background-repeat: no-repeat;
+outline: 4px solid white;
+outline-offset: -21px;
 }
 
 
-#philosophy_between {
-
-}
-
-#services_between {
-
-
-
-}
-
-#success_between {
-
-}
-
-#team_between {
-
-}
-
-#process_between {
-
-}
-
-#join_between {
-
-}
 
 
 
