@@ -48,7 +48,7 @@ section#results {
 	background-image: url("../img/fithouseIMG4.jpg");
 	background-color: black;
 	background-repeat: no-repeat;
-	height: 1000px;
+	height: 1100px;
 	background-size:cover;
 	background-position: center;
 
@@ -60,7 +60,7 @@ section#about {
 	 background-image: url("../img/fithouseIMG5.jpg");
 	 background-color: black;
 	 background-repeat: no-repeat;
-	 height: 1300px;
+	 height: 1450px;
 	 background-size:cover;
 	 background-position: center;
 
@@ -78,6 +78,7 @@ section#training {
 	 background-size: 100% auto;
 	 outline: 3.5px solid white;
    outline-offset: -21px;
+	 height: 3000px;
 
 
 }

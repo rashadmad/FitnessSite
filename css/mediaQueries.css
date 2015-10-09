@@ -25,4 +25,19 @@
 
 	}
 
+	iframe {
+
+	   height: auto;
+	   width:900px;
+	   height: 600px;
+	   background-repeat: no-repeat;
+	 	 background-size:cover;
+	 	 background-position: center;
+	   border-width: 8px;
+	   border-style: outset;
+	   border-color: #24cfe5;
+		 display:none;
+
+	}
+
 }

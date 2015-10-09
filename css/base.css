@@ -328,11 +328,12 @@ font-size: .5em;
 
 }
 
-p.services-quote {
+#approach.quote {
 
 	text-align: center;
 	font-size: .9em;
   margin-bottom: 100px;
+  max-width: 25%;
 
 
 }
@@ -548,6 +549,7 @@ img.icons {
    border-width: 5px;
    border-color: white;
    height: auto;
+   display: none;
 
 }
 
@@ -574,9 +576,22 @@ iframe {
 p.quote {
 
  text-align: justify;
-	max-width: 800px;
+	max-width: 900px;
 	text-align: center;
 	margin: 0 auto;
+
+}
+
+#services.quote {
+
+  max-width: 300px;
+  display:none;
+
+}
+
+#philosophy.quote {
+
+  max-width: 800px;
 
 }
 
