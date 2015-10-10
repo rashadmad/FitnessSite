@@ -332,11 +332,18 @@ font-size: .5em;
 
 	text-align: center;
 	font-size: .9em;
-  margin-bottom: 100px;
   max-width: 25%;
+  margin-top: 40px;
 
 
 }
+
+.approach-content {
+
+    float:left;
+
+}
+
 
 .services-header {
 
@@ -1120,7 +1127,7 @@ div.process-number {
 
 }
 
-div.process-content {
+div.approach-content {
 
 	 margin: 0;
 	 text-align: center;
@@ -1128,8 +1135,7 @@ div.process-content {
 
 	 width: 100%;
 	 padding-right: 25.78125%;
-	 padding-top: 1em;
-	 color: black;
+	 padding-top: 10px;
 	 margin-left: 20%;
 	 margin-bottom: 40px;
 
