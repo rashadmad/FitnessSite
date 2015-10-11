@@ -56,11 +56,10 @@ span h2{
 }
 
 span h2:hover {
-  color: #24cfe5;;
+  color: #24cfe5;
   position:absolute;
   top:600;
   margin-top: 45px;
-  margin-left: 45px;
 
 
 
@@ -113,11 +112,6 @@ p {
 
 }
 
-#approachID {
-
-  float:left;
-
-}
 
 #home-intro {
 
@@ -350,6 +344,7 @@ font-size: .5em;
 
 }
 
+
 .approach-content {
 
     float:left;
@@ -385,16 +380,18 @@ h1 {
 
 h2 {
   font-size: 2em;
-  text-align: center;
   font-weight: 1000;
   font-family: "Lato";
   line-height: 1em;
 
   text-transform: uppercase;
   letter-spacing: 5px;
-  text-align: center;
   color: #ffffff;
-  padding: 20px;
+}
+
+.span12 {
+
+  text-align: center;
 }
 
 h1.testimonials {
@@ -419,10 +416,7 @@ h1:before {
   text-align: center;
 
 }
-.white {
 
-    color: #ffffff;
-}
 
 h1.bg-line {
 
@@ -449,7 +443,6 @@ h2 {
 lead {
 
 
-   text-align: center;
 	 line-height: 1em;
 	 margin: 10px;
 
@@ -597,7 +590,7 @@ p.quote {
  text-align: justify;
 	max-width: 900px;
 	text-align: center;
-	margin: 0 auto;
+
 
 }
 
