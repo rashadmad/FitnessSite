@@ -1,185 +1,43 @@
-/* section styleing */
+.site-wrapper {
+  background-image: url("img/fithouseIMG1.jpg");
 
-.between{
+  height:600px;
+}
+.between {
+    background-color: white;
+    height:250px;
+}
+#about {
 
-	height: 1500px;
+  background: url("../img/fithouseIMG5.jpg") no-repeat;
+  background-size: 100%;
+  height:1300px;
 
 }
 
-section.between {
-	margin-top: 40px;
-	background-color: white;
+
+#home {
+
+  background: url("../img/fithouseIMG1.jpg") no-repeat;
+  background-size: 100% 100%;
+  height:800px;
 
 }
 
-html {
-	background-color:#444444;
+#Philosophy {
+  text-align:justify;
 }
 
-p.callout {
-
-	padding: 40px;
-	margin-bottom: 80px;
-	margin-top: 80px;
-
-
+#training {
+  background: url("../img/fithouseIMG.jpg")no-repeat;
+  height:1650px;
 }
 
-section#home {
-
-
-	background-image: url("../img/fithouseIMG1.jpg");
-	background-color: black;
-	background-repeat: no-repeat;
-	background-size: 100% 500px;
-	height: 500px;
-
-	width: auto;
-
-	background-position: center;
-	background-size: cover;
-    padding-bottom: 50%;
-
-
-}
-
-section#results {
-
-	background-image: url("../img/fithouseIMG4.jpg");
-	background-color: black;
-	background-repeat: no-repeat;
-	height: 1100px;
-	background-size:cover;
-	background-position: center;
-
-}
-
-section#about {
-
-
-	 background-image: url("../img/fithouseIMG5.jpg");
-	 background-color: black;
-	 background-repeat: no-repeat;
-	 height: 1450px;
-	 background-size:cover;
-	 background-position: center;
-
-}
-
-section#training {
-
-
-
-
-	 background-color: black;
-	 background-repeat: no-repeat;
-	 background-color: black;
-	 background-size: cover;
-	 background-size: 100% auto;
-	 outline: 3.5px solid white;
-   outline-offset: -21px;
-	 height: 3000px;
-
-
+#results {
+  height: 1000px;
 }
 
 footer {
-	color: #ffffff;
-	background-color: #444444;
-
-	text-align: center;
-	padding-top: 10px;
-	font-family: "Lato";
-
-
-
-}
-
-
-section#team {
-
-
-	 height: 1550px;
-	 text-align: center;
-	 background-image: url("../img/fithouseIMG.jpg");
-	 background-color: black;
-	 background-repeat: no-repeat;
-	 background-size: cover;
-	 outline: 4px solid white;
-  	 outline-offset: -21px;
-  	 background-size: 100% 450px;
-}
-
-section#process {
-
-	 text-align: center;
-	 background-color: black;
-	 background-image: url("../img/fithouseIMG4.jpg");
-	 background-repeat: no-repeat;
-	 background-size: cover;
-	 background-size: 100% 450px;
-
-}
-
-
-section#schedule {
-background-color:black;
-height: 1750px;
-background-image: url("../img/fithouseIMG.jpg");
-background-color: black;
-background-repeat: no-repeat;
-outline: 4px solid white;
-outline-offset: -21px;
-}
-
-
-
-
-
-
-form {
-
-	display:none;
-}
-
-
-///coming soon stuff
-.wrapper {
-
-height:auto;
-background-color: #00a087;
-
-
-
-}
-
-body.coming_soon{
-
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#444444+0,24cfe5+0,24cfe5+2,444444+2,444444+2,ffffff+2,ffffff+2,ffffff+4,444444+4,444444+4,444444+100,24cfe5+100 */
-background: #444444; /* Old browsers */
-background: -moz-linear-gradient(top,  #444444 0%, #24cfe5 0%, #24cfe5 2%, #444444 2%, #444444 2%, #ffffff 2%, #ffffff 2%, #ffffff 4%, #444444 4%, #444444 4%, #444444 100%, #24cfe5 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(0%,#24cfe5), color-stop(2%,#24cfe5), color-stop(2%,#444444), color-stop(2%,#444444), color-stop(2%,#ffffff), color-stop(2%,#ffffff), color-stop(4%,#ffffff), color-stop(4%,#444444), color-stop(4%,#444444), color-stop(100%,#444444), color-stop(100%,#24cfe5)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #444444 0%,#24cfe5 0%,#24cfe5 2%,#444444 2%,#444444 2%,#ffffff 2%,#ffffff 2%,#ffffff 4%,#444444 4%,#444444 4%,#444444 100%,#24cfe5 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #444444 0%,#24cfe5 0%,#24cfe5 2%,#444444 2%,#444444 2%,#ffffff 2%,#ffffff 2%,#ffffff 4%,#444444 4%,#444444 4%,#444444 100%,#24cfe5 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #444444 0%,#24cfe5 0%,#24cfe5 2%,#444444 2%,#444444 2%,#ffffff 2%,#ffffff 2%,#ffffff 4%,#444444 4%,#444444 4%,#444444 100%,#24cfe5 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #444444 0%,#24cfe5 0%,#24cfe5 2%,#444444 2%,#444444 2%,#ffffff 2%,#ffffff 2%,#ffffff 4%,#444444 4%,#444444 4%,#444444 100%,#24cfe5 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#24cfe5',GradientType=0 ); /* IE6-9 */
-
-
-}
-
-.logo {
-margin-left: 30%;
-text-align: center;
-}
-
-.centered {
-text-align: center;
-font-family: "Lato";
-color: white;
-}
-
-header {
-font-size: 25px;
-font-family: "Oswald";
+  height: 130px;
+  padding: 20px;
 }

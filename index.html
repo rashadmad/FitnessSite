@@ -34,192 +34,149 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="css/sections.css" rel="stylesheet">
+
         <meta charset="utf-8">
         <meta name="description" content=" The Fulton Fithouse Gym is a private and semi private gym geared towards body building and weight lose ">
     </head>
 
-
-
-
-
  <body>
 
-<aside id="sticky-social">
-    <ul>
-        <li><a href="https://www.facebook.com/fultonfithouse" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
-        <li><a href="https://twitter.com/fultonfithouse" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>
-        <li><a href="https://instagram.com/fultonfithouse/" class="entypo-instagrem" target="_blank"><span>Instagram</span></a></li>
-    </ul>
-</aside>
-
    <!-- top navigation -->
-  <nav>
-      <div class="nav-wrapper">
-
-      </div>
-        <div class="main-button-box">
-        <ul id="mobile-nav">
-          <li><img src="img/menu.svg" class="menu_butt" alt="menu button open"> </li>
-          <li><img src="img/menuClose.svg" class="menu_close" alt="menu button close"> </li>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+     <div id="nav-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a class="navbar-brand" rel="home" href="#" title="Get Fulton Fit">
+           <img style="max-width:350px; margin-top: -16px;" src="img/iconSmall.svg" class="brand-logo">  </a></li>
+          <li><a href="#about" target="_blank" alt="about"> ABOUT </a></li>
+          <li><a href="#coaches" target="_blank" alt="about"> COACHES </a></li>
+          <li><a href="#training" target="_blank" alt="training"> TRAINING </a></li>
+          <li><a href="#results" target="_blank" alt="about"> RESULTS </a></li>
+          <li><a href="#schedule" target="_blank" title="" alt="Schedule"> SCHEDULE </a></li>
         </ul>
-      </div>
-
-
-      <div id="nav">
+        <ul class="nav navbar-nav navbar-right">
+          <li id="social"><a href="https://www.facebook.com/fultonfithouse" class="entypo-facebook" target="_blank" src="img/facebook.png"><img src="img/facebook.png" height="40" width="40"></a></li>
+          <li id="social"><a href="https://twitter.com/fultonfithouse" class="entypo-twitter" target="_blank" src="img/twitter.png"><img src="img/twitter.png" height="40" width="40"></a></li>
+          <li id="social"><a href="https://instagram.com/fultonfithouse/" class="entypo-instagrem" target="_blank"><img src="img/instagram.png" height="40" width="40"></a></li>
         <ul>
-          <li class="desktop"><a href="#about" class="nav_buttons" alt="about"> ABOUT </a></li>
-          <li class="desktop"><a href="#coaches" class="nav_buttons" alt="about"> COACHES </a></li>
-          <li class="desktop"><a href="#training" class="nav_buttons" alt="training"> TRAINING </a></li>
-          <li class="desktop"><a href="#results" class="nav_buttons" alt="about"> RESULTS </a></li>
-          <li class="desktop"><a href="#schedule" class="nav_buttons" target="_blank" title="" alt="Schedule"> SCHEDULE </a></li>
-        </ul>
-      </div>
+     </div>
+   </div>
 
-      <div class="center">
-       <a href="#home"><img src="img/iconSmall.svg" alt="fulton fithouse logo" class="iconSmall" ></a>
-      </div>
   </nav>
 
+<section id="home">
 
-
-
-
-<section id="home" data-type="background" >
-
-      <header>
-          <br>
-          <br>
-          <br>
-          <br>
-          <img src="img/icon.svg" alt="fulton fithouse logo"  >
-          <br>
-          <br>
-          <p id="home-intro" class="intro-paragraph">Sustainable success<br> Lifelong fitness</p>
-          <a href="#about"><img src="img/arrow.svg" class="arrow" alt="begin arrow"></a>
-      </header>
-
-    <br>
-
+<div id="home" class="container-fluid">
+  <img src="img/icon.svg" alt="fulton fithouse logo" class="hero-logo center-block" width="600px">
+  <p class="lead center-block text-center">Sustainable success<br> Lifelong fitness</p>
+  <a href="#about"><img src="img/arrow.svg" class="center-block arrow" alt="begin arrow"></a>
+     </div>
 </section>
 
   <!--first between header-->
   <section class="between" id="philosophy_between">
 
-      <p class="callout">
+      <h1 class="between-h1 center-block">
         We’re more than a gym. We’re a family.
-      </p>
+      </h1>
 
   </section>
 
 <!-- Or manually drop markup into tag -->
   <!--Ethos page-->
-  <section  id="about">
+  <section id="about">
 
     <header>
       <br>
       <br>
-      <img class="greyStars" src="img/stars.svg"/>
+      <img class="stars center-block" src="img/stars.svg"/>
       <br>
       <br>
-      <h1 class="bg-line">ABOUT</h1>
+      <h1>ABOUT</h1>
       <br>
       <br>
-      <h2 class>Philosophy</h2>
-      <lead>We don’t give our members what they want. We give them what they need.</lead>
+
+      <div id="about-h1" class="lead text-center center-block">We don’t give our members what they want. We give them  <em>what they need.</em></div>
     </header>
+    <br>
+    <br>
+    <div class="row">
+         <div class="col-sm-6 col-md-5 col-lg-6">
 
-      <div class="philosophy">
-
-        <div class="philosophy-unit">
-             <p id="philosophy" class="quote">
-               There’s no shortage of gyms and trainers in Chicago offering the latest,
-               trendy workout. But fitness shouldn’t be a trend—it should be lifelong practice
-               that continually evolves. We want to improve the quality of our members’ lives by
-               offering lasting fitness support that encourages physical and mental well-being.
-               Our approach is to take each of our members down the correct path, which isn’t
-               always the shortest or easiest one.</p>
-        </div>
+            <blockquote id="Philosophy"> <h2>Our philosophy <span class="text-muted">-There’s no shortage of gyms and trainers in Chicago offering the latest,
+            trendy workout. But fitness shouldn’t be a trend—it should be</span> <em>lifelong practice
+            that continually evolves.</em></h2></blockquote>
 
 
-        <div class="philosophy-unit">
-          <p id="philosophy" class="quote">
-            With these beliefs in mind, we’ve created a private environment where we focus
-            on building strength, endurance, flexibility, mobility, and stability. Each member is
-            given the tools to make sustainable and impactful change, in a setting that
-            fosters trust and organic growth
-          </p>
-        </div>
+         </div>
+
+          <div class="col-sm-6 col-md-5 col-lg-6">
+
+            <p id="Philosophy">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We improve the quality of
+                our members’ lives by offering lasting fitness support that encourages physical and mental well-being.
+                Our approach is to take each of our members down the correct path, which isn’t
+                always the shortest or easiest one. With these beliefs in mind,
+                we’ve created a private environment where we focus
+                on building strength, endurance, flexibility, mobility, and stability. Each member is
+                given the tools to make sustainable and impactful change, in a setting that
+                fosters trust and organic growth.</p>
+                <br>
+
+          </div>
       </div>
 
-      <header>
-
-        <h2 id="coaches">Coaches</h2>
-
-        <lead>If You See Your Path To Fitness As A Expedition You Will Need A Sherpa </lead>
-      </header>
-    <div class="coaches">
+    <header>
       <br>
       <br>
-        <div class="img-list">
-          <ul id="img-nav">
-          <li id="christine" class="coaches-img">
-            <span class="white"><h2>Learn <br>More</h2></span>
-
-            <img class="avatar-img" src="img/Christine_avatar.jpg" />
-
-            <br>
-            <br>
-            <h2>Christine Madionis</h2>
-            <em>Co-Founder/Coach</em>
-            <p id="coaches" class="quote">christine@fultonfithouse.com</p>
-          </li>
-          <li id="mike" class="coaches-img">
-            <span class="white"><h2>Learn <br>More</h2></span>
-            <img class="avatar-img" src="img/Mike_avatar.jpg" />
-            <br>
-            <br>
-            <h2>Mike Madionis</h2>
-            <em>Co-Founder/Coach</em>
-            <p id="coaches" class="quote">mike@fultonfithouse.com</p>
-          </li>
-          <li id="joe" class="coaches-img">
-            <span class="white"><h2>Learn <br>More</h2></span>
-            <img class="avatar-img" src="img/Joel_avatar.jpg" />
-            <br>
-            <br>
-            <h2>Joseph Leli</h2>
-            <em>Director Of Operations Lead Coach</em>
-            <p id="coaches" class="quote">joe@fultonfithouse.com</p>
-          </li>
-          </ul>
-        </div>
       <br>
+    <h2 class="text-center">Coaches</h2>
+      <div id="about-h1" class="text-center lead center-block">If You See Your Path To Fitness As A Expedition You Will Need A Sherpa </div>
+      <br>
+      <br>
+      <br>
+    </header>
+        <div class="row">
+                <div class="col-lg-4">
+                  <img class="img-circle" src="img/Christine_avatar.jpg" alt="Generic placeholder image">
+                  <h2 class="text-center">Christine Madionis</h2>
+                  <p class="text-center">Co-Founder/Coach</p>
+                  <p class="text-center"><a class="btn btn-default text-center" href="#" role="button">Learn more</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <img class="img-circle" src="img/Mike_avatar.jpg" alt="Generic placeholder image">
+                  <h2 class="text-center">Mike Madionis</h2>
+                  <p class="text-center">Co-Founder/Coach</p>
+                  <p class="text-center"><a class="btn btn-default text-center" href="#" role="button">Learn more</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <img class="img-circle" src="img/Joel_avatar.jpg" alt="Generic placeholder image">
+                  <h2 class="text-center">Joseph Leli</h2>
+                  <p class="text-center">Director Of Operations Lead Coach</p>
+                  <p class="text-center"><a class="btn btn-default" href="#" role="button">Learn more</a></p>
+                </div><!-- /.col-lg-4 -->
+              </div>
 
 </section>
 
-  <!--first between header-->
-  <section class="between" id="services_between">
-    <div class="wrapper">
-      <p class="callout">
-        A TV and a treadmill won’t get you anywhere worth going.
-      </p>
-    </div>
-  </section>
+      <section class="between" id="philosophy_between">
+          <h1 class="between-h1 center-block">
+            A TV and a treadmill won’t get you anywhere worth going.
+          </h1>
+      </section>
+
 
 <section class="page" id="training">
-  <ol class="process">
-    <li class="process-item">
-      <div class="process-number">
-        <div class="circle">
-          <span class="circle">1</span>
-        </div>
-      </div>
+
 
 
       <header>
         <br>
         <br>
-        <img class="greyStars" src="img/stars.svg"/>
+        <img class="stars center-block" src="img/stars.svg"/>
         <br>
         <br>
         <br>
@@ -227,86 +184,89 @@
         <br>
 
         <br>
-        <img class="assess" src="img/assessment.png">
+        <img class="center-block assess" src="img/assessment.png">
 
       </header>
 
-<div class="span12 text-center">
-  <div class="row-fluid">
+
     <div class"page-header">
         <br>
-        <h2>Our Approach</h2>
-        <br>
-          <p id="approach-intro" class="intro-paragraph">Our approach consists of three key areas, which together create scientifically sound, sustainable workouts focused on improving functional
-            movement.</p>
+        <div class="lead center-block">Our approach consists of three key areas</div>
     </div>
-    <li class="span4">
+    <div class="row">
+
+
+    <div class="col-lg-4">
         <br>
-        <h2 class="white">ASSESS</h2>
+        <h2 class="training text-center white">ASSESS</h2>
         <br>
-        <img class="icons" src="img/chronometer19.svg" alt="logo">
+        <img class="icons text-center" src="img/chronometer19.svg" alt="logo">
           <br>
-        <lead>Assesment & regular fit-test</lead>
+          <br>
+        <div class="lead margin-left">Assesment & regular<br>fit-test</div>
         <br>
-        <p id="approach" class="quote">Membership at Fulton Fit House begins with an initial assessment. We get
+        <p id="approach" class="quote text-justify">Membership at Fulton Fit House begins with an initial assessment. We get
           to know you: your prior workout history, injuries and any sourness. This allows us
           to create a customized workout plan that is specific to your individual goals and
           abilities.</p>
-   </li>
+   </div>
 
-    <li class="span4">
-        <h2 class="white">ENGAGE</h2>
+    <div class="col-lg-4">
+      <br>
+        <h2 class="white training text-center">ENGAGE</h2>
         <br>
         <img class="icons" src="img/runer.svg" alt="logo">
         <br>
-        <lead>Cardio, Strength-training & Diet</lead>
         <br>
-        <p id="approach" class="quote">Either with a group or privately with our certified coaches, we implement
+        <div class="lead margin-left">Cardio, Strength-training & Diet</div>
+        <br>
+
+        <p id="approach" class="quote text-justify">Either with a group or privately with our certified coaches, we implement
           functional fitness through traditional strength and endurance training coupled with
           analytics-driven testing.</p>
-    </li>
+    </div>
 
-    <li class="span4">
-        <h2 class="white">PERFORM</h2>
+    <div class="col-lg-4">
+      <br>
+        <h2 class="white training text-center">PERFORM</h2>
         <br>
-        <img class="icons" src="img/star157.svg" alt="logo">
+        <img class="icons text-justify text-center" src="img/star157.svg" alt="logo">
         <br>
-        <lead class="white">Marathons & Obstacle courses</lead>
         <br>
-        <p id="approach" class="quote">We stronglly encourage all members to put our training to the test throungh marathons, competative sports, obstacle cources or any other things out side of your comfort zone. Once you accomplish what you want with fitness who knows what else you can accomplish.
+        <div class="lead white margin-left">Marathons & Obstacle courses</div>
+        <br>
+        <p id="approach" class="justify quote">We stronglly encourage all members to put our training to the test throungh marathons, competative sports, obstacle cources or any other things out side of your comfort zone. Once you accomplish what you want with fitness who knows what else you can accomplish.
         </p>
-    </li>
-  </div>
-</div>
-        <br>
-        <br>
+    </div>
+    </div>
 
         <header>
-          <h2 class="white">Services</h2>
-          <lead> We Provide both private & group training</lead>
-          <br>
-          <br>
-          <img class="icons" src="img/heart285.svg" alt="logo">
+          <h1 class="white">Services</h1>
+          <div class="lead center-block"> We Provide both private & group training</div>
+
+          <img id="heart" class="center-block" src="img/heart285.svg" alt="logo">
         </header>
 
         <br>
         <br>
-
-        <div class= "services">
-        <div id="services-left" class="services-unit">
-          <p class="services-header"><strong class="ribbion">&nbsp;&nbsp;&nbsp;&nbsp;GROUP TRAINING&nbsp;&nbsp;&nbsp;&nbsp;</strong></p>
-          <p id="services" class="quote">8:1 (max) Client to Coach Ratio <br> <em>Workout Unlimited</em></p>
+        <div class="row">
+        <div class="col-lg-4">
+          <strong>GROUP TRAINING</strong>
+          <br>
+          <p class="quote services">8:1 (max) Client to Coach Ratio <br> <em>Workout Unlimited</em></p>
         </div>
 
-        <div class="services-unit">
-          <p class="services-header"><strong class="ribbion">SEMI-PRIVATE & PRIVATE TRAINING</strong></p>
-          <p id="services" class="quote">4:1 (max) Client To Coach Ratio <br>Workout Unlimited<br><br>1:1 Client TO Coach Ratio <br> <em>pay per class</em></p>
+        <div class="col-lg-4">
+          <strong>SEMI-PRIVATE & PRIVATE TRAINING</strong>
+          <br>
+          <p class="quote services">4:1 (max) Client To Coach Ratio <br>Workout Unlimited<br><div class="blue">___________</div><br><br>1:1 Client TO Coach Ratio <br> <em>pay per class</em></p>
         </div>
 
 
-        <div class="services-unit">
-          <p class="services-header"><strong class="ribbion">CORPORATE PACKAGES</strong></p>
-          <p id="services" class="quote">
+        <div class="col-lg-4">
+          <strong>CORPORATE PACKAGES</strong>
+          <br>
+          <p class="quote services">
           Inquire via email:<br>
           mike@fultonfithouse.com<br>
           or call to schedule a consultation:<br>
@@ -317,12 +277,12 @@
   </section>
 
   <section class="between" id="services_between">
-    <div class="wrapper">
-      <p class="callout">
+      <h1 class="between-h1 center-block">
         “I leave this place and I feel like I can do anything.”
-      </p>
-    </div>
+      </h1>
   </section>
+
+
 
 
   <section  id="results">
@@ -330,52 +290,43 @@
     <header>
       <br>
       <br>
-      <img class="greyStars" src="img/stars.svg"/>
+      <img class="stars center-block" src="img/stars.svg"/>
       <br>
       <h1 class="bg-line">RESULTS</h1>
       <br>
-      <h2 class>Testimonials</h2>
-      <img class="icons" src="img/trophy56.svg" />
+      <h2 class="center-block">Testimonials</h2>
+      <img id="heart" class="icons center-block" src="img/trophy56.svg" />
       <br>
 
-      <lead>These are examples of our greatest accomplishments</lead>
+      <div id="results-lead" class="lead center-block">These are examples of our greatest accomplishments</div>
       <br>
       <br>
-      <p class="quote">We are committed to developing a culture in which members support one
+      <p class="quote text-center">We are committed to developing a culture in which members support one
         another and celebrate personal and group achievements.</p>
+        <br>
+        <br>
     </header>
 
-    <div class="coaches">
-      <br>
-      <br>
-        <div class="img-list">
-          <ul>
-          <li id="christine" class="coaches-img">
-            <img id="christine-img" class="avatar-img" src="img/Christine_avatar.jpg" />
-            <br>
-            <br>
-            <h2>Paul Kahan</h2>
-            <em>Executive Chef/Partner</em>
-            <p id="coaches" class="quote">christine@fultonfithouse.com</p>
-          </li>
-          <li id="mike" class="coaches-img">
-            <img id="mike-img" class="avatar-img" src="img/Mike_avatar.jpg" />
-            <br>
-            <br>
-            <h2>Rick Pettit</h2>
-            <em>Corporate Client- Vail Systems</em>
-            <p id="coaches" class="quote">mike@fultonfithouse.com</p>
-          </li>
-          <li id="joe" class="coaches-img">
-            <img id="joel-img" class="avatar-img" src="img/Joel_avatar.jpg" />
-            <br>
-            <br>
-            <h2>Marla Sedler</h2>
-            <em>Super Mom</em>
-            <p id="coaches" class="quote">joe@fultonfithouse.com</p>
-          </li>
-          </ul>
-        </div>
+    <div class="row">
+            <div class="col-lg-4">
+              <img class="img-circle" src="img/Christine_avatar.jpg" alt="Generic placeholder image">
+              <h2 class="text-center">Christine Madionis</h2>
+              <p class="text-center">Co-Founder/Coach</p>
+              <p class="text-center"><a class="btn btn-default text-center" href="#" role="button">Learn more</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="img/Mike_avatar.jpg" alt="Generic placeholder image">
+              <h2 class="text-center">Mike Madionis</h2>
+              <p class="text-center">Co-Founder/Coach</p>
+              <p class="text-center"><a class="btn btn-default text-center" href="#" role="button">Learn more</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="img/Joel_avatar.jpg" alt="Generic placeholder image">
+              <h2 class="text-center">Joseph Leli</h2>
+              <p class="text-center">Director Of Operations Lead Coach</p>
+              <p class="text-center"><a class="btn btn-default" href="#" role="button">Learn more</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div>
 
 
 </section>
@@ -384,10 +335,9 @@
 <!--fith between header-->
 
         <section class="between" id="join_between">
-        <div class="wrapper">
-          <p class="callout">Tough coaches + supportive members <br>= the Fulton Fit House family
-          </p>
-        </div>
+            <h1 class="between-h1 center-block">
+              Tough coaches + supportive members<br>= the Fulton Fit House family
+            </h1>
         </section>
 
 <!--join page-->
@@ -398,7 +348,7 @@
         <br>
         <br>
         <br>
-        <img class="greyStars" src="img/stars.svg"/>
+        <img class="stars center-block" src="img/stars.svg"/>
         <br>
         <br>
         <br>
@@ -406,8 +356,8 @@
         <br>
 
                 <header>
-                  <h2>Connect</h2>
-                  <lead>Come In & Try a free Class</lead>
+                  <h2 class="center-block">Connect</h2>
+                  <div class="lead center-block">Come In & Try a free Class</div>
                   <br>
                   <br>
 
@@ -424,7 +374,7 @@
           <h2>schedule</h2>
 
         </header>
-        <img class="icons" src="img/calendar146.svg" alt="logo"/>
+        <img id="heart" class="icons center-block" src="img/calendar146.svg" alt="logo"/>
         <br>
         <br>
         <p class="intro-paragraph">Sign up here through our mindbody schedular or contact us by phone</p>
@@ -436,7 +386,7 @@
       </header>
 
         <div class="mindNbody">
-          <iframe src="https://clients.mindbodyonline.com/classic/home?studioid=24809"></iframe>
+          <iframe class="center-block" src="https://clients.mindbodyonline.com/classic/home?studioid=24809" height="800px" width="1000px"></iframe>
         </div>
         </mindNbody>
 
@@ -444,16 +394,18 @@
 
    <footer>
 
-      <a href="https://twitter.com/fultonfithouse"><img src="img/twitter.png" alt="fulton fithouse twitter logo" class="social_icons" target="_blank" ></a>
-      <a href="https://www.facebook.com/fultonfithouse"><img src="img/facebook.png" alt="fulton fithouse facebook logo" class="social_icons" target="_blank" ></a>
-      <a href="https://instagram.com/fultonfithouse/"><img src="img/instagram.png" alt="fulton fithouse instagram logo" class="social_icons" target="_blank" ></a>
-
-      <p class="center">
+      <small>
+        <br>
+        <br>
        Fulton Fithouse - 1406 W. Fulton Market - Chicago, IL 60607 - (312) 961-6110
+       <br>
        <br>
        <em>All content on this site should be viewed as the opinion of Fulton Fit House, <br>
        and not to be taken as professional medical advice.</em>
-     </p>
+       <br>
+       <br>
+       <address>powered by <em>rashadmadison.com</em></address>
+     </small>
 
   </footer>
 

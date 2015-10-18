@@ -1,0 +1,179 @@
+
+.span6 {
+
+  padding: 20px;
+
+}
+
+.img-circle {
+}
+
+.stars{
+  width:200px;
+  text-align: center;
+}
+
+blockquote {
+  margin-left: 30px;
+  border-left-color: #24cfe5;
+
+}
+
+#Philosophy {
+
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.line {
+
+  margin-left: 10%;
+  color: #24cfe5;
+
+}
+
+#about-h1 {
+
+  width: 600px;
+}
+
+.black{
+  color:black;
+}
+
+.navbar{
+
+  border-bottom-color: #24cfe5;
+  border-bottom-width: 10px;
+}
+
+#heart {
+
+  width: 7%;
+
+}
+
+.services {
+  margin-top: 30px;
+}
+
+.hero-logo {
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.blue {
+  color:#24cfe5;
+}
+
+.lead {
+  border-top-color: #24cfe5;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-bottom-color: #24cfe5;
+  border-width: 1px;
+  width:250px;
+  padding:10px;
+  text-align: center;
+}
+
+ul.nav.navbar-nav{
+  height:60px;
+  color:white;
+}
+
+ .nav.navbar-nav{
+   color: white;
+}
+
+#social {
+margin-top: -6px;
+}
+
+.arrow {
+  margin-top: 35px;
+}
+
+a {
+  color:white !important;
+}
+a:hover {
+  color:#24cfe5 !important;
+}
+
+.hero-logo {
+
+  text-align: center !important;
+
+}
+
+h1 {
+  text-align: center;
+
+}
+
+.col-lg-4 {
+
+  text-align: center;
+}
+
+.img-circle {
+border-style: solid;
+border-width: medium !important;
+border-color: white !important;
+height:200px;
+width:200px;
+
+}
+
+.quote.services {
+
+  line-height: 250%;
+
+}
+
+strong {
+
+background-color: #24cfe5;
+color: black;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+#results-lead {
+
+  border-bottom: 1px solid #24cfe5;
+
+}
+
+.between-h1 {
+
+  color: black;
+  padding-top: 100px;
+  text-align: center;
+  margin:0;
+}
+
+.margin-left {
+
+  margin-left: 20%;
+}
+
+.icons {
+  width:20%;
+  margin: 7px;
+  margin-left: 4%;
+}
+
+.wrapper {
+
+  text
+}
+
+#approach {
+
+  width: 300px;
+  margin-left: 14%;
+
+}
