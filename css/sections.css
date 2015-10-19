@@ -25,7 +25,7 @@
 }
 
 #Philosophy {
-  text-align:justify;
+
 }
 
 #training {
@@ -34,10 +34,30 @@
 }
 
 #results {
+  background: url("../img/fithouseIMG2.jpg")no-repeat;
+  background-size: 100% 1000px;
   height: 1000px;
 }
 
+#schedule {
+  background: url("../img/fithouseIMG4.jpg")no-repeat;
+  background-size: 100% auto;
+  height:1850px;
+
+}
+
 footer {
-  height: 130px;
-  padding: 20px;
+  color: #444444;
+  height: 100px;
+  background-color: #24cfe5;
+  margin:0;
+  border-bottom-color: #24cfe5;
+  border-bottom-width: 10px;
+  padding: 15px;
+
+}
+
+.footer-wrapper {
+  display:relative;
+
 }

@@ -19,6 +19,14 @@ blockquote {
 
 }
 
+#footer-quote {
+
+  width: 280px;
+
+}
+
+
+
 #Philosophy {
 
   padding: 30px;
@@ -113,6 +121,11 @@ h1 {
 
 }
 
+h2.bg-line {
+
+  text-align: center;
+}
+
 .col-lg-4 {
 
   text-align: center;
@@ -124,6 +137,12 @@ border-width: medium !important;
 border-color: white !important;
 height:200px;
 width:200px;
+
+}
+
+#results-quote {
+
+  width:450px;
 
 }
 
@@ -175,5 +194,18 @@ margin-bottom: 20px;
 
   width: 300px;
   margin-left: 14%;
+
+}
+
+
+small {
+
+}
+
+#join {
+
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding:15px;
 
 }
