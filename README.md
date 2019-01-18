@@ -4,11 +4,11 @@ A purposed mockup for the Fulton Fithouse website
 
 ## View
 
-If you would like to take a look check here [Fulton fithouse](https://rashadmad.github.io/)
+If you would like to take a look check here [Fulton fithouse](http://rashadmad.github.io/FitnessSite/)
 
 ### Prerequisites
 
-I created the site that is in use for the Fulton Fithouse now which you can be viewed here [Fulton Fithouse live site](https://rashadmad.github.io/)
+I created the site that is in use for the Fulton Fithouse now which you can be viewed here [Fulton Fithouse live site](http://rashadmad.github.io/FitnessSite/)
 This was the project where I started to make the leap into Frontend development. I Really enjoyed
 
 ```
